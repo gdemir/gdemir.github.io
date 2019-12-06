@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  <link href="https://gdemir.github.io/atom.xml" rel="self"/>
+  <link href="https://gdemir.github.io"/>
+  <updated>2019-12-06T21:25:49+03:00</updated>
+  <id></id>
+
+  <author>
+    <name></name>
+    <email></email>
+  </author>
+
+  
+  <entry>
+    <title>Köy Odası-191206</title>
+    <link href="https://gdemir.github.io/categories/documentation/merhaba-dunya/"/>
+    <updated>2019-12-06T00:00:00+03:00</updated>
+    <id>/categories/documentation/merhaba-dunya</id>
+    <content type="html">&lt;h1&gt;Welcome to Köy Odası&lt;/h1&gt;
+
+&lt;h2&gt;Powered By&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://fontawesome.io&quot;&gt;Fontawesome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://datatables.net&quot;&gt;DataTables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://highlightjs.org&quot;&gt;Highlightjs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://daneden.github.io/animate.css&quot;&gt;Animatecss&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Requirement Packages&lt;/h2&gt;
+
+&lt;h3&gt;ruby&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install ruby
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;jekyll&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install jekyll
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;gem&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo gem install jekyll rdiscount therubyracer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;-&lt;a href=&quot;https://github.com/ecylmz/glove/blob/master/bin/kur#L59&quot;&gt;ecylmz#rubygems&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# rubygems ssl hatası: https://gist.github.com/luislavena/f064211759ee0f806c88
+wget --no-check-certificate https://github.com/rubygems/rubygems/releases/download/v2.2.3/rubygems-update-2.2.3.gem
+sudo gem install rubygems-update-2.2.3.gem
+sudo update_rubygems
+sudo gem uninstall rubygems-update -x
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Commands&lt;/h2&gt;
+
+&lt;h3&gt;&lt;code&gt;Help&lt;/code&gt;: Rakefile Görev Komutları&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;rake
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;&lt;code&gt;Install&lt;/code&gt;: Site Kurulum İşlemleri&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone git://github.com/koy-odasi/kernel.git
+cd kernel
+rake install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;&lt;code&gt;Config&lt;/code&gt;: Yapılandırma Dosyası(&lt;em&gt;/&lt;/em&gt;config.yml) İşlemleri&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;rake config
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;İnit&lt;/code&gt;: dosya oluştur ve doldur&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;rake config:init
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;Update&lt;/code&gt;: dosyayı uzak depodan güncelle&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;rake config:update
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;Destroy&lt;/code&gt;: dosyayı sil&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;rake config:destroy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;&lt;code&gt;Build&lt;/code&gt;: Site Harmanlama İşlemleri&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;rake build
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;İnit&lt;/code&gt;: harmanla ve deploy kısmına taşı&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;rake build:init
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;Destroy&lt;/code&gt;: kurulmamış şekilde sıfırla&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;rake build:destroy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;&lt;code&gt;View&lt;/code&gt;: Demo Önizleme Oluştur&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;rake view
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;&lt;code&gt;Update&lt;/code&gt;: Uzak Repodan Güncelleme İşlemleri&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;rake update
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;Site&lt;/code&gt;: site tasarımında güncellemeleri al&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;rake update:site
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;Config&lt;/code&gt;: yapılandırma dosyasında güncelleme ile ekleme/silme yap&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;rake update:config
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;&lt;code&gt;Deploy&lt;/code&gt;: Site Servis İşlemi&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;rake deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;&lt;code&gt;Status&lt;/code&gt;: Site Güncel Kontrol İşlemi&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;rake status
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;Local&lt;/code&gt;: Yerelde güncel veriler var ise repoya yollamak için sor&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;rake status:local
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;&lt;p&gt;&lt;code&gt;Remote&lt;/code&gt;: Uzak depoda güncel veriler var ise repoya yollamak için sor&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;rake status:remote
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Köy Odası is released under the &lt;a href=&quot;http://www.opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>
