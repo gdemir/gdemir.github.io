@@ -9,7 +9,7 @@ markdown: rdiscount
 rdiscount:
   extensions:
   - smart
-author: 
+author: Gökhan Demir
 editor: sublime-text
 email: 
 cv: 

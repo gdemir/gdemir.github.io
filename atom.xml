@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title></title>
+  <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2019-12-06T21:52:38+03:00</updated>
+  <updated>2019-12-06T21:54:37+03:00</updated>
   <id></id>
 
   <author>
-    <name></name>
+    <name>Gökhan Demir</name>
     <email></email>
   </author>
 
