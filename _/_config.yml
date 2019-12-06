@@ -10,7 +10,7 @@ rdiscount:
   extensions:
   - smart
 author: 
-editor: 
+editor: sublime-text
 email: 
 cv: 
 disqus: 
