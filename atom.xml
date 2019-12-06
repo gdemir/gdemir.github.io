@@ -3,7 +3,7 @@
   <title></title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2019-12-06T21:51:15+03:00</updated>
+  <updated>2019-12-06T21:52:38+03:00</updated>
   <id></id>
 
   <author>
@@ -193,7 +193,7 @@ FLUSH PRIVILEGES;
 &lt;h3&gt;Kaynaklar&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;https://linuxize.com/post/how-to-reset-a-mysql-root-password/&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://linuxize.com/post/how-to-reset-a-mysql-root-password/&quot;&gt;https://linuxize.com/post/how-to-reset-a-mysql-root-password/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>
@@ -232,7 +232,7 @@ FLUSH PRIVILEGES;
 &lt;h3&gt;Kaynaklar&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;https://stackoverflow.com/questions/28068155/access-denied-for-user-rootlocalhost-using-password-yes-after-new-instal&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/28068155/access-denied-for-user-rootlocalhost-using-password-yes-after-new-instal&quot;&gt;https://stackoverflow.com/questions/28068155/access-denied-for-user-rootlocalhost-using-password-yes-after-new-instal&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>

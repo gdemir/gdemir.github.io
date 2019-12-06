@@ -21,4 +21,4 @@ tags: mariadb, mysql, root, password
 
 ### Kaynaklar
 
-- https://linuxize.com/post/how-to-reset-a-mysql-root-password/
+- [https://linuxize.com/post/how-to-reset-a-mysql-root-password/](https://linuxize.com/post/how-to-reset-a-mysql-root-password/)
