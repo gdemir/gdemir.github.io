@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Html &#65279; Karakter Sorunu
+title: Html &#65279 Karakter Sorunu
 category: linux
 tags: error
 ---
