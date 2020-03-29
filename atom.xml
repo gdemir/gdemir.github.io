@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2019-12-06T21:58:39+03:00</updated>
+  <updated>2020-03-29T22:16:40+03:00</updated>
   <id></id>
 
   <author>
@@ -11,6 +11,33 @@
     <email>gdemir3327@gmail.com</email>
   </author>
 
+  
+  <entry>
+    <title>Html &#65279; Karakter Sorunu-200329</title>
+    <link href="https://gdemir.github.io/categories/linux/html-&-65279;-karakter-sorunu/"/>
+    <updated>2020-03-29T00:00:00+03:00</updated>
+    <id>/categories/linux/html-&#65279;-karakter-sorunu</id>
+    <content type="html">&lt;p&gt;Bu sorun genelde UTF desteklemeyen bir editör(Notepad gibi) ile kod düzenlemerinde ortaya çıkmaktadır. Editör ile açıldığında da görünmemektedir.&lt;/p&gt;
+
+&lt;p&gt;Hangi dosyalarda sorun olduğunu anlamak için aşağıdaki kod çalıştırılır:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;grep -rl $&#39;\xEF\xBB\xBF&#39; .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sorunu düzelmek için aşağıdaki kod çalıştırılır:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;sudo sed -i &#39;s/\xEF\xBB\xBF//g&#39; FILE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Kaynaklar&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;https://stackoverflow.com/questions/9691771/why-is-65279-appearing-in-my-html&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;https://stackoverflow.com/questions/3255993/how-do-i-remove-%C3%AF-from-the-beginning-of-a-file&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Köy Odası-191206</title>
