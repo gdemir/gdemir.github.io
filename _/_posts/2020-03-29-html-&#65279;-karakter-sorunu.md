@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Html <pre>&&##65279;</pre> Karakter Sorunu
+title: Html <pre>&#65279;</pre> Karakter Sorunu
 category: linux
 tags: error
 ---
