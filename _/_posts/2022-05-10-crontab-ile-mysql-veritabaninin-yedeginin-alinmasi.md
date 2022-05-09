@@ -2,7 +2,7 @@
 layout: post
 title: Crontab İle MySQL Veritabanı Yedeğinin Alınması
 category: linux
-tags: crontab, mysql
+tags: crontab mysql
 ---
 
 ### Yedek Dosyalarımızı İçin Dizin Oluşturuyoruz
