@@ -8,10 +8,10 @@
   <meta name="description" content="Barak Türkmeni Gökhan Demir Bilişim Notları" />
   <meta name="keywords" content="Gökhan Demir, Bilgisayar Mühendisi" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>phpMyAdmin Kurulumu &#8211; Gökhan Demir</title>
+  <title>Crontab İle MySQL Veritabanı Yedeğinin Alınması &#8211; Gökhan Demir</title>
 
   
-  <link href="" rel="alternate" title="phpMyAdmin Kurulumu" type="application/atom+xml" />
+  <link href="" rel="alternate" title="Crontab İle MySQL Veritabanı Yedeğinin Alınması" type="application/atom+xml" />
   
 
   <link rel="shortcut icon" href="https://gdemir.github.io/favicon.ico">
@@ -134,10 +134,10 @@
           <li><a href="https://gdemir.github.io/categories" class="btn btn-default btn-sm">categories</a></li>
           
           
-          <li><a href="https://gdemir.github.io/categories/php" class="btn btn-default btn-sm">php</a></li>
+          <li><a href="https://gdemir.github.io/categories/linux" class="btn btn-default btn-sm">linux</a></li>
           
           
-          <li><a href="https://gdemir.github.io/categories/php/phpmyadmin" class="btn btn-default btn-sm">phpmyadmin</a></li>
+          <li><a href="https://gdemir.github.io/categories/linux/crontab-ile-mysql-veritabaninin-yedeginin-alinmasi" class="btn btn-default btn-sm">crontab-ile-mysql-veritabaninin-yedeginin-alinmasi</a></li>
           
           <li class="active">Index</li>
         </ul>
@@ -148,43 +148,29 @@
       <div class="well">
 
         <div class="text-center">
-  <h2>phpMyAdmin Kurulumu</h2>
+  <h2>Crontab İle MySQL Veritabanı Yedeğinin Alınması</h2>
   <h4>
-    <span class="label label-default"><i class="fa fa-calendar"></i> 2016-05-21</span>
+    <span class="label label-default"><i class="fa fa-calendar"></i> 2022-05-09</span>
     
 
       &nbsp;
-      <a href="https://gdemir.github.io/categories/php" class="label label-info">
-        <i class="fa fa-file"></i> php
+      <a href="https://gdemir.github.io/categories/linux" class="label label-info">
+        <i class="fa fa-file"></i> linux
       </a>
 
     
     
 
       &nbsp;
-      <a href="https://gdemir.github.io/tags/apache" class="label label-danger">
-        <i class="fa fa-tag"></i> apache
+      <a href="https://gdemir.github.io/tags/crontab," class="label label-danger">
+        <i class="fa fa-tag"></i> crontab,
       </a>
 
     
 
       &nbsp;
-      <a href="https://gdemir.github.io/tags/nginx" class="label label-danger">
-        <i class="fa fa-tag"></i> nginx
-      </a>
-
-    
-
-      &nbsp;
-      <a href="https://gdemir.github.io/tags/lighttpd" class="label label-danger">
-        <i class="fa fa-tag"></i> lighttpd
-      </a>
-
-    
-
-      &nbsp;
-      <a href="https://gdemir.github.io/tags/phpmyadmin" class="label label-danger">
-        <i class="fa fa-tag"></i> phpmyadmin
+      <a href="https://gdemir.github.io/tags/mysql" class="label label-danger">
+        <i class="fa fa-tag"></i> mysql
       </a>
 
     
@@ -197,24 +183,36 @@
 </div>
 <hr>
 
-<h3>phpMyAdmin Kurulumu</h3>
+<h3>Yedek Dosyalarımızı İçin Dizin Oluşturuyoruz</h3>
 
-<p>Paketi kuruyoruz:</p>
-
-<pre><code>sudo apt-get install phpmyadmin
+<pre><code>mkdir /root/db_backups
 </code></pre>
 
-<p>Kurulum sırasında kullanılacak web sunucuları soracaktır (Ör.: <code>apache2</code>, <code>lighttpd</code>), burada nginx üzerinde çalışıyorsanız rastgele birini seçebilirsiniz. Daha sonra phpMyAdmin'in veritabanı üzerinde yapılandırma yapıp yapmayacağı sorulacak buna hayır diyerek kurulumu sonlandırıyoruz, kurulum bitmiş oluyor.</p>
+<h3>Yeni Cron Ekliyoruz</h3>
 
-<p>Kurulu olan phpMyAdmin ile websitenin servis edildiği kök dizin arasında (<code>/var/www/html</code>) sembolik bir bağlantı oluşturuyoruz ki <code>http://localhost/phpmyadmin</code> şeklinde linke ulaşabilelim:</p>
-
-<pre><code>sudo ln -s /usr/share/phpmyadmin/ /var/www/html/
+<pre><code>crontab -e
 </code></pre>
 
-<p>Var olan web sunucumuz olan Apache/Nginx/Lighttpd'i tekrar başlatıyoruz:</p>
+<p>komutuyla açılan içeriğin sonuna;</p>
 
-<pre><code>sudo service [apache2|nginx|lighttpd] restart
+<ul>
+<li>DBNAME veritabanına ait  &lsquo;USERNAME&rsquo; isimli kullanıcının &lsquo;PASSWORD&rsquo; parolasıyla</li>
+<li>Her ayın ilk gününün saat 00:00 &lsquo;da (01.06,2022 saat 00:00'da, 01.07,2022 saat 00:00'da &hellip; gibi)</li>
+</ul>
+
+
+<p>alınacak yedek dosyası için aşağıdaki gibi yedekleme komutumuzu yazıyoruz:</p>
+
+<pre><code>0 0 1 * * mysqldump --user='USERNAME' --password='PASSWORD' DBNAME&gt; /root/db_backup/backup_`date +\%Y-\%m-\%d_\%H:\%M`.sql
 </code></pre>
+
+<h3>Kaynaklar</h3>
+
+<ul>
+<li><p><a href="https://exchangetuts.com/mysqldump-doesnt-work-in-crontab-1639698246383336">https://exchangetuts.com/mysqldump-doesnt-work-in-crontab-1639698246383336</a></p></li>
+<li><p><a href="https://crontab.guru/">https://crontab.guru/</a></p></li>
+</ul>
+
 
 
 <!-- Related start -->
@@ -233,14 +231,6 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
     
       
@@ -248,50 +238,28 @@
         
         
           
-        
-        
-        
+              <li>
+                <a href="https://gdemir.github.io/categories/linux/crontab-ile-mysql-veritabaninin-yedeginin-alinmasi/">
+                  Crontab İle MySQL Veritabanı Yedeğinin Alınması
+                  <div class="pull-right hidden-xs">2022-05-09</div>
+                </a>
+              </li>
+            
           
         
         
-        
-          
-        
-        
-        
-          
         
         
       
         
         
-          
         
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
         
         
       
     
       
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -314,23 +282,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -350,23 +302,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -389,23 +325,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -425,23 +345,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -464,23 +368,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -500,23 +388,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -539,23 +411,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -575,14 +431,6 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
         
         
@@ -593,23 +441,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -632,23 +464,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -668,23 +484,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -707,23 +507,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -743,23 +527,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -782,23 +550,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -818,23 +570,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -857,23 +593,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -893,23 +613,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -931,6 +635,8 @@
         
           
         
+        
+      
         
         
           
@@ -958,32 +664,10 @@
           
         
         
-        
-        
-        
-        
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
       
     
       
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -1006,23 +690,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -1036,85 +704,632 @@
     
       
       
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
         
         
           
               <li>
-                <a href="https://gdemir.github.io/categories/php/phpmyadmin/">
-                  phpMyAdmin Kurulumu
-                  <div class="pull-right hidden-xs">2016-05-21</div>
+                <a href="https://gdemir.github.io/categories/rails/mysql-with-rails/">
+                  Ruby on Rails ile MySQL
+                  <div class="pull-right hidden-xs">2011-06-11</div>
                 </a>
               </li>
             
           
         
         
-        
-        
-        
-        
-        
-        
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      
-        
-        
-        
-        
-        
-        
-        
-        
-        
       
     
       
       
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -1135,7 +1350,36 @@
         
         
           
+              <li>
+                <a href="https://gdemir.github.io/categories/linux/mysql-utf8/">
+                  MySQL'i Türkçeleştir - utf8
+                  <div class="pull-right hidden-xs">2011-05-27</div>
+                </a>
+              </li>
+            
+          
         
+        
+      
+        
+        
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
         
         
           
@@ -1158,17 +1402,6 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
       
         
         
@@ -1179,23 +1412,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -1218,41 +1435,10 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
+    
       
-        
-        
-          
-        
-        
-        
-          
-        
+      
         
         
           
@@ -1275,41 +1461,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -1332,14 +1484,9 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
+      
+    
+      
       
         
         
@@ -1350,23 +1497,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -1389,32 +1520,6 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
       
     
       
@@ -1428,960 +1533,11 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
       
-      
-        
-        
-          
-        
-        
-        
-          
         
         
-        
-          
-        
-        
-        
           
-        
         
-      
-    
-      
-      
         
         
           
@@ -2395,27 +1551,7 @@
           
         
         
-        
-        
-        
-        
-        
-        
       
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      
-        
-        
-        
-        
         
         
         
@@ -2434,23 +1570,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2473,17 +1593,19 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
     
       
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
       
         
         
@@ -2502,25 +1624,7 @@
           
         
         
-        
-        
-        
-        
       
-        
-        
-        
-        
-        
-        
-        
-        
-        
-      
-        
-        
-        
-        
         
         
         
@@ -2539,14 +1643,6 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
         
         
@@ -2557,23 +1653,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2596,23 +1676,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2635,14 +1699,6 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
     
       
@@ -2656,23 +1712,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2695,23 +1735,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2734,23 +1758,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2773,14 +1781,6 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
         
         
@@ -2791,23 +1791,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2830,26 +1814,10 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
     
       
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2872,26 +1840,10 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
     
       
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2914,26 +1866,10 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
     
       
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2956,23 +1892,7 @@
           
         
         
-        
-          
-        
-        
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
         
         
           
@@ -2993,32 +1913,20 @@
         
         
           
-        
-        
-        
-          
-        
-        
-        
+              <li>
+                <a href="https://gdemir.github.io/categories/linux/mysql-giris/">
+                  MySQL'e Giriş ve Bazı İşlemler
+                  <div class="pull-right hidden-xs">2010-07-07</div>
+                </a>
+              </li>
+            
           
         
         
       
         
         
-          
         
-        
-        
-          
-        
-        
-        
-          
-        
-        
-        
-          
         
         
       
@@ -3032,10 +1940,10 @@
 <!-- Next_Previous start -->
 <ul class="pager">
   
-    <li class="previous"><a href="/categories/bootstrap/bootstrap-responsive-design/">&larr; Bootstrap Responsive Tasarım</a></li>
+    <li class="previous"><a href="/categories/linux/html-&-65279;-karakter-sorunu/">&larr; Html &amp;#65279; Karakter Sorunu</a></li>
   
   
-    <li class="next"><a href="/categories/apache/activate-mod_rewrite-htaccess/">Apache .htaccess Dosyasında mod_rewrite Modülünü Aktif Yapma &rarr;</a></li>
+    <li class="next"><a href="/categories/linux/crontab-komutu-ve-ornek-crontab-uygulanmasi/">Crontab Komutu ve Örnek Crontab Uygulanması &rarr;</a></li>
   
 </ul>
 <!-- Next_Previous end -->
