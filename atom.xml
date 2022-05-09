@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-09T06:45:23+00:00</updated>
+  <updated>2022-05-09T06:48:58+00:00</updated>
   <id></id>
 
   <author>
@@ -48,11 +48,11 @@ echo &quot;Merhaba\n&quot; &amp;gt;&amp;gt; hello.log
 
 &lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;  *      *      *      *      *      COMMAND(s)
  −−−    −−−    −−−    −−−    −−−
-  |      |      |      |       ⋱−→  Day of week (0 - 7) (Sunday=0 or 7)
+  |      |      |      |      ⋱−−→  Day of week (0 - 7) (Sunday=0 or 7)
   |      |      |      ⋱−−−−−−−−−→  Month (1 - 12)
-  |      |       ⋱−−−−−−−−−−−−−−−→  Day of month (1 - 31)
-  |      ⋱−−−−−−−−−−−−−−−−−−−−−−→   Hour (0 - 23)
-  ⋱−−−−−−−−−−−−−−−−−−−−−−−−−−−−−→   Minute (0 - 59)
+  |      |      ⋱−−−−−−−−−−−−−−−−→  Day of month (1 - 31)
+  |      ⋱−−−−−−−−−−−−−−−−−−−−−−−→   Hour (0 - 23)
+  ⋱−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−→   Minute (0 - 59)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;artık &lt;strong&gt;her dakika&lt;/strong&gt; da bir  &amp;ldquo;Merhaba&amp;rdquo; yazısı &lt;code&gt;hello.log&lt;/code&gt; dosyası üzerine yazılmaktadır. Dikkat edin dosya patlamasın 😉&lt;/p&gt;
