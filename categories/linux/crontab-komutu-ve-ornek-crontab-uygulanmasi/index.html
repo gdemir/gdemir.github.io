@@ -8,10 +8,10 @@
   <meta name="description" content="Barak Türkmeni Gökhan Demir Bilişim Notları" />
   <meta name="keywords" content="Gökhan Demir, Bilgisayar Mühendisi" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Bootstrap Responsive Tasarım &#8211; Gökhan Demir</title>
+  <title>Crontab Komutu ve Örnek Crontab Uygulanması &#8211; Gökhan Demir</title>
 
   
-  <link href="" rel="alternate" title="Bootstrap Responsive Tasarım" type="application/atom+xml" />
+  <link href="" rel="alternate" title="Crontab Komutu ve Örnek Crontab Uygulanması" type="application/atom+xml" />
   
 
   <link rel="shortcut icon" href="https://gdemir.github.io/favicon.ico">
@@ -134,10 +134,10 @@
           <li><a href="https://gdemir.github.io/categories" class="btn btn-default btn-sm">categories</a></li>
           
           
-          <li><a href="https://gdemir.github.io/categories/bootstrap" class="btn btn-default btn-sm">bootstrap</a></li>
+          <li><a href="https://gdemir.github.io/categories/linux" class="btn btn-default btn-sm">linux</a></li>
           
           
-          <li><a href="https://gdemir.github.io/categories/bootstrap/bootstrap-responsive-design" class="btn btn-default btn-sm">bootstrap-responsive-design</a></li>
+          <li><a href="https://gdemir.github.io/categories/linux/crontab-komutu-ve-ornek-crontab-uygulanmasi" class="btn btn-default btn-sm">crontab-komutu-ve-ornek-crontab-uygulanmasi</a></li>
           
           <li class="active">Index</li>
         </ul>
@@ -148,29 +148,22 @@
       <div class="well">
 
         <div class="text-center">
-  <h2>Bootstrap Responsive Tasarım</h2>
+  <h2>Crontab Komutu ve Örnek Crontab Uygulanması</h2>
   <h4>
-    <span class="label label-default"><i class="fa fa-calendar"></i> 2016-01-20</span>
+    <span class="label label-default"><i class="fa fa-calendar"></i> 2022-05-09</span>
     
 
       &nbsp;
-      <a href="https://gdemir.github.io/categories/bootstrap" class="label label-info">
-        <i class="fa fa-file"></i> bootstrap
+      <a href="https://gdemir.github.io/categories/linux" class="label label-info">
+        <i class="fa fa-file"></i> linux
       </a>
 
     
     
 
       &nbsp;
-      <a href="https://gdemir.github.io/tags/responsive" class="label label-danger">
-        <i class="fa fa-tag"></i> responsive
-      </a>
-
-    
-
-      &nbsp;
-      <a href="https://gdemir.github.io/tags/navbar" class="label label-danger">
-        <i class="fa fa-tag"></i> navbar
+      <a href="https://gdemir.github.io/tags/crontab" class="label label-danger">
+        <i class="fa fa-tag"></i> crontab
       </a>
 
     
@@ -183,31 +176,61 @@
 </div>
 <hr>
 
-<p>Bootstrap <code>navbar</code> gibi css bileşenleriyle; tarayıcı, tablet, mobil gibi cihazların ekran çözünürlüğüne duyarlı(ekran çözünürlüğüne göre yeniden şekillenen) görünüm sunmaktadır. Bunu sitenize sadece <code>bootstrap-css</code>, <code>bootstrap-js</code> dosyalarını ekleyerek ve <code>navbar</code> gibi bileşenleri kullanarak duyarlı hale getiremezsiniz. Bunun için ek olarak aşağıdaki <code>meta</code> etiketini <code>head</code> etiketleri arasına eklemeniz gerekiyor.</p>
+<p>Linux üzerinde hazır yüklü gelen ve <code>/etc/crontab</code> dosya yolunda barınan bir betiktir.</p>
 
-<pre><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"&gt;
+<p>Örneğin bir shell betiği(<code>test.sh</code>) hazırlayıp bu betiği sunucu üzerinde belirli periyotlarda çalıştırmak isteyelim.</p>
+
+<h3><code>test.sh</code> Betiğimizi Oluşturalım</h3>
+
+<pre><code class="sh">#! /bin/bash
+echo "Merhaba\n" &gt;&gt; hello.log
 </code></pre>
 
-<p>Bu <code>meta</code> etiketini açıklayacak olursak,</p>
+<p>(Bu betiğimiz &ldquo;Merhaba&rdquo; kelimesini <code>hello.log</code> dosyası üzerine ekleme görevi üstlenmektedir.)</p>
 
-<p><code>width=device-width</code>: Cihazın ekran genişliğini elde ediyoruz.</p>
+<h3><code>test.sh</code> Betiğinin <code>crontab</code> Tarafından Çalıştırılabilmesi İçin İzin Haklarını Verilmesi</h3>
 
-<p><code>initial-scale</code>: Sayfa açıldığında ne kadar zoom yapılacağını belirliyoruz. Mesela 1 diyerek gerçek boyut elde ediliyor.</p>
+<pre><code>chmod 700 test.sh
+</code></pre>
 
-<p><code>maximum-scale</code>: Kullanıcın sayfayı ne kadar zoom yapabileceğini ayarlıyor.</p>
+<h3><code>crontab</code>a Yeni Cron Eklenmesi Komutu Kullanılması</h3>
 
-<p><code>user-scalable=no</code>: Kullanıcının sayfada zoom yapmasını engelliyorsunuz.</p>
+<pre><code>crontab -e
+</code></pre>
 
-<p>Not: Bu sitedeki header ve footer'da birer <code>navbar</code>dır ve responsive çalışmaktadır :-)</p>
+<p><code>crontab -e</code> komutu ile açılan dosya sonuna aşağıdaki gibi <strong>her dakika</strong> çalışan içeriğin eklenmesi</p>
 
-<h4>Kaynak</h4>
+<pre><code class="sh">* * * * * /root/test.sh
+</code></pre>
 
-<hr />
+<p>Buradaki zaman periyotlarını düzenlemek için aşağıdaki zaman görev kalıbı incelenebilir:</p>
+
+<pre><code class="sh">  *      *      *      *      *      COMMAND(s)
+ −−−    −−−    −−−    −−−    −−−
+  |      |      |      |       ⋱−→  Day of week (0 - 7) (Sunday=0 or 7)
+  |      |      |      ⋱−−−−−−−−−→  Month (1 - 12)
+  |      |       ⋱−−−−−−−−−−−−−−−→  Day of month (1 - 31)
+  |      ⋱−−−−−−−−−−−−−−−−−−−−−−→   Hour (0 - 23)
+  ⋱−−−−−−−−−−−−−−−−−−−−−−−−−−−−−→   Minute (0 - 59)
+</code></pre>
+
+<p>artık <strong>her dakika</strong> da bir  &ldquo;Merhaba&rdquo; yazısı <code>hello.log</code> dosyası üzerine yazılmaktadır. Dikkat edin dosya patlamasın 😉</p>
+
+<h3>Çalışan Cron Komutlarını Görmek İçin</h3>
+
+<pre><code>crontab -l
+</code></pre>
+
+<h3>Cron Komutlarını Silmek İçin</h3>
+
+<pre><code>crontab -r
+</code></pre>
+
+<h3>Kaynaklar</h3>
 
 <ul>
-<li><p><a href="http://getbootstrap.com/css/#overview-mobile">http://getbootstrap.com/css/#overview-mobile</a></p></li>
-<li><p><a href="http://getbootstrap.com/components/#navbar">http://getbootstrap.com/components/#navbar</a></p></li>
-<li><p><a href="http://mhmtyylc.com/responsive-tasarim-nedir">http://mhmtyylc.com/responsive-tasarim-nedir</a></p></li>
+<li><p><a href="https://dev.to/boobo94/how-to-back-up-postgres-database-on-linux-using-cronjob-2d3a">https://dev.to/boobo94/how-to-back-up-postgres-database-on-linux-using-cronjob-2d3a</a></p></li>
+<li><p><a href="https://crontab.guru/">https://crontab.guru/</a></p></li>
 </ul>
 
 
@@ -222,524 +245,20 @@
         
         
           
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
               <li>
-                <a href="https://gdemir.github.io/categories/bootstrap/bootstrap-responsive-design/">
-                  Bootstrap Responsive Tasarım
-                  <div class="pull-right hidden-xs">2016-01-20</div>
+                <a href="https://gdemir.github.io/categories/linux/crontab-komutu-ve-ornek-crontab-uygulanmasi/">
+                  Crontab Komutu ve Örnek Crontab Uygulanması
+                  <div class="pull-right hidden-xs">2022-05-09</div>
                 </a>
               </li>
             
           
         
         
-        
-        
-      
-        
-        
-        
-        
-        
       
     
       
       
-        
-        
-          
-        
         
         
           
@@ -754,18 +273,7 @@
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
         
         
           
@@ -777,38 +285,7 @@
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -823,6 +300,8 @@
           
         
         
+      
+        
         
           
         
@@ -833,15 +312,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -856,6 +327,8 @@
           
         
         
+      
+        
         
           
         
@@ -866,15 +339,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -889,6 +354,8 @@
           
         
         
+      
+        
         
           
         
@@ -899,28 +366,13 @@
           
         
         
-        
-          
-        
-        
-      
-    
-      
       
         
         
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -935,6 +387,8 @@
           
         
         
+      
+        
         
           
         
@@ -945,18 +399,7 @@
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
         
         
           
@@ -971,6 +414,8 @@
           
         
         
+      
+        
         
           
         
@@ -981,28 +426,7 @@
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -1017,28 +441,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
         
         
           
@@ -1050,15 +453,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -1073,28 +468,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
         
         
           
@@ -1106,15 +480,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -1129,15 +495,13 @@
           
         
         
-        
-          
-        
-        
       
         
         
           
         
+        
+      
         
         
           
@@ -1152,10 +516,6 @@
           
         
         
-        
-          
-        
-        
       
     
       
@@ -1165,15 +525,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -1188,6 +540,8 @@
           
         
         
+      
+        
         
           
         
@@ -1198,28 +552,7 @@
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -1234,38 +567,7 @@
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -1280,41 +582,10 @@
           
         
         
-        
-          
-        
-        
       
     
       
       
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -1329,15 +600,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -1352,25 +615,13 @@
           
         
         
-        
-          
-        
-        
       
         
         
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -1385,41 +636,13 @@
           
         
         
-        
-          
-        
-        
-      
-    
-      
       
         
         
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -1434,28 +657,13 @@
           
         
         
-        
-          
-        
-        
-      
-    
-      
       
         
         
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -1470,38 +678,7 @@
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -1516,15 +693,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -1539,38 +708,7 @@
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -1585,25 +723,16 @@
           
         
         
-        
-          
-        
-        
+      
+    
+      
       
         
         
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -1618,15 +747,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -1641,28 +762,7 @@
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -1677,38 +777,13 @@
           
         
         
-        
-          
-        
-        
       
         
         
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -1723,25 +798,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
-        
-        
-          
-        
-        
-      
-        
-        
-          
-        
         
         
           
@@ -1756,31 +813,13 @@
           
         
         
-        
-          
-        
-        
-      
-    
-      
       
         
         
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
         
         
           
@@ -1795,18 +834,7 @@
           
         
         
-        
-          
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
         
         
           
@@ -1821,10 +849,6 @@
           
         
         
-        
-          
-        
-        
       
     
       
@@ -1834,15 +858,7 @@
           
         
         
-        
-          
-        
-        
       
-        
-        
-          
-        
         
         
           
@@ -1857,6 +873,17 @@
           
         
         
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
         
           
         
@@ -1866,6 +893,428 @@
         
           
         
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
+        
+        
+          
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+        
+      
         
         
           
@@ -1882,10 +1331,8 @@
 <!-- Next_Previous start -->
 <ul class="pager">
   
-    <li class="previous"><a href="/categories/php/php-call-to-undefined-function-imagecreatefromjpeg-error/">&larr; Php Call To Undefined Function Imagecreatefromjpeg Hatası</a></li>
+    <li class="previous"><a href="/categories/linux/html-&-65279;-karakter-sorunu/">&larr; Html &amp;#65279; Karakter Sorunu</a></li>
   
-  
-    <li class="next"><a href="/categories/php/phpmyadmin/">phpMyAdmin Kurulumu &rarr;</a></li>
   
 </ul>
 <!-- Next_Previous end -->
