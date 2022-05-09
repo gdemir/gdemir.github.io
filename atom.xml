@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-09T07:31:19+00:00</updated>
+  <updated>2022-05-09T08:18:21+00:00</updated>
   <id></id>
 
   <author>
@@ -79,9 +79,9 @@ echo &quot;Merhaba\n&quot; &amp;gt;&amp;gt; hello.log
   
   <entry>
     <title>Html &amp;#65279; Karakter Sorunu-200329</title>
-    <link href="https://gdemir.github.io/categories/linux/html-&-65279;-karakter-sorunu/"/>
+    <link href="https://gdemir.github.io/categories/linux/html-65279;-karakter-sorunu/"/>
     <updated>2020-03-29T00:00:00+00:00</updated>
-    <id>/categories/linux/html-&#65279;-karakter-sorunu</id>
+    <id>/categories/linux/html-65279;-karakter-sorunu</id>
     <content type="html">&lt;p&gt;Bu sorun genelde UTF desteklemeyen bir editör(Notepad gibi) ile kod düzenlemerinde ortaya çıkmaktadır. Editör ile açıldığında da görünmemektedir.&lt;/p&gt;
 
 &lt;p&gt;Hangi dosyalarda sorun olduğunu anlamak için aşağıdaki kod çalıştırılır:&lt;/p&gt;
