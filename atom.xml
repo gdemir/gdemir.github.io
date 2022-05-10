@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-10T11:11:56+00:00</updated>
+  <updated>2022-05-10T11:14:16+00:00</updated>
   <id></id>
 
   <author>
@@ -14,9 +14,9 @@
   
   <entry>
     <title>Dosya İçerisindeki Tekil(Tekrar Etmeyen) IP'lerin Sayılarını Öğrenme-220510</title>
-    <link href="https://gdemir.github.io/categories/linux/unique_ip_count_on_file/"/>
+    <link href="https://gdemir.github.io/categories/linux/unique-ip-count-on-file/"/>
     <updated>2022-05-10T00:00:00+00:00</updated>
-    <id>/categories/linux/unique_ip_count_on_file</id>
+    <id>/categories/linux/unique-ip-count-on-file</id>
     <content type="html">&lt;p&gt;&lt;code&gt;unique_ip_count_on_file.sh&lt;/code&gt; betiğinin içeriği aşağıdaki gibidir;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;#! /bin/bash
@@ -30,6 +30,82 @@ grep -o &quot;[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+&quot; $log_filename | sort -u |
 
 &lt;pre&gt;&lt;code&gt;bash unique_ip_count_on_file.sh production_2022-05-10.log
 &lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Github Ssh Clone-220510</title>
+    <link href="https://gdemir.github.io/categories/github-ssh-clone/"/>
+    <updated>2022-05-10T00:00:00+00:00</updated>
+    <id>/categories/github-ssh-clone</id>
+    <content type="html">&lt;hr /&gt;
+
+&lt;p&gt;layout: post
+title: GitHub SSH Clone
+category: github
+tags: clone&lt;/p&gt;
+
+&lt;h3&gt;Public ve Private Anahtarlarının Üretilmesi&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh-keygen
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;komut çalıştırıldığında  &lt;code&gt;id_rsa&lt;/code&gt; konumu ve gerekli olan şifreyi(2 defa) sormaktadır, bunları giriyoruz.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Generating public/private rsa key pair.
+Enter file in which to save the key (/home/gdemir/.ssh/id_rsa):
+Created directory &#39;/home/gdemir/.ssh&#39;.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/gdemir/.ssh/id_rsa.
+Your public key has been saved in /home/gdemir/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:232/jCVq/32323gokhan.demir@TRF5020F95
+The key&#39;s randomart image is:
++---[RSA 2048]----+
+|                 |
+|           .     |
+|          . . E .|
+|       . + .   = |
+|   .  . S = . . o|
+|  . .. + *.o   ..|
+|   o...+*o+.    .|
+|  . o=*oB= ..  o |
+|    BO.=++*o.o+  |
++----[SHA256]-----+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Public Anahtarımızın GitHub Sitesi İçine Kaydedilmesi&lt;/h3&gt;
+
+&lt;p&gt;Bunlar girildikten sonra &lt;code&gt;~/home/gdemir/.ssh/&lt;/code&gt; dizini altında  &lt;code&gt;id_rsa&lt;/code&gt; ve &lt;code&gt;id_rsa.pub&lt;/code&gt; anahtarları oluşmaktadır.
+Oluşturulan bu &lt;code&gt;~/home/gdemir/.ssh/id_rsa.pub&lt;/code&gt;  içerisindeki &lt;strong&gt;key&lt;/strong&gt;imizi;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; → &lt;a href=&quot;https://github.com/settings&quot;&gt;Settings&lt;/a&gt;  → &lt;a href=&quot;https://github.com/settings/keys&quot;&gt;SSH and GPG keys&lt;/a&gt; → &lt;a href=&quot;https://github.com/settings/ssh/new&quot;&gt;Add new SSH keys&lt;/a&gt; içerisine,&lt;/p&gt;
+
+&lt;p&gt;belirlediğiniz bir &lt;strong&gt;title&lt;/strong&gt; (gdemir@ubuntu gibi) girilerek &lt;strong&gt;key&lt;/strong&gt;imizi yapıştırıyoruz.
+Artık sahip olduğumuz repolarımızı clone etme imkanımız olmuş oluyor. Clone etmek isteğiniz repoyu aşağıdaki gibi çalıştırıyorsunuz.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone git@github.com:gdemir/gdemir.github.io.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Artık repo üzerindeki dosyalar üzerinde güncelleme yapıp&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git commit -am &#39;gerekli güncelleme yapıldı&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;komutuyla &lt;code&gt;commit&lt;/code&gt; atıp&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git push
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;komutuyla ilgili repomuz GitHub üzerinde güncellenmiş oluyoruz.&lt;/p&gt;
+
+&lt;h2&gt;#&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys&quot;&gt;https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
   </entry>
   

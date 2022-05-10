@@ -1,0 +1,68 @@
+<hr />
+
+<p>layout: post
+title: GitHub SSH Clone
+category: github
+tags: clone</p>
+
+<h3>Public ve Private Anahtarlarının Üretilmesi</h3>
+
+<pre><code>ssh-keygen
+</code></pre>
+
+<p>komut çalıştırıldığında  <code>id_rsa</code> konumu ve gerekli olan şifreyi(2 defa) sormaktadır, bunları giriyoruz.</p>
+
+<pre><code>Generating public/private rsa key pair.
+Enter file in which to save the key (/home/gdemir/.ssh/id_rsa):
+Created directory '/home/gdemir/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/gdemir/.ssh/id_rsa.
+Your public key has been saved in /home/gdemir/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:232/jCVq/32323gokhan.demir@TRF5020F95
+The key's randomart image is:
++---[RSA 2048]----+
+|                 |
+|           .     |
+|          . . E .|
+|       . + .   = |
+|   .  . S = . . o|
+|  . .. + *.o   ..|
+|   o...+*o+.    .|
+|  . o=*oB= ..  o |
+|    BO.=++*o.o+  |
++----[SHA256]-----+
+</code></pre>
+
+<h3>Public Anahtarımızın GitHub Sitesi İçine Kaydedilmesi</h3>
+
+<p>Bunlar girildikten sonra <code>~/home/gdemir/.ssh/</code> dizini altında  <code>id_rsa</code> ve <code>id_rsa.pub</code> anahtarları oluşmaktadır.
+Oluşturulan bu <code>~/home/gdemir/.ssh/id_rsa.pub</code>  içerisindeki <strong>key</strong>imizi;</p>
+
+<p><a href="https://github.com/">GitHub</a> → <a href="https://github.com/settings">Settings</a>  → <a href="https://github.com/settings/keys">SSH and GPG keys</a> → <a href="https://github.com/settings/ssh/new">Add new SSH keys</a> içerisine,</p>
+
+<p>belirlediğiniz bir <strong>title</strong> (gdemir@ubuntu gibi) girilerek <strong>key</strong>imizi yapıştırıyoruz.
+Artık sahip olduğumuz repolarımızı clone etme imkanımız olmuş oluyor. Clone etmek isteğiniz repoyu aşağıdaki gibi çalıştırıyorsunuz.</p>
+
+<pre><code>git clone git@github.com:gdemir/gdemir.github.io.git
+</code></pre>
+
+<p>Artık repo üzerindeki dosyalar üzerinde güncelleme yapıp</p>
+
+<pre><code>git commit -am 'gerekli güncelleme yapıldı'
+</code></pre>
+
+<p>komutuyla <code>commit</code> atıp</p>
+
+<pre><code>git push
+</code></pre>
+
+<p>komutuyla ilgili repomuz GitHub üzerinde güncellenmiş oluyoruz.</p>
+
+<h2>#</h2>
+
+<ul>
+<li><a href="https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys">https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys</a></li>
+</ul>
+
