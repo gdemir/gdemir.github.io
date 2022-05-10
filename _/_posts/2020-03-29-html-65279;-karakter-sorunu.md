@@ -19,7 +19,7 @@ Sorunu düzelmek için aşağıdaki kod çalıştırılır:
 sudo sed -i 's/\xEF\xBB\xBF//g' FILE
 ```
 
-Kaynaklar
+### Kaynaklar
 
 - https://stackoverflow.com/questions/9691771/why-is-65279-appearing-in-my-html
 

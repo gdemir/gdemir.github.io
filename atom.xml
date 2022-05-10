@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-10T11:19:18+00:00</updated>
+  <updated>2022-05-10T11:21:11+00:00</updated>
   <id></id>
 
   <author>
@@ -93,7 +93,7 @@ Artık sahip olduğumuz repolarımızı clone etme imkanımız olmuş oluyor. Cl
 
 &lt;p&gt;komutuyla ilgili repomuz GitHub üzerinde güncellenmiş oluyoruz.&lt;/p&gt;
 
-&lt;h2&gt;#&lt;/h2&gt;
+&lt;h3&gt;Kaynaklar&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys&quot;&gt;https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys&lt;/a&gt;&lt;/li&gt;
@@ -222,7 +222,7 @@ echo &quot;Merhaba\n&quot; &amp;gt;&amp;gt; hello.log
 &lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;sudo sed -i &#39;s/\xEF\xBB\xBF//g&#39; FILE
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Kaynaklar&lt;/p&gt;
+&lt;h3&gt;Kaynaklar&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;https://stackoverflow.com/questions/9691771/why-is-65279-appearing-in-my-html&lt;/p&gt;&lt;/li&gt;

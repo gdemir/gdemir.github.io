@@ -58,7 +58,7 @@ komutuyla `commit` atıp
 komutuyla ilgili repomuz GitHub üzerinde güncellenmiş oluyoruz.
 
 
-###
+### Kaynaklar
 
  - [https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys)
 
