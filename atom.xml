@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-10T09:57:55+00:00</updated>
+  <updated>2022-05-10T10:15:16+00:00</updated>
   <id></id>
 
   <author>
@@ -11,6 +11,27 @@
     <email>gdemir3327@gmail.com</email>
   </author>
 
+  
+  <entry>
+    <title>Dosya İçerisindeki Tekil(Tekrar Etmeyen) IP'lerin Sayılarını Öğrenme-220510</title>
+    <link href="https://gdemir.github.io/categories/linux/unique_ip_count-on_file/"/>
+    <updated>2022-05-10T00:00:00+00:00</updated>
+    <id>/categories/linux/unique_ip_count-on_file</id>
+    <content type="html">&lt;p&gt;Kod aşağıdaki gibidir:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;#! /bin/bash
+
+log_filename=$1
+
+grep -o &quot;[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+&quot; $log_filename | sort -u | wc -l
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Çalıştırmak için;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bash unique_ip_count_on_file.sh production_2022-05-10.log
+&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Crontab İle MySQL Veritabanı Yedeğinin Alınması-220510</title>
