@@ -5,7 +5,7 @@ category:  linux
 tags: bash 
 ---
 
-Kod aşağıdaki gibidir:
+`unique_ip_count_on_file.sh` betiğinin içeriği aşağıdaki gibidir;
 
 ```sh
 #! /bin/bash
