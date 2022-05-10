@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-10T11:14:16+00:00</updated>
+  <updated>2022-05-10T11:16:01+00:00</updated>
   <id></id>
 
   <author>
@@ -34,18 +34,11 @@ grep -o &quot;[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+&quot; $log_filename | sort -u |
   </entry>
   
   <entry>
-    <title>Github Ssh Clone-220510</title>
-    <link href="https://gdemir.github.io/categories/github-ssh-clone/"/>
+    <title>GitHub SSH Clone-220510</title>
+    <link href="https://gdemir.github.io/categories/github/github-ssh-clone/"/>
     <updated>2022-05-10T00:00:00+00:00</updated>
-    <id>/categories/github-ssh-clone</id>
-    <content type="html">&lt;hr /&gt;
-
-&lt;p&gt;layout: post
-title: GitHub SSH Clone
-category: github
-tags: clone&lt;/p&gt;
-
-&lt;h3&gt;Public ve Private Anahtarlarının Üretilmesi&lt;/h3&gt;
+    <id>/categories/github/github-ssh-clone</id>
+    <content type="html">&lt;h3&gt;Public ve Private Anahtarlarının Üretilmesi&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;ssh-keygen
 &lt;/code&gt;&lt;/pre&gt;
