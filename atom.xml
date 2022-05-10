@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-10T11:11:14+00:00</updated>
+  <updated>2022-05-10T11:11:56+00:00</updated>
   <id></id>
 
   <author>
@@ -14,9 +14,9 @@
   
   <entry>
     <title>Dosya İçerisindeki Tekil(Tekrar Etmeyen) IP'lerin Sayılarını Öğrenme-220510</title>
-    <link href="https://gdemir.github.io/categories/linux/unique_ip_count-on_file/"/>
+    <link href="https://gdemir.github.io/categories/linux/unique_ip_count_on_file/"/>
     <updated>2022-05-10T00:00:00+00:00</updated>
-    <id>/categories/linux/unique_ip_count-on_file</id>
+    <id>/categories/linux/unique_ip_count_on_file</id>
     <content type="html">&lt;p&gt;&lt;code&gt;unique_ip_count_on_file.sh&lt;/code&gt; betiğinin içeriği aşağıdaki gibidir;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;#! /bin/bash
