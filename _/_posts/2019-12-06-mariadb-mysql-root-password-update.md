@@ -2,7 +2,7 @@
 layout: post
 title: MariaDB MySQL Root Parola Değiştirme
 category: linux
-tags: mariadb, mysql, root, password
+tags: mariadb mysql root password
 ---
 
 #### Root Kullanıcısı İçin Gerekli Parola Atamasının Yapılması

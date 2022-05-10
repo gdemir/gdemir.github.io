@@ -2,7 +2,7 @@
 layout: post
 title: MariaDB ile MySQL Root Parolasını Sıfırlama
 category: linux
-tags: mariadb, mysql, root, password
+tags: mariadb mysql root password
 ---
 
 #### MySQL Devre Dışı Bırakma
