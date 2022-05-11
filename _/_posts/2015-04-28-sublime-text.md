@@ -5,8 +5,7 @@ category: linux
 tags: vim sublime editor
 ---
 
-Sublime Text, içinde python uygulama programlama arayüzü barındıran, çapraz platform bir kaynak kod düzenleme ve metin editörüdür.
-Arayüzü [Vim](http://gdemir.github.io/category/linux/vim/)den ilham alınarak tasarlanmıştır.
+Sublime Text, içinde python uygulama programlama arayüzü barındıran, çapraz platform bir kaynak kod düzenleme ve metin editörüdür. Arayüzü Vimden ilham alınarak tasarlanmıştır.
 
 özellikleri şunlar:
 

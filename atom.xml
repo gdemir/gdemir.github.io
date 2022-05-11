@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-11T09:52:11+00:00</updated>
+  <updated>2022-05-11T12:02:03+00:00</updated>
   <id></id>
 
   <author>
@@ -3204,8 +3204,7 @@ sudo chmod 644 /var/www/html/.htaccess
     <link href="https://gdemir.github.io/categories/linux/sublime-text/"/>
     <updated>2015-04-28T00:00:00+00:00</updated>
     <id>/categories/linux/sublime-text</id>
-    <content type="html">&lt;p&gt;Sublime Text, içinde python uygulama programlama arayüzü barındıran, çapraz platform bir kaynak kod düzenleme ve metin editörüdür.
-Arayüzü &lt;a href=&quot;http://gdemir.github.io/category/linux/vim/&quot;&gt;Vim&lt;/a&gt;den ilham alınarak tasarlanmıştır.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Sublime Text, içinde python uygulama programlama arayüzü barındıran, çapraz platform bir kaynak kod düzenleme ve metin editörüdür. Arayüzü Vimden ilham alınarak tasarlanmıştır.&lt;/p&gt;
 
 &lt;p&gt;özellikleri şunlar:&lt;/p&gt;
 
@@ -4565,7 +4564,7 @@ patch -p0 &amp;lt; surum1.patch
     <id>/categories/linux/shell-alias</id>
     <content type="html">&lt;p&gt;alias komutu ile linux konsolunda sık kullandığınız komutların kısayolunu oluşturmamıza yarayan &lt;strong&gt;takma ad&lt;/strong&gt;&amp;lsquo;dır. Örneğin &lt;code&gt;ls -al&lt;/code&gt; ifadesini konsolda durmadan yazmak yerine,&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://gdemir.github.io/910/vim-giris/&quot;&gt;vim&lt;/a&gt; ile bashrc&#39;yi acıyoruz :&lt;/p&gt;
+&lt;h3&gt;&lt;code&gt;vim&lt;/code&gt; ile &lt;code&gt;.bashrc&lt;/code&gt;yi acıyoruz :&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;    vim ~/.bashrc
 &lt;/code&gt;&lt;/pre&gt;
@@ -4575,8 +4574,7 @@ patch -p0 &amp;lt; surum1.patch
 &lt;pre&gt;&lt;code&gt;    alias li=&quot;ls -al&quot;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;yazıyoruz ve konsolu kapatıp tekrar açıyoruz.&lt;br/&gt;
-Konsolda &lt;code&gt;li&lt;/code&gt; dediğimiz zaman, &lt;code&gt;ls -al&lt;/code&gt; görevi görmüş oluyor.&lt;/p&gt;
+&lt;p&gt;yazıyoruz ve konsolu kapatıp tekrar açıyoruz. Konsolda &lt;code&gt;li&lt;/code&gt; dediğimiz zaman, &lt;code&gt;ls -al&lt;/code&gt; görevi görmüş oluyor.&lt;/p&gt;
 </content>
   </entry>
   
@@ -5106,7 +5104,7 @@ vimi tekrar açınca özellikler aktif olacaktır.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://gdemir.github.com/file/konsol-normal.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;olduğunu düşünelim, &lt;a href=&quot;http://gdemir.github.io/910/vim-giris&quot;&gt;vim&lt;/a&gt; ile .bashrc dosyasını açıyoruz. (Tabiki vim yerine siz başka bir editör seçebilirsiniz.)&lt;/p&gt;
+&lt;p&gt;olduğunu düşünelim, Vim ile .bashrc dosyasını açıyoruz. (Tabiki vim yerine siz başka bir editör seçebilirsiniz.)&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;vim ~/.bashrc
 &lt;/code&gt;&lt;/pre&gt;
