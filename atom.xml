@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-10T11:28:15+00:00</updated>
+  <updated>2022-05-11T09:32:10+00:00</updated>
   <id></id>
 
   <author>
@@ -11,6 +11,100 @@
     <email>gdemir3327@gmail.com</email>
   </author>
 
+  
+  <entry>
+    <title>Vim Kısayolları-220511</title>
+    <link href="https://gdemir.github.io/categories/linux/vim-shortcuts/"/>
+    <updated>2022-05-11T00:00:00+00:00</updated>
+    <id>/categories/linux/vim-shortcuts</id>
+    <content type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt; KOMUTLAR &lt;/th&gt;
+&lt;th&gt; AÇIKLAMA &lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;G&lt;/code&gt; + &lt;code&gt;G&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; İmleci dosyanın başına getirir. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;SHIFT&lt;/code&gt; + &lt;code&gt;G&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; İmleci dosyanın  sonuna getirir. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;i&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; Dosyayı görüntüleme modundan çıkarıp düzenleme moduna geçmenize sağlar. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;ESC&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; `Düzenleme modundan çıkıp görüntüleme moduna geçmenizi sağlar. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;0&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; İmleci bulunduğu satırın en başına getirir. (Görüntüleme modunda iken) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;$&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; İmleci bulunduğu satırın sonuna götürür. (Görüntüleme modunda iken) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;:w&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; Dosya içerisindeki değişiklikleri kaydetmenizi sağlar. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;:q&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; Dosyadan çıkmanızı sağlar. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;:q!&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; Dosyadaki değişiklikleri kaydetmeyerek çıkmanızı sağlar. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;:wq&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; Dosya içerisindeki değişiklikleri kaydedip çıkmanızı sağlar. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;u&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; Görüntüleme modunda iseniz yapılan değişiklikleri geri almanıza sağlar. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;SHIFT&lt;/code&gt; + &lt;code&gt;v&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; İmlecin bulunduğu ilgili satırı seçer. (Aşağı-Yukarı ok tuşlarıyla seçilen satırları genişletebilirsiniz.) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;y&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; İmlecin seçtiği satırları kopyalar. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;p&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; Görüntüleme modunda iken kopyaladığınız satırları yapıştırmanızı sağlar. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;:&#39;&amp;lt;,&#39;&amp;gt;%s/SEARCH/REPLACE/g&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; İlgili satırlarda &lt;strong&gt;SEARCH&lt;/strong&gt; anahtarının değerini &lt;strong&gt;REPLACE&lt;/strong&gt; ile değiştirir. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;:&#39;&amp;lt;,&#39;&amp;gt;%s/SEARCH/REPLACE/gc&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; İlgili satırlarda &lt;strong&gt;SEARCH&lt;/strong&gt; anahtarının değerini &lt;strong&gt;REPLACE&lt;/strong&gt; ile değiştirirken adım adım sorar &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;d&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; Düzenleme modunda seçilen satırları, görüntüleme modunda da imlecin üstündeki satırı siler. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://umutbey.com/vim-kisayollari-en-cok-kullanilan-16-kisayol/&quot;&gt;https://umutbey.com/vim-kisayollari-en-cok-kullanilan-16-kisayol/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Dosya İçerisindeki Tekil(Tekrar Etmeyen) IP'lerin Sayılarını Öğrenme-220510</title>
