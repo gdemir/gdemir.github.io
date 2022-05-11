@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-11T12:58:55+00:00</updated>
+  <updated>2022-05-11T13:02:07+00:00</updated>
   <id></id>
 
   <author>
@@ -4383,11 +4383,11 @@ sudo chattr +ia /etc/resolv.conf
 &lt;pre&gt;&lt;code&gt;:sp filename
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;izlemek için &lt;a href=&quot;https://gdemir.github.io/file/vim-sp.gif&quot;&gt;tıklayınız&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;izlemek için &lt;a href=&quot;/file/vim-sp.gif&quot;&gt;tıklayınız&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;açılan iki pencere arasında git gel yapmak için birkez &lt;code&gt;CTRL&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt; basıp gitmek istediğmiz dosyanın yönüne basıyoruz. (yön tuşları) (Ör. dosya altta ise; &lt;code&gt;CTRL&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt; bas, sonra aşağı yön tuşuna bas.)&lt;/p&gt;
 
-&lt;p&gt;izlemek için &lt;a href=&quot;https://gdemir.github.io/file/vim-sp-ctrl-w.gif&quot;&gt;tıklayınız&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;izlemek için &lt;a href=&quot;/file/vim-sp-ctrl-w.gif&quot;&gt;tıklayınız&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   
@@ -5091,7 +5091,7 @@ vimi tekrar açınca özellikler aktif olacaktır.&lt;/p&gt;
     <id>/categories/linux/bash-renk</id>
     <content type="html">&lt;p&gt;Konsolumuzun rengi ilk olarak şöyle :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://gdemir.github.com/file/konsol-normal.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/konsol-normal.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;olduğunu düşünelim, Vim ile .bashrc dosyasını açıyoruz. (Tabiki vim yerine siz başka bir editör seçebilirsiniz.)&lt;/p&gt;
 
@@ -5114,7 +5114,7 @@ vimi tekrar açınca özellikler aktif olacaktır.&lt;/p&gt;
 
 &lt;p&gt;yazıyoruz ve artık konsolumuzu renklendirmiş oluyoruz.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://gdemir.github.com/file/konsol-renkli.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/konsol-renkli.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Bu yukarıdaki renk stili benim favorimdir. Sizde kendinize göre renklendirebilirsiniz. Konsolu eski haline çevirmek için &lt;strong&gt;force_color_prompt=yes&lt;/strong&gt; satırında ki &lt;code&gt;#&lt;/code&gt; ifadesini tekrar koymanız yeterli.&lt;/p&gt;
 </content>
