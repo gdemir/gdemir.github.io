@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-11T12:05:49+00:00</updated>
+  <updated>2022-05-11T12:42:16+00:00</updated>
   <id></id>
 
   <author>
@@ -636,13 +636,13 @@ rake install
 &lt;/ul&gt;
 
 
-&lt;blockquote&gt;&lt;p&gt;Linux, Apache, MySQL, Php Installation : &lt;a href=&quot;http://gdemir.github.io/categories/linux/lamp/&quot;&gt;LAMP&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Linux, Apache, MySQL, Php Installation : &lt;a href=&quot;/categories/linux/lamp/&quot;&gt;LAMP&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Linux, Nginx, MySQL, Php Installation : &lt;a href=&quot;http://gdemir.github.io/categories/linux/lemp/&quot;&gt;LEMP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Linux, Nginx, MySQL, Php Installation : &lt;a href=&quot;/categories/linux/lemp/&quot;&gt;LEMP&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Web Server Settings : &lt;a href=&quot;https://github.com/barak-framework/barak/blob/master/.htaccess.sample&quot;&gt;apache2-settings&lt;/a&gt; or &lt;a href=&quot;https://github.com/barak-framework/barak/blob/master/nginx.config.sample&quot;&gt;nginx-settings&lt;/a&gt; or &lt;a href=&quot;https://github.com/barak-framework/barak/blob/master/web.config.sample&quot;&gt;iss-settings&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Package Mananger Installation : &lt;a href=&quot;http://gdemir.github.io/categories/php/composer/&quot;&gt;composer-installation&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Package Mananger Installation : &lt;a href=&quot;/categories/php/composer/&quot;&gt;composer-installation&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;h2&gt;Install&lt;/h2&gt;
 
@@ -2431,17 +2431,17 @@ Aşağıda bir Github projenizi nasıl &lt;a href=&quot;https://packagist.org&qu
 &lt;p&gt;Paket gönderimini yapmadan önce ilgili projenizin ana dizin içerisinde &lt;code&gt;composer.json&lt;/code&gt; dosyası eklenmiş olması gerekmektedir. Burada örnek verecek olursak,&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;{
-    &quot;name&quot;: &quot;gdemir/barak&quot;,
+    &quot;name&quot;: &quot;barak-framework/barak&quot;,
     &quot;type&quot;: &quot;project&quot;,
-    &quot;description&quot;: &quot;Barak MVC Framework&quot;,
+    &quot;description&quot;: &quot;Barak Framework&quot;,
     &quot;keywords&quot;: [&quot;barak&quot;, &quot;turkmen&quot;, &quot;framework&quot;],
-    &quot;homepage&quot;: &quot;https://github.com/gdemir/barak&quot;,
+    &quot;homepage&quot;: &quot;https://github.com/barak-framework&quot;,
     &quot;license&quot;: &quot;MIT&quot;,
     &quot;authors&quot;: [
         {
             &quot;name&quot;: &quot;Gökhan DEMİR&quot;,
-            &quot;email&quot;: &quot;mail@gdemir.me&quot;,
-            &quot;homepage&quot;: &quot;http://gdemir.me&quot;,
+            &quot;email&quot;: &quot;gdemir3327@gmail.com&quot;,
+            &quot;homepage&quot;: &quot;https://gdemir.github.io&quot;,
             &quot;role&quot;: &quot;Developer&quot;
         }
     ],
@@ -2452,18 +2452,16 @@ Aşağıda bir Github projenizi nasıl &lt;a href=&quot;https://packagist.org&qu
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;şeklinde bir &lt;code&gt;composer.json&lt;/code&gt; tanımlayabilirsiniz. Daha fazla detay için &lt;a href=&quot;https://getcomposer.org/doc/04-schema.md&quot;&gt;https://getcomposer.org/doc/04-schema.md&lt;/a&gt; sayfasına bakabilirsiniz. Ana dizinimizde artık &lt;code&gt;composer.json&lt;/code&gt; dosyası olduğundan dolayı artık projeyi senkronize için gönderebiliriz. Göndermek için projenizin bulunduğu Bitbucket veya GitHub url linkini (&lt;code&gt;https://github.com/gdemir/barak&lt;/code&gt; gibi) &lt;a href=&quot;https://packagist.org/packages/submit&quot;&gt;https://packagist.org/packages/submit&lt;/a&gt; linkindeki ilgili yere check yapmanız yeterlidir. Eğer check sonrası henüz bir sonuç yoksa 1 gün sonra tekrar deneyin API bilgilerinin senkronize sağlaması geç sürebilir.&lt;/p&gt;
+&lt;p&gt;şeklinde bir &lt;code&gt;composer.json&lt;/code&gt; tanımlayabilirsiniz. Daha fazla detay için &lt;a href=&quot;https://getcomposer.org/doc/04-schema.md&quot;&gt;https://getcomposer.org/doc/04-schema.md&lt;/a&gt; sayfasına bakabilirsiniz. Ana dizinimizde artık &lt;code&gt;composer.json&lt;/code&gt; dosyası olduğundan dolayı artık projeyi senkronize için gönderebiliriz. Göndermek için projenizin bulunduğu Bitbucket veya GitHub url linkini (&lt;code&gt;https://github.com/barak-framework/barak&lt;/code&gt; gibi) &lt;a href=&quot;https://packagist.org/packages/submit&quot;&gt;https://packagist.org/packages/submit&lt;/a&gt; linkindeki ilgili yere check yapmanız yeterlidir. Eğer check sonrası henüz bir sonuç yoksa 1 gün sonra tekrar deneyin API bilgilerinin senkronize sağlaması geç sürebilir.&lt;/p&gt;
 
 &lt;h3&gt;Örnek&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://packagist.org/packages/gdemir/barak&quot;&gt;gdemir/barak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://packagist.org/packages/barak-framework/barak&quot;&gt;barak-framework/barak&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;h4&gt;Kaynak&lt;/h4&gt;
-
-&lt;hr /&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://packagist.org&quot;&gt;https://packagist.org&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -2499,17 +2497,17 @@ Aşağıda bir Github projenizi nasıl &lt;a href=&quot;https://packagist.org&qu
 &lt;blockquote&gt;&lt;p&gt;Ör.: &lt;code&gt;composer.json&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code&gt;{
-  &quot;name&quot;: &quot;gdemir/barak&quot;,
+  &quot;name&quot;: &quot;barak-framework/barak&quot;,
   &quot;type&quot;: &quot;project&quot;,
-  &quot;description&quot;: &quot;Barak MVC Framework&quot;,
+  &quot;description&quot;: &quot;Barak Framework&quot;,
   &quot;keywords&quot;: [&quot;barak&quot;, &quot;turkmen&quot;, &quot;framework&quot;],
-  &quot;homepage&quot;: &quot;https://github.com/gdemir/barak&quot;,
+  &quot;homepage&quot;: &quot;https://github.com/barak-framework/barak&quot;,
   &quot;license&quot;: &quot;MIT&quot;,
   &quot;authors&quot;: [
     {
       &quot;name&quot;: &quot;Gökhan DEMİR&quot;,
-      &quot;email&quot;: &quot;mail@gdemir.me&quot;,
-      &quot;homepage&quot;: &quot;http://gdemir.me&quot;,
+      &quot;email&quot;: &quot;gdemir3327@gmail.com&quot;,
+      &quot;homepage&quot;: &quot;https://gdemir.github.io&quot;,
       &quot;role&quot;: &quot;Developer&quot;
     }
   ],
@@ -2557,8 +2555,6 @@ Aşağıda bir Github projenizi nasıl &lt;a href=&quot;https://packagist.org&qu
 &lt;p&gt;bu komut &lt;code&gt;composer.json&lt;/code&gt; içersindeki &lt;code&gt;required&lt;/code&gt; hashine ekleme yapar ve &lt;code&gt;vendor&lt;/code&gt; dizinin içersine istenilen paketi yerleştirir. Bu şekilde ilgili pakete erişebilirsiniz.&lt;/p&gt;
 
 &lt;h4&gt;Kaynak&lt;/h4&gt;
-
-&lt;hr /&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://getcomposer.org/&quot;&gt;https://getcomposer.org/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -2828,7 +2824,7 @@ Yolları güvence altına almak. Özellikle de Birecik iskelesinden sevk edilen 
 
 &lt;h3&gt;Wordpress için MySQL kullanıcı ve şifre yaratma&lt;/h3&gt;
 
-&lt;p&gt;Veritabanını daha önceden kurduğumuz MySQL üzerinden yaratacağız. (Bz.: &lt;a href=&quot;http://gdemir.github.io/categories/linux/mysql-giris/&quot;&gt;mysql-giris&lt;/a&gt; MySQL girişi için&lt;/p&gt;
+&lt;p&gt;Veritabanını daha önceden kurduğumuz MySQL üzerinden yaratacağız. MySQL girişi için&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;mysql -u root -p
 &lt;/code&gt;&lt;/pre&gt;
@@ -2927,7 +2923,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
 
 &lt;p&gt;veya aşağıdaki satırdan indirebilirsiniz:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    wget http://gdemir.github.io/file/nginx-wordpress
+&lt;pre&gt;&lt;code&gt;    wget https://gdemir.github.io/file/nginx-wordpress
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Ayarlar mevcut(&lt;code&gt;available&lt;/code&gt;) olmasına rağmen henüz sitemiz nginx sunucusunda aktif(&lt;code&gt;enabled&lt;/code&gt;) olarak gözükmüyor. Bunun için aşağıdaki kodu çalıştıralım:&lt;/p&gt;
@@ -2951,8 +2947,6 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4&gt;Kaynak&lt;/h4&gt;
-
-&lt;hr /&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://huse.in/123/wordpress-kurulumu&quot;&gt;https://huse.in/123/wordpress-kurulumu&lt;/a&gt;&lt;/li&gt;
@@ -3149,11 +3143,11 @@ sudo chmod 644 /var/www/html/.htaccess
 &amp;lt;!-- nav-up-down --&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4&gt;Kaynak&lt;/h4&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://fontawesome.io/&quot;&gt;fontawesome.io&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://gdemir.github.io/assets/js/scroll-startstop.events.jquery.js&quot;&gt;scroll-startstop.events.jquery.js&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/assets/js/scroll-startstop.events.jquery.js&quot;&gt;scroll-startstop.events.jquery.js&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>
@@ -3227,7 +3221,7 @@ sudo chmod 644 /var/www/html/.htaccess
     <id>/categories/github/git-push-error</id>
     <content type="html">&lt;h4&gt;Git Push Hatası&lt;/h4&gt;
 
-&lt;p&gt;&lt;code&gt;GitHub&lt;/code&gt;a &lt;a href=&quot;http://github.com/gdemir/cv-creator&quot;&gt;cv-creator&lt;/a&gt; dizinime push ederken bir kesinti oldu ve bilgisayar kapandı. Tekrardan açtığımda yarıda kalan &lt;code&gt;git push&lt;/code&gt; komutunun çalışmadığını gördüm&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;GitHub&lt;/code&gt;a cv-creator dizinime push ederken bir kesinti oldu ve bilgisayar kapandı. Tekrardan açtığımda yarıda kalan &lt;code&gt;git push&lt;/code&gt; komutunun çalışmadığını gördüm&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;gdemir@hummer:~/workspace/cv-creator$ git push
 error: object file .git/objects/3a/648d4feca2e03cdcfdbe70f150fd4dab1b8697 is empty
@@ -3244,7 +3238,7 @@ fatal: loose object 3a648d4feca2e03cdcfdbe70f150fd4dab1b8697 (stored in .git/obj
 &lt;p&gt;hata veren &lt;code&gt;commit id&lt;/code&gt;sini bulalım&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;gdemir@hummer:~/workspace/cv-creator$ tail -n 2 .git/logs/refs/heads/master
-0000000000000000000000000000000000000000 0346e42c8b49cb07d31dbbd8b2322b995fb02baf gdemir &amp;lt;mail@gdemir.me&amp;gt; 1429775482 +0300  clone: from git@github.com:gdemir/cv-creator.git
+0000000000000000000000000000000000000000 0346e42c8b49cb07d31dbbd8b2322b995fb02baf gdemir &amp;lt;gdemir3327@gmail.com&amp;gt; 1429775482 +0300    clone: from git@github.com:gdemir/cv-creator.git
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;code&gt;git push&lt;/code&gt; hatası aldığımız &lt;code&gt;commit id&lt;/code&gt;si &lt;code&gt;0346e42c8b49cb07d31dbbd8b2322b995fb02baf&lt;/code&gt; olan dosya değişimlerini görüntüleyelim&lt;/p&gt;
@@ -3262,10 +3256,10 @@ index 7a12c39..85cfb48 100644
 +++ b/_config.yml
 @@ -12,7 +12,7 @@ personal:
    account: gdemir
-   domain: gdemir.me
-   site: http://gdemir.me
--  email: gdemir@bil.omu.edu.tr
-+  email: mail@gdemir.me
+   domain: gdemir.github.io
+   site: https://gdemir.github.io
+-  email: mail@gdemir.me
++  email: gdemir3327@gmail.com
    photo: default.png
    phone: +90(541) 3936946
    birthday: 12.01.1990
@@ -3345,9 +3339,12 @@ To git@github.com:gdemir/cv-creator.git
    0346e42..09a7b83  master -&amp;gt; master
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4&gt;Kaynak&lt;/h4&gt;
+&lt;h3&gt;Kaynaklar&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty?answertab=votes#tab-top&quot;&gt;how to fix GIT error: object file is empty?&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty?answertab=votes#tab-top&quot;&gt;how to fix GIT error: object file is empty?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
   </entry>
   
@@ -3401,15 +3398,15 @@ sudo apt-get install sublime-text
 
 &lt;p&gt;&lt;code&gt;Devices &amp;gt; Shared Folder Settings (Aygıtlar &amp;gt; Paylaşılan Klasör Ayarları)&lt;/code&gt; kısmına tıklıyoruz&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/virtualbox-share-file-option.png&quot; alt=&quot;share-file-option&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/virtualbox-share-file-option.png&quot; alt=&quot;share-file-option&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Paylaşılacak yeni dosya ekliyoruz&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/network/share-file-add.png&quot; alt=&quot;share-file-add&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/network/share-file-add.png&quot; alt=&quot;share-file-add&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Paylaşılacak dosyanın ayarlarını &lt;code&gt;otomatik bağla&lt;/code&gt; ve &lt;code&gt;kalıcı yap&lt;/code&gt; diyoruz&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/virtualbox-share-file-add-option.png&quot; alt=&quot;share-file-add-option&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/virtualbox-share-file-add-option.png&quot; alt=&quot;share-file-add-option&quot; /&gt;&lt;/p&gt;
 
 &lt;h4&gt;VirtualBox&#39;a Misafir Eklentilerinin Kurulması&lt;/h4&gt;
 
@@ -3427,16 +3424,16 @@ sudo apt-get install sublime-text
 
 &lt;p&gt;&lt;code&gt;Devices &amp;gt; Install Guest Additions&lt;/code&gt; (&lt;code&gt;Aygıtlar &amp;gt; Misafir Eklentileri CD kalıbını ekle&lt;/code&gt;) kısmına tıklayarak CD kalıbımızı ekliyoruz.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/virtualbox-install-guest-additions.png&quot; alt=&quot;install-guest-additions&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/virtualbox-install-guest-additions.png&quot; alt=&quot;install-guest-additions&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Eğer yukarıdaki adımda aşağıdaki gibi &lt;code&gt;could not mount the media/drive &#39;/usr/share/virtualbox/vboxguestadditions.iso&#39;&lt;/code&gt; hatası alıyorsanız, Manuel olarak komutlarla kurmak için şu sayfayı okuyun: &lt;a href=&quot;http://gdemir.github.io/category/network/setup-manual-vboxguestadditions/&quot;&gt;http://gdemir.github.io/category/network/setup-manual-vboxguestadditions/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Eğer yukarıdaki adımda aşağıdaki gibi &lt;code&gt;could not mount the media/drive &#39;/usr/share/virtualbox/vboxguestadditions.iso&#39;&lt;/code&gt; hatası alıyorsanız, Manuel olarak komutlarla kurmak için şu sayfayı okuyun: &lt;a href=&quot;/category/network/setup-manual-vboxguestadditions/&quot;&gt;setup-manual-vboxguestadditions/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/virtualbox-install-guest-additions-error.png&quot; alt=&quot;install-guest-additions-error&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/virtualbox-install-guest-additions-error.png&quot; alt=&quot;install-guest-additions-error&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Eklediğimiz &lt;code&gt;VBoxGuestAdditions.iso&lt;/code&gt; dosyası sorunsuz yüklendiğini kontrol etmek için
 &lt;code&gt;CD/DVD Devices &amp;gt; VBoxGuestAddtions.iso&lt;/code&gt; (&lt;code&gt;CD/DVD Aygıtlar &amp;gt; VBoxGuestAddtions.iso&lt;/code&gt;) kısmına bakıyoruz.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/virtualbox-install-guest-additions-check.png&quot; alt=&quot;install-guest-additions-check&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/virtualbox-install-guest-additions-check.png&quot; alt=&quot;install-guest-additions-check&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Aynı şekilde eklenen eklentiler &lt;code&gt;/media/cdrom&lt;/code&gt; dizini altında gözükecektir.&lt;/p&gt;
 
@@ -3450,7 +3447,7 @@ sudo mount -t vboxsf SHARE_FILE /media/SHARE_FILE
 
 &lt;p&gt;Hepsi bu kadar, umarım yardımı olur.&lt;/p&gt;
 
-&lt;h4&gt;Kaynak&lt;/h4&gt;
+&lt;h3&gt;Kaynaklar&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://forums.virtualbox.org/viewtopic.php?t=15679&quot;&gt;Linux Guest Additions Kurulumu&lt;/a&gt;&lt;/li&gt;
@@ -3506,49 +3503,49 @@ sudo ./VBoxLinuxAdditions.run
 
 &lt;p&gt;&lt;a href=&quot;https://apps.facebook.com/rssgraffiti/&quot;&gt;https://apps.facebook.com/rssgraffiti/&lt;/a&gt; adresine gidin. Rss Graffiti sizden gerekli izinler isteyecektir, bu izinleri verin ve devam edin. Sonunda sizi Rss Graffiti anasayfası karşılayacaktır.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/rssgraffiti-new.png&quot; alt=&quot;new&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/rssgraffiti-new.png&quot; alt=&quot;new&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Bu sayfada &lt;strong&gt;Add New Publishing Plan&lt;/strong&gt;&amp;lsquo;a tıklayın. Bu pencerede yayınlama planını ismi ortaya çıkıyor, metin kutusuna yayın ismini yazın ve &lt;strong&gt;Create Publishing Plan&lt;/strong&gt;&#39;a tıklayın.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/rssgraffiti-create.png&quot; alt=&quot;create&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/rssgraffiti-create.png&quot; alt=&quot;create&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Yayın planı ekledikten sonra, yapılandırma alanı görünür.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/rssgraffiti-publish.png&quot; alt=&quot;publish&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;![publish]/file/rssgraffiti-publish.png)&lt;/p&gt;
 
 &lt;h4&gt;Yeni Kaynak&lt;/h4&gt;
 
 &lt;p&gt;Yapılandırma alanında yeni kaynak eklemek için &lt;strong&gt;Sources&lt;/strong&gt; kısmında &lt;strong&gt;Add New&lt;/strong&gt;&amp;lsquo;a tıklayın. Sizden kaynak besleme linki isteyecek. Kaynak kısmına gerekli blogumuzun haber akış linkini &lt;strong&gt;example.com/rss.xml&lt;/strong&gt; gibi yazın, &lt;strong&gt;Add Source&lt;/strong&gt;&#39;a tıklayın.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/rssgraffiti-source.png&quot; alt=&quot;source&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/rssgraffiti-source.png&quot; alt=&quot;source&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sizden kaynak yapılandırması isteyecek. Yeni kaynağımızı istediğimiz gibi ismini verip kaç saatta bir kontrol edecek gibi ayarlamaları yapıp &lt;strong&gt;Save&lt;/strong&gt;&amp;lsquo;a tıklıyoruz.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/rssgraffiti-source-option.png&quot; alt=&quot;source-option&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/rssgraffiti-source-option.png&quot; alt=&quot;source-option&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;İstediğimiz kaynak kaydedildi bunu görebiliyoruz.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/rssgraffiti-source-ok.png&quot; alt=&quot;source-ok&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/rssgraffiti-source-ok.png&quot; alt=&quot;source-ok&quot; /&gt;&lt;/p&gt;
 
 &lt;h4&gt;Yeni Hedef&lt;/h4&gt;
 
 &lt;p&gt;Yapılandırma alanında yeni hedef eklemek için &lt;strong&gt;Target&lt;/strong&gt; kısmında &lt;strong&gt;Add New&lt;/strong&gt;&amp;lsquo;a tıklayın. Sizden hedef sayfa isteyecek. Hedef kısmı için facebook sayfamızı olacağı için facebook seçiyoruz.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/rssgraffiti-target.png&quot; alt=&quot;target&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/rssgraffiti-target.png&quot; alt=&quot;target&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Sizden kaynak yapılandırması isteyecek. Gerekli ayarlamaları yapmak istiyorsanız yapın ya da direkt olarak &lt;strong&gt;Save Changes&lt;/strong&gt;&amp;lsquo;a tıklayın.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/rssgraffiti-target-option.png&quot; alt=&quot;target-option&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/rssgraffiti-target-option.png&quot; alt=&quot;target-option&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;İstediğimiz hedef kaydedildi bunu görebiliyoruz.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/rssgraffiti-target-ok.png&quot; alt=&quot;target-ok&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/rssgraffiti-target-ok.png&quot; alt=&quot;target-ok&quot; /&gt;&lt;/p&gt;
 
 &lt;h4&gt;Yayın Planını Aktif Hale Getirme&lt;/h4&gt;
 
 &lt;p&gt;İstediğimiz yayını ortadaki &lt;strong&gt;off&lt;/strong&gt; yazan linke tıklayıp &lt;strong&gt;on&lt;/strong&gt; yaparak aktif hale getiriyoruz.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/rssgraffiti-publish-ok.png&quot; alt=&quot;publish-ok&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/rssgraffiti-publish-ok.png&quot; alt=&quot;publish-ok&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Artık blogumuza yazdığımız girdi, istediğimiz aralıklarla facebook&#39;ta oluşturduğumuz sayfamıza otomatik düşecektir.&lt;/p&gt;
 
@@ -3636,7 +3633,7 @@ sudo ./VBoxLinuxAdditions.run
 
 &lt;p&gt;Siz devlette mühendisi masa başında çürümeye yüz tutmuş, örümcek ağlarılarıyla çevri boş boş masada oturan biri olarak algılıyorsunuz sanırım. :-) sizin o olduğunuz gibi kaldınığı zannettiğiniz adamlar haftasonları paint ball ve kayak sporlarıyla uğraştıkları internette bunlar için grup kurduklarının bile farkında değilsiniz. Ben devlete giripte durumu kötü olan mühendis görmedim ama özel sektörde 50 sine gelip hiç bir altı olmayan tonla adam gördüm. Piyasada köle gibi çalıştırılan kapitalist sistem varken hala bu devirde devllette çalışanı küçük görmek sadece kıskançlıktır. Bu arada devlette mühendis sadece memur ya da sözleşmeli personel değil, işçi olarakta çalışabilir, botaşta türpraşta çalışan mühendislerin ücretleri ve primlerle şartlarınıda özeli seven arkadaşlar araştırsın. Naçizane olarak 5 yıllık devlette çalışan başmühendisin bir evi ve arabası şu an mevcut olabileceği gibi, mayıs ayında Doğu Karadeniz turu ve ağustos ayında ise Kuzey Amerika turunu katılabileceğini, üstelik bu ücretlerde liste fiyatların %40 indirimle katılacağını, çünkü kamu personeline indirim yapar tatil turları anladınız mı benim güzellerim? Yılbaşında takvimi alarak tatil planı yapmak ne kadar güzel bir duygudur bir bilseniz.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Kaynaklar:&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Kaynaklar&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://friendfeed.com/bilgisayarmuhendisleri/92549dbe/devlette-muhendis-olmak-hakknda&quot;&gt;Devlette Mühendis Olmak&lt;/a&gt;&lt;/li&gt;
@@ -3654,10 +3651,6 @@ sudo ./VBoxLinuxAdditions.run
 &lt;h4&gt;5. Türkiye&#39;de Bilgisayar Mühendisliği Çok İyi&lt;/h4&gt;
 
 &lt;p&gt;Türkiye&#39;de her yıl mühendislik fakültelerinden binlerce insan mezun oluyor. Bu dallardan biri de Bilgisayar Mühendisliği. Bilişim sektöründe her özel kurumda çok küçük rakamlarda (1000 tl gibi) Bilgisayar Mühendisleri çalıştırılmakta olup modern kölelik durumunda olmamız üzücü bir durumdur. Ayrıca çoğu özel bilişim şirketlerinde bilişim fakültelerinden mezun olmayan yüzlerce kişi/kişiler bu işlerden para kazanmaktadır. Bizim Bilgisayar Mühendisliği bölümümüzün diplomasının değeri yoksa internetten öğreniliyorsa “biz neden bu diplomayı alıyoruz?” diye insan kendine soruyor.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Kaynaklar:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://gdemir.github.io/categories/genel/turkey-computer-engineering/&quot;&gt;Türkiye&#39;de Bilgisayar Mühendisliği&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   
@@ -3921,7 +3914,7 @@ mount /dev/sda6 /media/sda6
     <id>/categories/rails/rails-prawn</id>
     <content type="html">&lt;p&gt;Rails&#39;de Pdf çıktıları için prawn gemi&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/prawn.png&quot; alt=&quot;prawn&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/prawn.png&quot; alt=&quot;prawn&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;site : &lt;a href=&quot;http://prawn.majesticseacreature.com/&quot;&gt;http://prawn.majesticseacreature.com/&lt;/a&gt;&lt;/p&gt;
 
@@ -3965,7 +3958,7 @@ mount /dev/sda6 /media/sda6
     <id>/categories/linux/gmate-install</id>
     <content type="html">&lt;p&gt;Bu paket &lt;code&gt;gedit&lt;/code&gt;i, &lt;code&gt;textmate&lt;/code&gt; benzeri hale getirmek için ufak eklentileri içerir.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/gmate.png&quot; alt=&quot;gmate&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/gmate.png&quot; alt=&quot;gmate&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Konsol üzerinden Gmate editörünü kurmak için aşağıdaki komutlar yeterlidir.&lt;/p&gt;
 
@@ -3981,7 +3974,7 @@ sudo apt-get install gedit-gmate
     <link href="https://gdemir.github.io/categories/rails/mysql-with-rails/"/>
     <updated>2011-06-11T00:00:00+00:00</updated>
     <id>/categories/rails/mysql-with-rails</id>
-    <content type="html">&lt;p&gt;Normal RoR &lt;a href=&quot;http://gdemir.github.io/106/rails-giris&quot;&gt;kurulumundan&lt;/a&gt; farklı olarak kurarken&lt;/p&gt;
+    <content type="html">&lt;p&gt;Normal RoR kurulumundan farklı olarak kurarken&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;rails new my_app -d mysql
 &lt;/code&gt;&lt;/pre&gt;
@@ -3993,7 +3986,7 @@ sudo apt-get install gedit-gmate
 &lt;pre&gt;&lt;code&gt;sudo gem install mysql2 # mysql2 kuruyoruz
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://gdemir.github.io/106/rails-giris8&quot;&gt;default&lt;/a&gt; rails kurulumunu yaptıysanız versiyon &lt;code&gt;0.2.6&lt;/code&gt;&amp;lsquo;yı kurun:&lt;/p&gt;
+&lt;p&gt;Varsayılan rails kurulumunu yaptıysanız versiyon &lt;code&gt;0.2.6&lt;/code&gt;&amp;lsquo;yı kurun:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;sudo gem install mysql2 -v 0.2.11
 &lt;/code&gt;&lt;/pre&gt;
@@ -4246,7 +4239,7 @@ $SSH_AUTH_SOCK&quot;; ssh-add /path/to/mykeys/id_[rd]sa&#39;\&#39;
     <id>/categories/linux/csharp-geany</id>
     <content type="html">&lt;p&gt;Geanyde .cs uzantılı bir dosya açıyoruz ve geany&#39;nin üstteki seçeneklerden  &lt;code&gt;İnşa Et &amp;gt; Dahili Seçenekleri ve Argümanları Ayarla&lt;/code&gt; kısmına giriyoruz. Resimdeki gibi&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/csharp-in-geany.png&quot; alt=&quot;csharp-in-geany&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/csharp-in-geany.png&quot; alt=&quot;csharp-in-geany&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Derle kısmına :&lt;/p&gt;
 
@@ -4329,32 +4322,32 @@ sudo chattr +ia /etc/resolv.conf
     <content type="html">&lt;p&gt;Bilgisayarınızdaki bir sanal makinayı, ana makina ile ağ kurmasını sağlamak istiyorsanız şu adımları izleyin :&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;hangi sanal makina&#39;da bu ayarı uygulayacaksanız, o &lt;strong&gt;sanal makineyi&lt;/strong&gt; seçiyoruz :&lt;/li&gt;
+&lt;li&gt;Hangi sanal makina&#39;da bu ayarı uygulayacaksanız, o &lt;strong&gt;sanal makineyi&lt;/strong&gt; seçiyoruz :&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/vb.png&quot; alt=&quot;virtualboxs&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/vb.png&quot; alt=&quot;virtualboxs&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;virtualbox&#39;ın üstteki menüsünden &lt;strong&gt;ayarlar&lt;/strong&gt; kısmını seçiyoruz :&lt;/li&gt;
+&lt;li&gt;Virtualbox&#39;ın üstteki menüsünden &lt;strong&gt;ayarlar&lt;/strong&gt; kısmını seçiyoruz :&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/vb-menu.png&quot; alt=&quot;menu&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/vb-menu.png&quot; alt=&quot;menu&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;ayarlarda çıkan menüden, &lt;strong&gt;ağ&lt;/strong&gt; bölümünü seçiyoruz :&lt;/li&gt;
+&lt;li&gt;Ayarlarda çıkan menüden, &lt;strong&gt;ağ&lt;/strong&gt; bölümünü seçiyoruz :&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/vb-ag.png&quot; alt=&quot;ag&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/vb-ag.png&quot; alt=&quot;ag&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;bağdastırıcı-1 de sanal bağdaştırıcının ana bilgisayara bağlanma tipini &lt;strong&gt;bridged adapter&lt;/strong&gt; olarak seçiyoruz : (ana makina gibi 192.168.x.x gibi bir ip alsın diye) ve internete çıkarmak için ana bilgisayar net&#39;e nasıl bağlı ise o bağlanma ismini seçin : (ör. eth0, wlan0, usb0)&lt;/li&gt;
+&lt;li&gt;Bağdastırıcı-1 de sanal bağdaştırıcının ana bilgisayara bağlanma tipini &lt;strong&gt;bridged adapter&lt;/strong&gt; olarak seçiyoruz : (ana makina gibi 192.168.x.x gibi bir ip alsın diye) ve internete çıkarmak için ana bilgisayar net&#39;e nasıl bağlı ise o bağlanma ismini seçin : (ör. eth0, wlan0, usb0)&lt;/li&gt;
 &lt;/ul&gt;
 
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/vb-bagdas1.png&quot; alt=&quot;bagdas-1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/vb-bagdas1.png&quot; alt=&quot;bagdas-1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ayrıca ek bilgi olarak, bilgisayarınıza veya sanal makinanıza seçtiginiz bir ip&#39;yi atamak istiyorsanız.&lt;/p&gt;
 
@@ -4395,11 +4388,8 @@ sudo chattr +ia /etc/resolv.conf
     <link href="https://gdemir.github.io/categories/github/github-badge/"/>
     <updated>2010-12-09T00:00:00+00:00</updated>
     <id>/categories/github/github-badge</id>
-    <content type="html">&lt;p&gt;GitHubdaki projelerinizin, gistlerinizin, grup üyelerinizin, grup görevlerinizin&lt;br/&gt;
-ufak görüntüsünü sayfanıza eklemek için öncelikle gerekli github-badge türlerinden&lt;br/&gt;
-birini &lt;a href=&quot;http://github.com/gdemir/github-badge&quot;&gt;http://github.com/gdemir/github-badge&lt;/a&gt;&lt;br/&gt;
-sayfasından seçip, sitenize eklemeniz yeterli&lt;br/&gt;
-ör. gdemir adlı kişinin repolarını görmek için aşağıdaki js kodu :&lt;/p&gt;
+    <content type="html">&lt;p&gt;GitHubdaki projelerinizin, gistlerinizin, grup üyelerinizin, grup görevlerinizin   ufak görüntüsünü sayfanıza eklemek için öncelikle gerekli github-badge türlerinden&lt;br/&gt;
+birini &lt;a href=&quot;https://github.com/gdemir/github-badge&quot;&gt;http://github.com/gdemir/github-badge&lt;/a&gt; sayfasından seçip, sitenize eklemeniz yeterli ör. gdemir adlı kişinin repolarını görmek için aşağıdaki js kodu :&lt;/p&gt;
 
 &lt;p&gt;  &lt;div id=&quot;github-badge&quot;&gt;&lt;/div&gt;
   &lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;
@@ -4408,7 +4398,7 @@ sayfasından seçip, sitenize eklemeniz yeterli&lt;br/&gt;
           GITHUB_TITLE = &amp;ldquo;Projelerim&amp;rdquo;
           GITHUB_SHOW_ALL = &amp;ldquo;Hepsini Göster&amp;rdquo;
   &lt;/script&gt;
-  &lt;script src=&quot;http://gdemir.github.io/github-badge/github-badge-repo.js&quot; type=&quot;text/javascript&quot;&gt;
+  &lt;script src=&quot;https://gdemir.github.io/github-badge/github-badge-repo.js&quot; type=&quot;text/javascript&quot;&gt;
   &lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;şeklinde html içine aşağıdaki gibi eklemeniz yeterlidir :&lt;/p&gt;
@@ -4422,13 +4412,12 @@ sayfasından seçip, sitenize eklemeniz yeterli&lt;br/&gt;
           GITHUB_TITLE = &amp;ldquo;Projelerim&amp;rdquo;
           GITHUB_SHOW_ALL = &amp;ldquo;Hepsini Göster&amp;rdquo;
   &lt;/script&gt;
-  &lt;script src=&quot;http://gdemir.github.io/github-badge/github-badge-repo.js&quot; type=&quot;text/javascript&quot;&gt;
+  &lt;script src=&quot;https://gdemir.github.io/github-badge/github-badge-repo.js&quot; type=&quot;text/javascript&quot;&gt;
   &lt;/script&gt;
   &lt;/body&gt;
   &lt;/html&gt;&lt;/p&gt;
 
-&lt;p&gt;github-badge&#39;nin yerini değiştirmek için css ile oynanabilir, benim sitem&#39;deki
-css ayarlarım (&amp;ldquo;&lt;code&gt;local.css&lt;/code&gt;&quot;de) şöyle: (ör. repo için)&lt;/p&gt;
+&lt;p&gt;github-badge&#39;nin yerini değiştirmek için css ile oynanabilir, benim sitem&#39;deki css ayarlarım (&amp;ldquo;&lt;code&gt;local.css&lt;/code&gt;&quot;de) şöyle: (ör. repo için)&lt;/p&gt;
 
 &lt;p&gt;  #github-badge {
     width: 450px !important;
@@ -4438,14 +4427,6 @@ css ayarlarım (&amp;ldquo;&lt;code&gt;local.css&lt;/code&gt;&quot;de) şöyle: 
     margin-left: 25em !important;
     margin-right: 1em !important;
   }&lt;/p&gt;
-
-&lt;p&gt;http://github.com/github-badge ile yapdığım çalışmalara örnekler ise :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://gdemir.github.io/github-badge&quot;&gt;http://gdemir.github.io/github-badge&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://gdemir.github.io/19badge&quot;&gt;http://gdemir.github.io/19badge&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 
 &lt;p&gt;çalışan kod ise şöyledir :&lt;/p&gt;
 
@@ -4460,7 +4441,7 @@ css ayarlarım (&amp;ldquo;&lt;code&gt;local.css&lt;/code&gt;&quot;de) şöyle: 
 &lt;/script&gt;
 
 
-&lt;p&gt;&lt;script src=&quot;http://gdemir.github.io/github-badge/github-badge-repo.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;script src=&quot;https://gdemir.github.io/github-badge/github-badge-repo.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/p&gt;
 </content>
   </entry>
   
@@ -4635,7 +4616,7 @@ patch -p0 &amp;lt; surum1.patch
 
 &lt;p&gt;tarayıcı da &lt;code&gt;localhost/test.php&lt;/code&gt; diyerek, bizi aşagıdaki gibi bir ekran karşılaması gerek:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.com/file/phpinfo.png&quot; alt=&quot;phpinfo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/phpinfo.png&quot; alt=&quot;phpinfo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Buraya kadar her şey tamam!&lt;/p&gt;
 </content>
@@ -4646,9 +4627,9 @@ patch -p0 &amp;lt; surum1.patch
     <link href="https://gdemir.github.io/categories/linux/tmux/"/>
     <updated>2010-10-24T00:00:00+00:00</updated>
     <id>/categories/linux/tmux</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://gdemir.github.com/907/screen&quot;&gt;screen&lt;/a&gt;&amp;lsquo;in biraz daha gelişmiş bir programdır. Tmux&#39;ın kullanımı &lt;a href=&quot;http://gdemir.github.io/907/screen&quot;&gt;screen&lt;/a&gt; ile aynıdır. Tmux öncesi shell görüntümüzün şöyle olduğunu düşünelim :&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;code&gt;screen&lt;/code&gt;in biraz daha gelişmiş bir programdır. Tmux&#39;ın kullanımı Screen ile aynıdır. Tmux öncesi shell görüntümüzün şöyle olduğunu düşünelim :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.com/file/terminal-normal.png&quot; alt=&quot;terminal-normal&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/terminal-normal.png&quot; alt=&quot;terminal-normal&quot; /&gt;&lt;/p&gt;
 
 &lt;h4&gt;Kurulum&lt;/h4&gt;
 
@@ -4661,7 +4642,7 @@ patch -p0 &amp;lt; surum1.patch
 
 &lt;p&gt;Tmux&#39;da daha geniş bilgi görmek ve renklendirmek için ayar dosyalarını &lt;strong&gt;ev dizinine&lt;/strong&gt; indiriyoruz :&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;wget http://gdemir.github.io/file/tmux.zip
+&lt;pre&gt;&lt;code&gt;wget https://gdemir.github.io/file/tmux.zip
 unzip tmux.zip
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -4675,19 +4656,19 @@ unzip tmux.zip
 &lt;pre&gt;&lt;code&gt;ln -s /etc/tmux/rc/default ~/.tmux.conf
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;konsolu her açtığımızda tmux&#39;ın çalışması için &lt;a href=&quot;http://gdemir.github.io/910/vim-giris&quot;&gt;vim&lt;/a&gt; ile &lt;code&gt;.bashrc&lt;/code&gt;yi açıyoruz :&lt;/p&gt;
+&lt;p&gt;konsolu her açtığımızda tmux&#39;ın çalışması için Vim ile &lt;code&gt;.bashrc&lt;/code&gt;yi açıyoruz :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;    vim ~/.bashrc
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;en alt satıra aşağıdaki &lt;a href=&quot;http://gdemir.github.io/910/io-yonlendirme&quot;&gt;yönlendirmeyi&lt;/a&gt; ekliyoruz.&lt;/p&gt;
+&lt;p&gt;en alt satıra aşağıdaki yönlendirmeyi ekliyoruz.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;tmux 2&amp;gt;/dev/null 1&amp;gt;&amp;amp;2
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Terminal&#39;i tekrar başlatıyoruz ve bizi böyle bir ekran karşılıyor.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.com/file/terminal-tmux.png&quot; alt=&quot;terminal-tmux&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/terminal-tmux.png&quot; alt=&quot;terminal-tmux&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;thats all!&lt;/p&gt;
 </content>
@@ -4787,7 +4768,7 @@ nginx&#39;i tekrar başlatalım:&lt;/p&gt;
 
 &lt;p&gt;burdaki&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;wget http://gdemir.github.io/file/nginx-ayar
+&lt;pre&gt;&lt;code&gt;wget https://gdemir.github.io/file/nginx-ayar
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;dosyasını indirip aşağıdaki komutla default dosyasına ayar bilgilerimizi yüklüyelim:&lt;/p&gt;
@@ -4844,7 +4825,7 @@ nginx&#39;i tekrar başlatalım:&lt;/p&gt;
 
 &lt;p&gt;tarayıcı da &lt;code&gt;localhost/test.php&lt;/code&gt; diyerek, bizi aşagıdaki gibi bir ekran karşılaması gerek:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.io/file/phpinfo.png&quot; alt=&quot;phpinfo&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/phpinfo.png&quot; alt=&quot;phpinfo&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;bu kadar her şey tamam!&lt;/p&gt;
 </content>
@@ -4965,7 +4946,7 @@ nginx&#39;i tekrar başlatalım:&lt;/p&gt;
 - git pu = git push&lt;br/&gt;
 - git st = git status&lt;br/&gt;
 - git up = git pull&lt;br/&gt;
-yerine kullanabiliriz. Bunu için &lt;a href=&quot;http://gdemir.github.com/file/github-ayar&quot;&gt;github-ayar&lt;/a&gt; dosyasını ev dizinine indirin.&lt;/p&gt;
+yerine kullanabiliriz. Bunu için &lt;a href=&quot;/file/github-ayar&quot;&gt;github-ayar&lt;/a&gt; dosyasını ev dizinine indirin.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;mv ~/github-ayar ~/.gitconfig
 &lt;/code&gt;&lt;/pre&gt;
@@ -4995,9 +4976,9 @@ yerine kullanabiliriz. Bunu için &lt;a href=&quot;http://gdemir.github.com/file
 
 &lt;p&gt;&lt;code&gt;sudo mc&lt;/code&gt; diyerek başlatıyoruz. Açılınca 2 ekran bizi karşılıyor. İşlemleri birinden diğerine yapcak şekilde gerçekleştiriyoruz.&lt;/p&gt;
 
-&lt;p&gt;(Ör. koplayalama, taşıma vs.)&lt;/p&gt;
+&lt;p&gt;(Ör. kopyalama, taşıma vs.)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.com/file/mc.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/mc.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
 &lt;h4&gt;Kullanım&lt;/h4&gt;
 
@@ -5023,7 +5004,7 @@ yerine kullanabiliriz. Bunu için &lt;a href=&quot;http://gdemir.github.com/file
 
 &lt;p&gt;&lt;code&gt;Lynx like montion(Lynx benzeri hareket)&lt;/code&gt;&amp;lsquo;i aktif yapıyoruz.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.com/file/mc-ayar.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/mc-ayar.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;lt;&lt;code&gt;kaydet(save)&lt;/code&gt;&amp;gt; diyerek çıkıyoruz.&lt;/p&gt;
 </content>
@@ -5224,8 +5205,7 @@ başka yerlere yönlendirerek,  işleyişini incelemek isteriz.&lt;br/&gt;
     <link href="https://gdemir.github.io/categories/linux/scp/"/>
     <updated>2010-10-05T00:00:00+00:00</updated>
     <id>/categories/linux/scp</id>
-    <content type="html">&lt;p&gt;Scp bir ağdaki 2  bilgisayar arasında dosya, dizin transfer etmemize yarar.&lt;br/&gt;
-Bu işlem &lt;a href=&quot;http://gdemir.github.io/907/ssh-kimlik-tasi&quot;&gt;ssh&lt;/a&gt; ile yapıldıgından, şifreli ve güvenlidir. Scp&#39;in kullanımı basit ve kısadır, ama yine de unutulabiliyor ben genelde unutuyorum :-)&lt;/p&gt;
+    <content type="html">&lt;p&gt;Scp bir ağdaki 2  bilgisayar arasında dosya, dizin transfer etmemize yarar. Bu işlem SSH ile yapıldıgından, şifreli ve güvenlidir. Scp&#39;in kullanımı basit ve kısadır, ama yine de unutulabiliyor ben genelde unutuyorum :-)&lt;/p&gt;
 
 &lt;p&gt;Scp, cp komutu gibi çalışır&lt;/p&gt;
 
@@ -5253,15 +5233,13 @@ Bu işlem &lt;a href=&quot;http://gdemir.github.io/907/ssh-kimlik-tasi&quot;&gt;
     <id>/categories/linux/gimp-yansima</id>
     <content type="html">&lt;p&gt;Gimp, GNU dünyasının bize armağan ettiği bir resim düzenleme programıdır. Videoyu izleyerek sizde yazılara yansıma yapabilirsiniz.&lt;/p&gt;
 
-&lt;p&gt;İzlemek için &lt;a href=&quot;https://gdemir.github.com/file/gimp-yansima.gif&quot;&gt;tıklayınız.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;İzlemek için &lt;a href=&quot;/file/gimp-yansima.gif&quot;&gt;tıklayınız.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Çalışmanın bitmiş hali&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://gdemir.github.com/file/gdemir.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/file/gdemir.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Daha da ileri, bitmiş bir çalışma için &lt;a href=&quot;https://gdemir.github.com/file/flash.png&quot;&gt;tıklayınız.&lt;/a&gt;
-Daha da ileri, bitmiş bir çalışma için &lt;a href=&quot;/file/flash.png&quot;&gt;tıklayınız.&lt;/a&gt;
-Daha da ileri, bitmiş bir çalışma için &lt;a href=&quot;file/flash.png&quot;&gt;tıklayınız.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Daha da ileri, bitmiş bir çalışma için &lt;a href=&quot;/file/flash.png&quot;&gt;tıklayınız.&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4&gt;Kurulum&lt;/h4&gt;
 

@@ -7,7 +7,7 @@ tags: editor textmate gmate
 
 Bu paket `gedit`i, `textmate` benzeri hale getirmek için ufak eklentileri içerir.
 
-![gmate](http://gdemir.github.io/file/gmate.png)
+![gmate](/file/gmate.png)
 
 Konsol üzerinden Gmate editörünü kurmak için aşağıdaki komutlar yeterlidir.
 

@@ -13,7 +13,7 @@ Wordpress indirmek için aşağıdaki linkten istediğimiz versiyonları seçiyo
 
 ### Wordpress için MySQL kullanıcı ve şifre yaratma
 
-Veritabanını daha önceden kurduğumuz MySQL üzerinden yaratacağız. (Bz.: [mysql-giris](http://gdemir.github.io/categories/linux/mysql-giris/) MySQL girişi için
+Veritabanını daha önceden kurduğumuz MySQL üzerinden yaratacağız. MySQL girişi için
 
 	mysql -u root -p
 
@@ -101,7 +101,7 @@ Dosya içerisini aşağıdaki dosyayı yapıştıralım:
 
 veya aşağıdaki satırdan indirebilirsiniz:
 
-		wget http://gdemir.github.io/file/nginx-wordpress
+		wget https://gdemir.github.io/file/nginx-wordpress
 
 Ayarlar mevcut(`available`) olmasına rağmen henüz sitemiz nginx sunucusunda aktif(`enabled`) olarak gözükmüyor. Bunun için aşağıdaki kodu çalıştıralım:
 
@@ -120,6 +120,5 @@ Son olarak servisleri tekrar başlatalım:
 		sudo service nginx restart
 
 #### Kaynak
----
 
 - [https://huse.in/123/wordpress-kurulumu](https://huse.in/123/wordpress-kurulumu)

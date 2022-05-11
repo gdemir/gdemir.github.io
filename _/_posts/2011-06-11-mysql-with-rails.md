@@ -5,7 +5,7 @@ category: rails
 tags: mysql
 ---
 
-Normal RoR [kurulumundan](http://gdemir.github.io/106/rails-giris) farklı olarak kurarken
+Normal RoR kurulumundan farklı olarak kurarken
 
 	rails new my_app -d mysql
 
@@ -15,7 +15,7 @@ Ek olarak `mysql` gemini kurmak gerekiyor :
 
 	sudo gem install mysql2 # mysql2 kuruyoruz
 
-[default](http://gdemir.github.io/106/rails-giris8) rails kurulumunu yaptıysanız versiyon `0.2.6`'yı kurun:
+Varsayılan rails kurulumunu yaptıysanız versiyon `0.2.6`'yı kurun:
 
 	sudo gem install mysql2 -v 0.2.11
 

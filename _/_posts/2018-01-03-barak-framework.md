@@ -35,13 +35,13 @@ PHP MVC tabanlı Barak Framework 3 yayımlandı.
 
 - Configuration
 
-> Linux, Apache, MySQL, Php Installation : [LAMP](http://gdemir.github.io/categories/linux/lamp/)
+> Linux, Apache, MySQL, Php Installation : [LAMP](/categories/linux/lamp/)
 
-> Linux, Nginx, MySQL, Php Installation : [LEMP](http://gdemir.github.io/categories/linux/lemp/)
+> Linux, Nginx, MySQL, Php Installation : [LEMP](/categories/linux/lemp/)
 
 > Web Server Settings : [apache2-settings](https://github.com/barak-framework/barak/blob/master/.htaccess.sample) or [nginx-settings](https://github.com/barak-framework/barak/blob/master/nginx.config.sample) or [iss-settings](https://github.com/barak-framework/barak/blob/master/web.config.sample)
 
-> Package Mananger Installation : [composer-installation](http://gdemir.github.io/categories/php/composer/)
+> Package Mananger Installation : [composer-installation](/categories/php/composer/)
 
 ## Install
 

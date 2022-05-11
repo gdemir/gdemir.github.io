@@ -45,17 +45,17 @@ ekliyerek kaydetiyoruz. Buraya kadar her şey tamam, artık [https://packagist.o
 Paket gönderimini yapmadan önce ilgili projenizin ana dizin içerisinde `composer.json` dosyası eklenmiş olması gerekmektedir. Burada örnek verecek olursak,
 
     {
-        "name": "gdemir/barak",
+        "name": "barak-framework/barak",
         "type": "project",
-        "description": "Barak MVC Framework",
+        "description": "Barak Framework",
         "keywords": ["barak", "turkmen", "framework"],
-        "homepage": "https://github.com/gdemir/barak",
+        "homepage": "https://github.com/barak-framework",
         "license": "MIT",
         "authors": [
             {
                 "name": "Gökhan DEMİR",
-                "email": "mail@gdemir.me",
-                "homepage": "http://gdemir.me",
+                "email": "gdemir3327@gmail.com",
+                "homepage": "https://gdemir.github.io",
                 "role": "Developer"
             }
         ],
@@ -65,14 +65,13 @@ Paket gönderimini yapmadan önce ilgili projenizin ana dizin içerisinde `compo
         }
     }
 
-şeklinde bir `composer.json` tanımlayabilirsiniz. Daha fazla detay için [https://getcomposer.org/doc/04-schema.md](https://getcomposer.org/doc/04-schema.md) sayfasına bakabilirsiniz. Ana dizinimizde artık `composer.json` dosyası olduğundan dolayı artık projeyi senkronize için gönderebiliriz. Göndermek için projenizin bulunduğu Bitbucket veya GitHub url linkini (`https://github.com/gdemir/barak` gibi) [https://packagist.org/packages/submit](https://packagist.org/packages/submit) linkindeki ilgili yere check yapmanız yeterlidir. Eğer check sonrası henüz bir sonuç yoksa 1 gün sonra tekrar deneyin API bilgilerinin senkronize sağlaması geç sürebilir. 
+şeklinde bir `composer.json` tanımlayabilirsiniz. Daha fazla detay için [https://getcomposer.org/doc/04-schema.md](https://getcomposer.org/doc/04-schema.md) sayfasına bakabilirsiniz. Ana dizinimizde artık `composer.json` dosyası olduğundan dolayı artık projeyi senkronize için gönderebiliriz. Göndermek için projenizin bulunduğu Bitbucket veya GitHub url linkini (`https://github.com/barak-framework/barak` gibi) [https://packagist.org/packages/submit](https://packagist.org/packages/submit) linkindeki ilgili yere check yapmanız yeterlidir. Eğer check sonrası henüz bir sonuç yoksa 1 gün sonra tekrar deneyin API bilgilerinin senkronize sağlaması geç sürebilir. 
 
 ### Örnek 
 
-- [gdemir/barak](https://packagist.org/packages/gdemir/barak)
+- [barak-framework/barak](https://packagist.org/packages/barak-framework/barak)
 
-#### Kaynak
----
+### Kaynak
 
 - [https://packagist.org](https://packagist.org)
 

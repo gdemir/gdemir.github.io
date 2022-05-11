@@ -7,21 +7,21 @@ tags: virtualbox
 
 Bilgisayarınızdaki bir sanal makinayı, ana makina ile ağ kurmasını sağlamak istiyorsanız şu adımları izleyin :
 
-- hangi sanal makina'da bu ayarı uygulayacaksanız, o **sanal makineyi** seçiyoruz :
+- Hangi sanal makina'da bu ayarı uygulayacaksanız, o **sanal makineyi** seçiyoruz :
 
-![virtualboxs](http://gdemir.github.io/file/vb.png)
+![virtualboxs](/file/vb.png)
 
-- virtualbox'ın üstteki menüsünden **ayarlar** kısmını seçiyoruz :
+- Virtualbox'ın üstteki menüsünden **ayarlar** kısmını seçiyoruz :
 
-![menu](http://gdemir.github.io/file/vb-menu.png)
+![menu](/file/vb-menu.png)
 
-- ayarlarda çıkan menüden, **ağ** bölümünü seçiyoruz :
+- Ayarlarda çıkan menüden, **ağ** bölümünü seçiyoruz :
 
-![ag](http://gdemir.github.io/file/vb-ag.png)
+![ag](/file/vb-ag.png)
 
-- bağdastırıcı-1 de sanal bağdaştırıcının ana bilgisayara bağlanma tipini **bridged adapter** olarak seçiyoruz : (ana makina gibi 192.168.x.x gibi bir ip alsın diye) ve internete çıkarmak için ana bilgisayar net'e nasıl bağlı ise o bağlanma ismini seçin : (ör. eth0, wlan0, usb0)
+- Bağdastırıcı-1 de sanal bağdaştırıcının ana bilgisayara bağlanma tipini **bridged adapter** olarak seçiyoruz : (ana makina gibi 192.168.x.x gibi bir ip alsın diye) ve internete çıkarmak için ana bilgisayar net'e nasıl bağlı ise o bağlanma ismini seçin : (ör. eth0, wlan0, usb0)
 
-![bagdas-1](http://gdemir.github.io/file/vb-bagdas1.png)
+![bagdas-1](/file/vb-bagdas1.png)
 
 Ayrıca ek bilgi olarak, bilgisayarınıza veya sanal makinanıza seçtiginiz bir ip'yi atamak istiyorsanız.
 

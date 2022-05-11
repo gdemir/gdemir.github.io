@@ -15,7 +15,7 @@ Herzaman github ile uğraşıyorsak bazı kısayollara ihtiyacımız var;
 - git pu = git push  
 - git st = git status  
 - git up = git pull  
-yerine kullanabiliriz. Bunu için [github-ayar](http://gdemir.github.com/file/github-ayar) dosyasını ev dizinine indirin.  
+yerine kullanabiliriz. Bunu için [github-ayar](/file/github-ayar) dosyasını ev dizinine indirin.  
 
 	mv ~/github-ayar ~/.gitconfig
 

@@ -203,7 +203,7 @@
 
 <h4>Git Push Hatası</h4>
 
-<p><code>GitHub</code>a <a href="http://github.com/gdemir/cv-creator">cv-creator</a> dizinime push ederken bir kesinti oldu ve bilgisayar kapandı. Tekrardan açtığımda yarıda kalan <code>git push</code> komutunun çalışmadığını gördüm</p>
+<p><code>GitHub</code>a cv-creator dizinime push ederken bir kesinti oldu ve bilgisayar kapandı. Tekrardan açtığımda yarıda kalan <code>git push</code> komutunun çalışmadığını gördüm</p>
 
 <pre><code>gdemir@hummer:~/workspace/cv-creator$ git push
 error: object file .git/objects/3a/648d4feca2e03cdcfdbe70f150fd4dab1b8697 is empty
@@ -220,7 +220,7 @@ fatal: loose object 3a648d4feca2e03cdcfdbe70f150fd4dab1b8697 (stored in .git/obj
 <p>hata veren <code>commit id</code>sini bulalım</p>
 
 <pre><code>gdemir@hummer:~/workspace/cv-creator$ tail -n 2 .git/logs/refs/heads/master
-0000000000000000000000000000000000000000 0346e42c8b49cb07d31dbbd8b2322b995fb02baf gdemir &lt;mail@gdemir.me&gt; 1429775482 +0300  clone: from git@github.com:gdemir/cv-creator.git
+0000000000000000000000000000000000000000 0346e42c8b49cb07d31dbbd8b2322b995fb02baf gdemir &lt;gdemir3327@gmail.com&gt; 1429775482 +0300    clone: from git@github.com:gdemir/cv-creator.git
 </code></pre>
 
 <p><code>git push</code> hatası aldığımız <code>commit id</code>si <code>0346e42c8b49cb07d31dbbd8b2322b995fb02baf</code> olan dosya değişimlerini görüntüleyelim</p>
@@ -238,10 +238,10 @@ index 7a12c39..85cfb48 100644
 +++ b/_config.yml
 @@ -12,7 +12,7 @@ personal:
    account: gdemir
-   domain: gdemir.me
-   site: http://gdemir.me
--  email: gdemir@bil.omu.edu.tr
-+  email: mail@gdemir.me
+   domain: gdemir.github.io
+   site: https://gdemir.github.io
+-  email: mail@gdemir.me
++  email: gdemir3327@gmail.com
    photo: default.png
    phone: +90(541) 3936946
    birthday: 12.01.1990
@@ -321,9 +321,12 @@ To git@github.com:gdemir/cv-creator.git
    0346e42..09a7b83  master -&gt; master
 </code></pre>
 
-<h4>Kaynak</h4>
+<h3>Kaynaklar</h3>
 
-<p><a href="http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty?answertab=votes#tab-top">how to fix GIT error: object file is empty?</a></p>
+<ul>
+<li><a href="http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty?answertab=votes#tab-top">how to fix GIT error: object file is empty?</a></li>
+</ul>
+
 
 
 <!-- Related start -->
@@ -1457,6 +1460,20 @@ To git@github.com:gdemir/cv-creator.git
       
     
       
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+        
+          
+        
+        
       
         
         

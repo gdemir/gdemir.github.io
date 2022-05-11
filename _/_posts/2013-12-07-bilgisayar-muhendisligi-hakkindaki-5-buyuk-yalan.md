@@ -52,7 +52,7 @@ Maaşlara gelince artık kamuda ücretler özel sektörün ortalamasının üst�
 
 Siz devlette mühendisi masa başında çürümeye yüz tutmuş, örümcek ağlarılarıyla çevri boş boş masada oturan biri olarak algılıyorsunuz sanırım. :-) sizin o olduğunuz gibi kaldınığı zannettiğiniz adamlar haftasonları paint ball ve kayak sporlarıyla uğraştıkları internette bunlar için grup kurduklarının bile farkında değilsiniz. Ben devlete giripte durumu kötü olan mühendis görmedim ama özel sektörde 50 sine gelip hiç bir altı olmayan tonla adam gördüm. Piyasada köle gibi çalıştırılan kapitalist sistem varken hala bu devirde devllette çalışanı küçük görmek sadece kıskançlıktır. Bu arada devlette mühendis sadece memur ya da sözleşmeli personel değil, işçi olarakta çalışabilir, botaşta türpraşta çalışan mühendislerin ücretleri ve primlerle şartlarınıda özeli seven arkadaşlar araştırsın. Naçizane olarak 5 yıllık devlette çalışan başmühendisin bir evi ve arabası şu an mevcut olabileceği gibi, mayıs ayında Doğu Karadeniz turu ve ağustos ayında ise Kuzey Amerika turunu katılabileceğini, üstelik bu ücretlerde liste fiyatların %40 indirimle katılacağını, çünkü kamu personeline indirim yapar tatil turları anladınız mı benim güzellerim? Yılbaşında takvimi alarak tatil planı yapmak ne kadar güzel bir duygudur bir bilseniz.
 
-**Kaynaklar:**
+### Kaynaklar
 
 - [Devlette Mühendis Olmak](http://friendfeed.com/bilgisayarmuhendisleri/92549dbe/devlette-muhendis-olmak-hakknda)
 
@@ -67,7 +67,3 @@ Emniyet Genel Müdürlüklerinde çalışan Bilgisayar Mühendisleri mi dersin, 
 #### 5. Türkiye'de Bilgisayar Mühendisliği Çok İyi
 
 Türkiye'de her yıl mühendislik fakültelerinden binlerce insan mezun oluyor. Bu dallardan biri de Bilgisayar Mühendisliği. Bilişim sektöründe her özel kurumda çok küçük rakamlarda (1000 tl gibi) Bilgisayar Mühendisleri çalıştırılmakta olup modern kölelik durumunda olmamız üzücü bir durumdur. Ayrıca çoğu özel bilişim şirketlerinde bilişim fakültelerinden mezun olmayan yüzlerce kişi/kişiler bu işlerden para kazanmaktadır. Bizim Bilgisayar Mühendisliği bölümümüzün diplomasının değeri yoksa internetten öğreniliyorsa “biz neden bu diplomayı alıyoruz?” diye insan kendine soruyor.
-
-**Kaynaklar:**
-
-[Türkiye'de Bilgisayar Mühendisliği](http://gdemir.github.io/categories/genel/turkey-computer-engineering/)

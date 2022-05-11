@@ -6,7 +6,7 @@ tags: git push error
 ---
 
 #### Git Push Hatası
-`GitHub`a [cv-creator](http://github.com/gdemir/cv-creator) dizinime push ederken bir kesinti oldu ve bilgisayar kapandı. Tekrardan açtığımda yarıda kalan `git push` komutunun çalışmadığını gördüm
+`GitHub`a cv-creator dizinime push ederken bir kesinti oldu ve bilgisayar kapandı. Tekrardan açtığımda yarıda kalan `git push` komutunun çalışmadığını gördüm
 
 	gdemir@hummer:~/workspace/cv-creator$ git push
 	error: object file .git/objects/3a/648d4feca2e03cdcfdbe70f150fd4dab1b8697 is empty
@@ -21,7 +21,7 @@ ne olur, ne olmaz `.git` dizinimizi kopyalayalım
 hata veren `commit id`sini bulalım
 
 	gdemir@hummer:~/workspace/cv-creator$ tail -n 2 .git/logs/refs/heads/master
-	0000000000000000000000000000000000000000 0346e42c8b49cb07d31dbbd8b2322b995fb02baf gdemir <mail@gdemir.me> 1429775482 +0300	clone: from git@github.com:gdemir/cv-creator.git
+	0000000000000000000000000000000000000000 0346e42c8b49cb07d31dbbd8b2322b995fb02baf gdemir <gdemir3327@gmail.com> 1429775482 +0300	clone: from git@github.com:gdemir/cv-creator.git
 
 `git push` hatası aldığımız `commit id`si `0346e42c8b49cb07d31dbbd8b2322b995fb02baf` olan dosya değişimlerini görüntüleyelim
 
@@ -38,10 +38,10 @@ hata veren `commit id`sini bulalım
 	+++ b/_config.yml
 	@@ -12,7 +12,7 @@ personal:
 	   account: gdemir
-	   domain: gdemir.me
-	   site: http://gdemir.me
-	-  email: gdemir@bil.omu.edu.tr
-	+  email: mail@gdemir.me
+	   domain: gdemir.github.io
+	   site: https://gdemir.github.io
+	-  email: mail@gdemir.me
+	+  email: gdemir3327@gmail.com
 	   photo: default.png
 	   phone: +90(541) 3936946
 	   birthday: 12.01.1990
@@ -112,6 +112,6 @@ sıkıntımız olmadığına göre `.git-old` dizinimizi siliyoruz
 	To git@github.com:gdemir/cv-creator.git
 	   0346e42..09a7b83  master -> master
 
-#### Kaynak
+### Kaynaklar
 
-[how to fix GIT error: object file is empty?](http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty?answertab=votes#tab-top)
+- [how to fix GIT error: object file is empty?](http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty?answertab=votes#tab-top)

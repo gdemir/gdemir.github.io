@@ -8,7 +8,7 @@ tags: prawn pdf
 
 Rails'de Pdf çıktıları için prawn gemi
 
-![prawn](http://gdemir.github.io/file/prawn.png)
+![prawn](/file/prawn.png)
 
 site : [http://prawn.majesticseacreature.com/](http://prawn.majesticseacreature.com/)
 

@@ -5,11 +5,8 @@ category: github
 tags: badge
 ---
 
-GitHubdaki projelerinizin, gistlerinizin, grup üyelerinizin, grup görevlerinizin  
-ufak görüntüsünü sayfanıza eklemek için öncelikle gerekli github-badge türlerinden  
-birini [http://github.com/gdemir/github-badge](http://github.com/gdemir/github-badge)  
-sayfasından seçip, sitenize eklemeniz yeterli  
-ör. gdemir adlı kişinin repolarını görmek için aşağıdaki js kodu :  
+GitHubdaki projelerinizin, gistlerinizin, grup üyelerinizin, grup görevlerinizin   ufak görüntüsünü sayfanıza eklemek için öncelikle gerekli github-badge türlerinden  
+birini [http://github.com/gdemir/github-badge](https://github.com/gdemir/github-badge) sayfasından seçip, sitenize eklemeniz yeterli ör. gdemir adlı kişinin repolarını görmek için aşağıdaki js kodu :  
 
 
   <div id="github-badge"></div>
@@ -19,7 +16,7 @@ sayfasından seçip, sitenize eklemeniz yeterli
           GITHUB_TITLE = "Projelerim"
           GITHUB_SHOW_ALL = "Hepsini Göster"
   </script>
-  <script src="http://gdemir.github.io/github-badge/github-badge-repo.js" type="text/javascript">
+  <script src="https://gdemir.github.io/github-badge/github-badge-repo.js" type="text/javascript">
   </script>
 
 
@@ -35,14 +32,13 @@ sayfasından seçip, sitenize eklemeniz yeterli
           GITHUB_TITLE = "Projelerim"
           GITHUB_SHOW_ALL = "Hepsini Göster"
   </script>
-  <script src="http://gdemir.github.io/github-badge/github-badge-repo.js" type="text/javascript">
+  <script src="https://gdemir.github.io/github-badge/github-badge-repo.js" type="text/javascript">
   </script>
   </body>
   </html>
 
 
-github-badge'nin yerini değiştirmek için css ile oynanabilir, benim sitem'deki
-css ayarlarım ("`local.css`"de) şöyle: (ör. repo için)
+github-badge'nin yerini değiştirmek için css ile oynanabilir, benim sitem'deki css ayarlarım ("`local.css`"de) şöyle: (ör. repo için)
 
 
   #github-badge {
@@ -55,12 +51,6 @@ css ayarlarım ("`local.css`"de) şöyle: (ör. repo için)
   }
 
 
-http://github.com/github-badge ile yapdığım çalışmalara örnekler ise :
-
-- [http://gdemir.github.io/github-badge](http://gdemir.github.io/github-badge)
-
-- [http://gdemir.github.io/19badge](http://gdemir.github.io/19badge)
-
 çalışan kod ise şöyledir :
 
 
@@ -71,5 +61,4 @@ http://github.com/github-badge ile yapdığım çalışmalara örnekler ise :
 	GITHUB_TITLE = "Projelerim";
 	GITHUB_SHOW_ALL = "Hepsini Göster";
 </script>
-<script src="http://gdemir.github.io/github-badge/github-badge-repo.js" type="text/javascript">
-
+<script src="https://gdemir.github.io/github-badge/github-badge-repo.js" type="text/javascript">

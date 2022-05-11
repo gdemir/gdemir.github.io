@@ -2,7 +2,7 @@
 layout: post
 title: Fontawesome Nav Up Down
 category: fontawesome
-tags: [nav_up_down, scroll]
+tags: nav_up_down scroll
 ---
 
 #### Html & Script
@@ -33,8 +33,8 @@ tags: [nav_up_down, scroll]
 	</script>
 	<!-- nav-up-down -->
 
-#### Kaynak
+### Kaynak
 
 - [fontawesome.io](http://fontawesome.io/)
 
-- [scroll-startstop.events.jquery.js](http://gdemir.github.io/assets/js/scroll-startstop.events.jquery.js)
+- [scroll-startstop.events.jquery.js](/assets/js/scroll-startstop.events.jquery.js)

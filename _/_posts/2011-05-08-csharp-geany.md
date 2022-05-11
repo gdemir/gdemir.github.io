@@ -7,7 +7,7 @@ tags: editor geany csharp
 
 Geanyde .cs uzantılı bir dosya açıyoruz ve geany'nin üstteki seçeneklerden  `İnşa Et > Dahili Seçenekleri ve Argümanları Ayarla` kısmına giriyoruz. Resimdeki gibi 
 
-![csharp-in-geany](http://gdemir.github.io/file/csharp-in-geany.png)
+![csharp-in-geany](/file/csharp-in-geany.png)
 
 Derle kısmına :
 

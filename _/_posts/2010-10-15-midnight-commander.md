@@ -13,9 +13,9 @@ Konsol ile arayüz arası bir editördür, verdiği imkan ve hız ile en iyi kon
 
 `sudo mc` diyerek başlatıyoruz. Açılınca 2 ekran bizi karşılıyor. İşlemleri birinden diğerine yapcak şekilde gerçekleştiriyoruz.
 
-(Ör. koplayalama, taşıma vs.)
+(Ör. kopyalama, taşıma vs.)
 
-![1](http://gdemir.github.com/file/mc.png)
+![1](/file/mc.png)
 
 #### Kullanım
 
@@ -41,6 +41,6 @@ Buradan;
 
 `Lynx like montion(Lynx benzeri hareket)`'i aktif yapıyoruz.
 
-![2](http://gdemir.github.com/file/mc-ayar.png)
+![2](/file/mc-ayar.png)
 
 &lt;`kaydet(save)`&gt; diyerek çıkıyoruz.
