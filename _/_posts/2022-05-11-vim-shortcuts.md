@@ -2,7 +2,7 @@
 layout: post
 title: Vim Kısayolları
 category: linux
-tags: vim
+tags: editor vim
 ---
 
 | KOMUTLAR | AÇIKLAMA |

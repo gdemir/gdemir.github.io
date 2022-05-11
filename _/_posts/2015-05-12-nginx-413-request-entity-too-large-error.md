@@ -9,6 +9,6 @@ Resim yüklerken çok yüksek `MB`lı resimlerde bu hatayı alıyordum. Sorunun 
 
 	client_max_body_size    100m;
 
-#### Kaynak
+### Kaynaklar
 
-[413 Reuqest Entity Too Large](http://makaleci.com/nginx-upload-limiti-sorununa-cozum-413-request-entity-too-large.html)
+- [413 Reuqest Entity Too Large](http://makaleci.com/nginx-upload-limiti-sorununa-cozum-413-request-entity-too-large.html)

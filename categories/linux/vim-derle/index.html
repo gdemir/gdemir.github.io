@@ -194,28 +194,26 @@
 </div>
 <hr>
 
-<p><a href="http://gdemir.github.io/category/linux/vim">Vim</a> için adımları izleyin</p>
+<h3><code>SingleCompile</code> Eklentisini İndir</h3>
 
-<ul>
-<li><p>SingleCompile eklentisini indir:</p>
+<pre><code>   wget -O SingleCompile.zip 'http://www.vim.org/scripts/download_script.php?src_id=14010'
+</code></pre>
 
-<pre><code>wget -O SingleCompile.zip 'http://www.vim.org/scripts/download_script.php?src_id=14010'
-</code></pre></li>
-<li><p>kur:</p>
+<h3>Eklentiyi Kur</h3>
 
-<pre><code>sudo apt-get install unzip # unzip olmalı
-unzip -d ~/.vim SingleCompile.zip
-</code></pre></li>
-<li><p>~/.vimrc'ye şu ayarları ekle:</p>
+<pre><code>   sudo apt-get install unzip # unzip olmalı
+   unzip -d ~/.vim SingleCompile.zip
+</code></pre>
 
-<pre><code> nmap &lt;f9&gt; :SCCompile&lt;cr&gt;
- nmap &lt;c-f9&gt; :SCCompileRun&lt;cr&gt;
-</code></pre></li>
-</ul>
+<h3>Yapılandırma Ayarlarına Ekle</h3>
 
+<p><code>~/.vimrc</code>ye şu ayarları ekle:</p>
 
-<p><code>f9</code> sadece derler.<br/>
-<code>ctrl-f9</code> derler ve çalıştırır.</p>
+<pre><code>    nmap &lt;f9&gt; :SCCompile&lt;cr&gt;
+    nmap &lt;c-f9&gt; :SCCompileRun&lt;cr&gt;
+</code></pre>
+
+<p><code>F9</code> sadece derler.  <code>CTRL</code> + <code>F9</code> derler ve çalıştırır.</p>
 
 
 <!-- Related start -->
@@ -228,10 +226,6 @@ unzip -d ~/.vim SingleCompile.zip
         
         
           
-        
-        
-        
-          
               <li>
                 <a href="https://gdemir.github.io/categories/linux/vim-shortcuts/">
                   Vim Kısayolları
@@ -240,6 +234,14 @@ unzip -d ~/.vim SingleCompile.zip
               </li>
             
           
+        
+        
+        
+        
+      
+        
+        
+        
         
         
       

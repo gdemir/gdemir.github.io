@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-11T09:32:10+00:00</updated>
+  <updated>2022-05-11T09:52:11+00:00</updated>
   <id></id>
 
   <author>
@@ -3105,9 +3105,12 @@ sudo chmod 644 /var/www/html/.htaccess
 &lt;pre&gt;&lt;code&gt;client_max_body_size    100m;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4&gt;Kaynak&lt;/h4&gt;
+&lt;h3&gt;Kaynaklar&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://makaleci.com/nginx-upload-limiti-sorununa-cozum-413-request-entity-too-large.html&quot;&gt;413 Reuqest Entity Too Large&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://makaleci.com/nginx-upload-limiti-sorununa-cozum-413-request-entity-too-large.html&quot;&gt;413 Reuqest Entity Too Large&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 </content>
   </entry>
   
@@ -4375,16 +4378,16 @@ sudo chattr +ia /etc/resolv.conf
     <link href="https://gdemir.github.io/categories/linux/vim-split/"/>
     <updated>2010-12-25T00:00:00+00:00</updated>
     <id>/categories/linux/vim-split</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://gdemir.github.io/category/linux/vim/&quot;&gt;Vim&lt;/a&gt;de çalışırken, aynı anda 2 sayfaya ihtiyacımız varsa &lt;code&gt;sp&lt;/code&gt; komutu çok işe yarıyor. Yeni bir dosya açmak ya da var olan bir dosyayı açmak için :&lt;/p&gt;
+    <content type="html">&lt;p&gt;Vim editöründe çalışırken, aynı anda 2 sayfaya ihtiyacımız varsa &lt;code&gt;sp&lt;/code&gt; komutu çok işe yarıyor. Yeni bir dosya açmak ya da var olan bir dosyayı açmak için :&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;:sp filename
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;izlemek için &lt;a href=&quot;http://gdemir.github.io/file/vim-sp.gif&quot;&gt;tıklayınız&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;izlemek için &lt;a href=&quot;https://gdemir.github.io/file/vim-sp.gif&quot;&gt;tıklayınız&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;açılan iki pencere arasında git gel yapmak için birkez &lt;code&gt;ctrl + w&lt;/code&gt; basıp gitmek istediğmiz dosyanın yönüne basıyoruz. (yön tuşları) (ör. dosya altta ise; ctrl + w bas, sonra aşağı yön tuşuna bas.)&lt;/p&gt;
+&lt;p&gt;açılan iki pencere arasında git gel yapmak için birkez &lt;code&gt;CTRL&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt; basıp gitmek istediğmiz dosyanın yönüne basıyoruz. (yön tuşları) (Ör. dosya altta ise; &lt;code&gt;CTRL&lt;/code&gt; + &lt;code&gt;W&lt;/code&gt; bas, sonra aşağı yön tuşuna bas.)&lt;/p&gt;
 
-&lt;p&gt;izlemek için &lt;a href=&quot;http://gdemir.github.io/file/vim-sp-ctrl-w.gif&quot;&gt;tıklayınız&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;izlemek için &lt;a href=&quot;https://gdemir.github.io/file/vim-sp-ctrl-w.gif&quot;&gt;tıklayınız&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   
@@ -4854,8 +4857,7 @@ nginx&#39;i tekrar başlatalım:&lt;/p&gt;
     <link href="https://gdemir.github.io/categories/linux/vim-renk/"/>
     <updated>2010-10-20T00:00:00+00:00</updated>
     <id>/categories/linux/vim-renk</id>
-    <content type="html">&lt;p&gt;Ayrıntılı &lt;code&gt;c&lt;/code&gt; sentaks denetimi için (aşağıdaki eklentinin gerektirdiği)&lt;br/&gt;
- splint paketini kur:&lt;/p&gt;
+    <content type="html">&lt;p&gt;Ayrıntılı &lt;code&gt;c&lt;/code&gt; sentaks denetimi için (aşağıdaki eklentinin gerektirdiği) splint paketini kur:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;    sudo apt-get install splint
 &lt;/code&gt;&lt;/pre&gt;
@@ -4878,7 +4880,7 @@ nginx&#39;i tekrar başlatalım:&lt;/p&gt;
     let g:checksyntax_auto_c = 1
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;artık bu noktadan sonra &lt;code&gt;c&lt;/code&gt; dosyasını her kayedettiğinde otomatik olarak söz dizimi denetimi de yapılacak. &lt;a href=&quot;http://gdemir.github.io/910/vim-giris&quot;&gt;vim&lt;/a&gt; kodları derleme ve çalıştırma ayarları için &lt;a href=&quot;http://gdemir.github.io/category/linux/vim-derle&quot;&gt;vim-derle&lt;/a&gt; bölümüne bakınız.&lt;/p&gt;
+&lt;p&gt;artık bu noktadan sonra &lt;code&gt;c&lt;/code&gt; dosyasını her kayedettiğinde otomatik olarak söz dizimi denetimi de yapılacak.&lt;/p&gt;
 </content>
   </entry>
   
@@ -4887,28 +4889,26 @@ nginx&#39;i tekrar başlatalım:&lt;/p&gt;
     <link href="https://gdemir.github.io/categories/linux/vim-derle/"/>
     <updated>2010-10-20T00:00:00+00:00</updated>
     <id>/categories/linux/vim-derle</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;http://gdemir.github.io/category/linux/vim&quot;&gt;Vim&lt;/a&gt; için adımları izleyin&lt;/p&gt;
+    <content type="html">&lt;h3&gt;&lt;code&gt;SingleCompile&lt;/code&gt; Eklentisini İndir&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;SingleCompile eklentisini indir:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;   wget -O SingleCompile.zip &#39;http://www.vim.org/scripts/download_script.php?src_id=14010&#39;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;wget -O SingleCompile.zip &#39;http://www.vim.org/scripts/download_script.php?src_id=14010&#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;kur:&lt;/p&gt;
+&lt;h3&gt;Eklentiyi Kur&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo apt-get install unzip # unzip olmalı
-unzip -d ~/.vim SingleCompile.zip
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;~/.vimrc&#39;ye şu ayarları ekle:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;   sudo apt-get install unzip # unzip olmalı
+   unzip -d ~/.vim SingleCompile.zip
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt; nmap &amp;lt;f9&amp;gt; :SCCompile&amp;lt;cr&amp;gt;
- nmap &amp;lt;c-f9&amp;gt; :SCCompileRun&amp;lt;cr&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3&gt;Yapılandırma Ayarlarına Ekle&lt;/h3&gt;
 
+&lt;p&gt;&lt;code&gt;~/.vimrc&lt;/code&gt;ye şu ayarları ekle:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;f9&lt;/code&gt; sadece derler.&lt;br/&gt;
-&lt;code&gt;ctrl-f9&lt;/code&gt; derler ve çalıştırır.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;    nmap &amp;lt;f9&amp;gt; :SCCompile&amp;lt;cr&amp;gt;
+    nmap &amp;lt;c-f9&amp;gt; :SCCompileRun&amp;lt;cr&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;F9&lt;/code&gt; sadece derler.  &lt;code&gt;CTRL&lt;/code&gt; + &lt;code&gt;F9&lt;/code&gt; derler ve çalıştırır.&lt;/p&gt;
 </content>
   </entry>
   
@@ -5038,13 +5038,13 @@ yerine kullanabiliriz. Bunu için &lt;a href=&quot;http://gdemir.github.com/file
     <id>/categories/linux/vim</id>
     <content type="html">&lt;p&gt;Vim geliştirilmiş bir editördür. Geniş kullanıcı kitlesi olan bir yazılımdır. Vim 3 hana hattan oluşur. Escape, insert, virtual.&lt;/p&gt;
 
-&lt;h3&gt;İnsert(&amp;lt;i&amp;gt;)&lt;/h3&gt;
+&lt;h3&gt;İnsert(&lt;code&gt;i&lt;/code&gt;)&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;Yazma silme işlemlerini kullanacağınız bölümdür,  
 &quot;i&quot; harfine basarak yazma moduna geçer.  
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Virtual(&amp;lt;v&amp;gt;)&lt;/h3&gt;
+&lt;h3&gt;Virtual(&lt;code&gt;v&lt;/code&gt;)&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;Kopyalama , yapıştırma işlemlerinin yapıldıgı bölümdür,  
 &quot;v&quot; harfine basarak kullanılır.  
@@ -5055,7 +5055,7 @@ Bu bölümde ;
     p seçimi yapıştırır.(paste)  
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Escape(&amp;lt;esc&amp;gt;)&lt;/h3&gt;
+&lt;h3&gt;Escape(&lt;code&gt;ESC&lt;/code&gt;)&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;Bu bölüme kök bölümü diyebiliriz, yani insert veya virtualdan  
 tekrar ana bölüme dönmeye yarar, &quot;esc&quot; tuşuna basarak kullanılır.
@@ -5065,8 +5065,6 @@ tekrar ana bölüme dönmeye yarar, &quot;esc&quot; tuşuna basarak kullanılır
 &lt;code&gt;:q&lt;/code&gt;  hiçbirşey yapmadan çıkış yapar.(quit)&lt;br/&gt;
 &lt;code&gt;:wq&lt;/code&gt; dosyada yeni değişiklikleri kaydeterek çıkmaya yarar.(write-quit)&lt;br/&gt;
 &lt;code&gt;:q!&lt;/code&gt; dosyada her ne olmuşsa olsun direkt çıkmaya yarar.(quit!)&lt;/p&gt;
-
-&lt;p&gt;Vimde sürekli kullandığımız ayarlar için &lt;a href=&quot;http://gdemir.github.io/category/linux/vim-vimrc&quot;&gt;.vimrc&lt;/a&gt; bölümüne bakınız.&lt;/p&gt;
 </content>
   </entry>
   
@@ -5075,9 +5073,7 @@ tekrar ana bölüme dönmeye yarar, &quot;esc&quot; tuşuna basarak kullanılır
     <link href="https://gdemir.github.io/categories/linux/vim-vimrc/"/>
     <updated>2010-10-14T00:00:00+00:00</updated>
     <id>/categories/linux/vim-vimrc</id>
-    <content type="html">&lt;p&gt;.vimrc dosyası vim&#39;de herzaman kullanmak istediğimiz özellikleri kullandığımız bir dosyadır.&lt;br/&gt;
-&lt;a href=&quot;http://gdemir.github.io/category/linux/vim&quot;&gt;vim&lt;/a&gt; editöründe kullandığınız özelliklerin herzaman
-aktif olması için konsolu açıyoruz.&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;code&gt;.vimrc&lt;/code&gt; dosyası vim&#39;de herzaman kullanmak istediğimiz özellikleri kullandığımız bir dosyadır. vim editöründe kullandığınız özelliklerin her zaman aktif olması için konsolu açıyoruz.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;  $ cat &amp;gt;~/.wimrc  
   syntax enable  
@@ -5097,8 +5093,7 @@ vimi tekrar açınca özellikler aktif olacaktır.&lt;/p&gt;
 &lt;code&gt;set cindent&lt;/code&gt; c kodları için indentlemeyi otomatik yapar.&lt;br/&gt;
 &lt;code&gt;map &amp;lt;f5&amp;gt; :w\| !ruby % &amp;lt;cr&amp;gt;&lt;/code&gt; f5 basıldıgında ruby kodunu çalıştırır.&lt;br/&gt;
 &lt;code&gt;map &amp;lt;f4&amp;gt; :w\| !python % &amp;lt;cr&amp;gt;&lt;/code&gt; f4 basıldıgında python kodunu çalıştırır.&lt;br/&gt;
-&lt;code&gt;map &amp;lt;f2&amp;gt; :w\| !php % &amp;lt;cr&amp;gt;&lt;/code&gt; f2 basıldıgında php kodunu çalıştırır.&lt;br/&gt;
-tek tuşta bütün kodları derlemek ya da derleyip çalıştırmak için &lt;a href=&quot;http://gdemir.github.io/910/vim-derle&quot;&gt;vim-derle&lt;/a&gt; bölümüne bakınız.&lt;/p&gt;
+&lt;code&gt;map &amp;lt;f2&amp;gt; :w\| !php % &amp;lt;cr&amp;gt;&lt;/code&gt; f2 basıldıgında php kodunu çalıştırır.&lt;/p&gt;
 </content>
   </entry>
   
