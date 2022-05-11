@@ -13,7 +13,7 @@ tags: htaccess mod_rewrite
 
 	sudo service apache2 restart
 
-#### Kaynak
+### Kaynak
 
 - [http://stackoverflow.com/questions/24743674/htaccess-file-not-working-on-ubuntu-14-04-with-apache2](http://stackoverflow.com/questions/24743674/htaccess-file-not-working-on-ubuntu-14-04-with-apache2)
 

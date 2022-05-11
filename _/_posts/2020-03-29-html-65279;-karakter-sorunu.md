@@ -19,8 +19,9 @@ Sorunu düzelmek için aşağıdaki kod çalıştırılır:
 sudo sed -i 's/\xEF\xBB\xBF//g' FILE
 ```
 
-### Kaynaklar
+### Kaynak
 
-- https://stackoverflow.com/questions/9691771/why-is-65279-appearing-in-my-html
+- [https://stackoverflow.com/questions/9691771/why-is-65279-appearing-in-my-html](
+https://stackoverflow.com/questions/9691771/why-is-65279-appearing-in-my-html)
 
-- https://stackoverflow.com/questions/3255993/how-do-i-remove-%C3%AF-from-the-beginning-of-a-file
+- [https://stackoverflow.com/questions/3255993/how-do-i-remove-%C3%AF-from-the-beginning-of-a-file](https://stackoverflow.com/questions/3255993/how-do-i-remove-%C3%AF-from-the-beginning-of-a-file)

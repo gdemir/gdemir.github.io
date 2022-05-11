@@ -119,6 +119,6 @@ Son olarak servisleri tekrar başlatalım:
 
 		sudo service nginx restart
 
-#### Kaynak
+### Kaynak
 
 - [https://huse.in/123/wordpress-kurulumu](https://huse.in/123/wordpress-kurulumu)

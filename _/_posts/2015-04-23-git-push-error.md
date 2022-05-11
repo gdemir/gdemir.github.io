@@ -112,6 +112,6 @@ sıkıntımız olmadığına göre `.git-old` dizinimizi siliyoruz
 	To git@github.com:gdemir/cv-creator.git
 	   0346e42..09a7b83  master -> master
 
-### Kaynaklar
+### Kaynak
 
 - [how to fix GIT error: object file is empty?](http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty?answertab=votes#tab-top)

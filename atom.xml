@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-11T12:42:16+00:00</updated>
+  <updated>2022-05-11T12:55:23+00:00</updated>
   <id></id>
 
   <author>
@@ -27,11 +27,11 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;G&lt;/code&gt; + &lt;code&gt;G&lt;/code&gt; &lt;/td&gt;
-&lt;td&gt; İmleci dosyanın başına getirir. &lt;/td&gt;
+&lt;td&gt; İmleçi dosyanın başına getirir. &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;SHIFT&lt;/code&gt; + &lt;code&gt;G&lt;/code&gt; &lt;/td&gt;
-&lt;td&gt; İmleci dosyanın  sonuna getirir. &lt;/td&gt;
+&lt;td&gt; İmleçi dosyanın  sonuna getirir. &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;i&lt;/code&gt; &lt;/td&gt;
@@ -43,11 +43,11 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;0&lt;/code&gt; &lt;/td&gt;
-&lt;td&gt; İmleci bulunduğu satırın en başına getirir. (Görüntüleme modunda iken) &lt;/td&gt;
+&lt;td&gt; İmleçi bulunduğu satırın en başına getirir. (Görüntüleme modunda iken) &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;$&lt;/code&gt; &lt;/td&gt;
-&lt;td&gt; İmleci bulunduğu satırın sonuna götürür. (Görüntüleme modunda iken) &lt;/td&gt;
+&lt;td&gt; İmleçi bulunduğu satırın sonuna götürür. (Görüntüleme modunda iken) &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;:w&lt;/code&gt; &lt;/td&gt;
@@ -71,11 +71,11 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;SHIFT&lt;/code&gt; + &lt;code&gt;v&lt;/code&gt; &lt;/td&gt;
-&lt;td&gt; İmlecin bulunduğu ilgili satırı seçer. (Aşağı-Yukarı ok tuşlarıyla seçilen satırları genişletebilirsiniz.) &lt;/td&gt;
+&lt;td&gt; İmleçin bulunduğu ilgili satırı seçer. (Aşağı-Yukarı ok tuşlarıyla seçilen satırları genişletebilirsiniz.) &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;y&lt;/code&gt; &lt;/td&gt;
-&lt;td&gt; İmlecin seçtiği satırları kopyalar. &lt;/td&gt;
+&lt;td&gt; İmleçin seçtiği satırları kopyalar. &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;p&lt;/code&gt; &lt;/td&gt;
@@ -91,13 +91,21 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;d&lt;/code&gt; &lt;/td&gt;
-&lt;td&gt; Düzenleme modunda seçilen satırları, görüntüleme modunda da imlecin üstündeki satırı siler. &lt;/td&gt;
+&lt;td&gt; Düzenleme modunda seçilen satırları, görüntüleme modunda da imleçin üstündeki satırı siler. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;/SEARCH&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; Görüntüleme modunda ilgili &lt;strong&gt;SEARCH&lt;/strong&gt; anahtarının değerinin ilk eşleşmesini bulur, üstündeki imleçte getirir. &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; &lt;code&gt;\*&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; Görüntüleme modunda da imleç kelime üzerindeyken her basıldığında imleçin sonraki aynı kelimeyi bulur ve imleçte üstüne gider. &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
 
-&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://umutbey.com/vim-kisayollari-en-cok-kullanilan-16-kisayol/&quot;&gt;https://umutbey.com/vim-kisayollari-en-cok-kullanilan-16-kisayol/&lt;/a&gt;&lt;/li&gt;
@@ -187,7 +195,7 @@ Artık sahip olduğumuz repolarımızı clone etme imkanımız olmuş oluyor. Cl
 
 &lt;p&gt;komutuyla ilgili repomuz GitHub üzerinde güncellenmiş oluyoruz.&lt;/p&gt;
 
-&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys&quot;&gt;https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/github-clone-with-ssh-keys&lt;/a&gt;&lt;/li&gt;
@@ -224,7 +232,7 @@ Artık sahip olduğumuz repolarımızı clone etme imkanımız olmuş oluyor. Cl
 &lt;pre&gt;&lt;code&gt;0 0 1 * * mysqldump --user=&#39;USERNAME&#39; --password=&#39;PASSWORD&#39; DBNAME&amp;gt; /root/db_backup/backup_`date +\%Y-\%m-\%d_\%H:\%M`.sql
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://exchangetuts.com/mysqldump-doesnt-work-in-crontab-1639698246383336&quot;&gt;https://exchangetuts.com/mysqldump-doesnt-work-in-crontab-1639698246383336&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -289,7 +297,7 @@ echo &quot;Merhaba\n&quot; &amp;gt;&amp;gt; hello.log
 &lt;pre&gt;&lt;code&gt;crontab -r
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://dev.to/boobo94/how-to-back-up-postgres-database-on-linux-using-cronjob-2d3a&quot;&gt;https://dev.to/boobo94/how-to-back-up-postgres-database-on-linux-using-cronjob-2d3a&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -316,11 +324,11 @@ echo &quot;Merhaba\n&quot; &amp;gt;&amp;gt; hello.log
 &lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;sudo sed -i &#39;s/\xEF\xBB\xBF//g&#39; FILE
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;https://stackoverflow.com/questions/9691771/why-is-65279-appearing-in-my-html&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;https://stackoverflow.com/questions/3255993/how-do-i-remove-%C3%AF-from-the-beginning-of-a-file&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/9691771/why-is-65279-appearing-in-my-html&quot;&gt;https://stackoverflow.com/questions/9691771/why-is-65279-appearing-in-my-html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/3255993/how-do-i-remove-%C3%AF-from-the-beginning-of-a-file&quot;&gt;https://stackoverflow.com/questions/3255993/how-do-i-remove-%C3%AF-from-the-beginning-of-a-file&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </content>
@@ -348,7 +356,7 @@ FLUSH PRIVILEGES;
 &lt;pre&gt;&lt;code&gt;sudo service mysql restart
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://linuxize.com/post/how-to-reset-a-mysql-root-password/&quot;&gt;https://linuxize.com/post/how-to-reset-a-mysql-root-password/&lt;/a&gt;&lt;/li&gt;
@@ -387,7 +395,7 @@ FLUSH PRIVILEGES;
 &lt;pre&gt;&lt;code&gt;mysql -u root -p
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/28068155/access-denied-for-user-rootlocalhost-using-password-yes-after-new-instal&quot;&gt;https://stackoverflow.com/questions/28068155/access-denied-for-user-rootlocalhost-using-password-yes-after-new-instal&lt;/a&gt;&lt;/li&gt;
@@ -2946,7 +2954,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
 &lt;pre&gt;&lt;code&gt;    sudo service nginx restart
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4&gt;Kaynak&lt;/h4&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://huse.in/123/wordpress-kurulumu&quot;&gt;https://huse.in/123/wordpress-kurulumu&lt;/a&gt;&lt;/li&gt;
@@ -3002,7 +3010,7 @@ sudo chmod 644 /var/www/html/.htaccess
 &lt;pre&gt;&lt;code&gt;sudo service apache2 restart
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4&gt;Kaynak&lt;/h4&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/24743674/htaccess-file-not-working-on-ubuntu-14-04-with-apache2&quot;&gt;http://stackoverflow.com/questions/24743674/htaccess-file-not-working-on-ubuntu-14-04-with-apache2&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -3060,9 +3068,7 @@ sudo chmod 644 /var/www/html/.htaccess
 
 &lt;p&gt;Not: Bu sitedeki header ve footer&#39;da birer &lt;code&gt;navbar&lt;/code&gt;dır ve responsive çalışmaktadır :-)&lt;/p&gt;
 
-&lt;h4&gt;Kaynak&lt;/h4&gt;
-
-&lt;hr /&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://getbootstrap.com/css/#overview-mobile&quot;&gt;http://getbootstrap.com/css/#overview-mobile&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -3099,7 +3105,7 @@ sudo chmod 644 /var/www/html/.htaccess
 &lt;pre&gt;&lt;code&gt;client_max_body_size    100m;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://makaleci.com/nginx-upload-limiti-sorununa-cozum-413-request-entity-too-large.html&quot;&gt;413 Reuqest Entity Too Large&lt;/a&gt;&lt;/li&gt;
@@ -3339,7 +3345,7 @@ To git@github.com:gdemir/cv-creator.git
    0346e42..09a7b83  master -&amp;gt; master
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty?answertab=votes#tab-top&quot;&gt;how to fix GIT error: object file is empty?&lt;/a&gt;&lt;/li&gt;
@@ -3599,7 +3605,7 @@ sudo ./VBoxLinuxAdditions.run
 
 &lt;p&gt;Eğer yabancı diliniz, yazılım ve donanım bilgileriniz iyi ise işsiz kalmazsınız, kanısı hakikaten de doğrudur ve çok iyi bir meslektir. Ancak Her üniversitede neredeyse mantar gibi hiçbir altyapı gözetilmeksizin, kadrolar yeterli mi bakılmaksızın bilgisayar mühendisliği ya da türevi bölümler açılmış. Buralardan mezun olan ve olacak tüm meslektaşlarımız şimdiden mağdur durumda. Bu bölümlerde çalışan akademiye gönül vermiş meslektaşlarımız ise zaten kurban pozisyonunda. Şuan her sene &lt;strong&gt;5000 - 10000&lt;/strong&gt; &lt;strong&gt;Bilgisayar Mühendisi&lt;/strong&gt; veren ülkede ne değeriniz olabilir ki? 5 yıl sonrasını düşünemiyorum. &lt;strong&gt;BMO&lt;/strong&gt;un mezun sayısı bilgilerine bakarsanız durumu anlarsınız.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Kaynaklar:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kaynak:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://bmo.org.tr/wp-content/uploads/2012/03/tablo1.png&quot;&gt;Bilgisayar Mühendisi Mezun Sayısı&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
@@ -3633,7 +3639,7 @@ sudo ./VBoxLinuxAdditions.run
 
 &lt;p&gt;Siz devlette mühendisi masa başında çürümeye yüz tutmuş, örümcek ağlarılarıyla çevri boş boş masada oturan biri olarak algılıyorsunuz sanırım. :-) sizin o olduğunuz gibi kaldınığı zannettiğiniz adamlar haftasonları paint ball ve kayak sporlarıyla uğraştıkları internette bunlar için grup kurduklarının bile farkında değilsiniz. Ben devlete giripte durumu kötü olan mühendis görmedim ama özel sektörde 50 sine gelip hiç bir altı olmayan tonla adam gördüm. Piyasada köle gibi çalıştırılan kapitalist sistem varken hala bu devirde devllette çalışanı küçük görmek sadece kıskançlıktır. Bu arada devlette mühendis sadece memur ya da sözleşmeli personel değil, işçi olarakta çalışabilir, botaşta türpraşta çalışan mühendislerin ücretleri ve primlerle şartlarınıda özeli seven arkadaşlar araştırsın. Naçizane olarak 5 yıllık devlette çalışan başmühendisin bir evi ve arabası şu an mevcut olabileceği gibi, mayıs ayında Doğu Karadeniz turu ve ağustos ayında ise Kuzey Amerika turunu katılabileceğini, üstelik bu ücretlerde liste fiyatların %40 indirimle katılacağını, çünkü kamu personeline indirim yapar tatil turları anladınız mı benim güzellerim? Yılbaşında takvimi alarak tatil planı yapmak ne kadar güzel bir duygudur bir bilseniz.&lt;/p&gt;
 
-&lt;h3&gt;Kaynaklar&lt;/h3&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://friendfeed.com/bilgisayarmuhendisleri/92549dbe/devlette-muhendis-olmak-hakknda&quot;&gt;Devlette Mühendis Olmak&lt;/a&gt;&lt;/li&gt;
@@ -3751,11 +3757,13 @@ Module Port-group Active                         Inactive
 
 &lt;p&gt;Not : Türkiyenin pek çok şehrinin Emniyet Genel Müdürlüğünde bizim yapılandırma dosyamız kullanılmıştır.&lt;/p&gt;
 
-&lt;h4&gt;Kaynaklar&lt;/h4&gt;
+&lt;h3&gt;Kaynak&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.cisco.com/en/US/docs/switches/lan/catalyst4500/12.2/54sg/configuration/guide/sw_int.pdf&quot;&gt;Yapılandırma&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.cisco.com/en/US/docs/switches/lan/catalyst4500/12.2/54sg/configuration/guide/sw_int.pdf&quot;&gt;Yapılandırma&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://www.cisco.com/en/US/docs/switches/lan/catalyst4900/4900M/installation/guide/01intro.html&quot;&gt;Kurulum&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.cisco.com/en/US/docs/switches/lan/catalyst4900/4900M/installation/guide/01intro.html&quot;&gt;Kurulum&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   

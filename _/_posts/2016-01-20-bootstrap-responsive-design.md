@@ -2,7 +2,7 @@
 layout: post
 title: Bootstrap Responsive Tasarım
 category: bootstrap
-tags: [responsive, navbar]
+tags: responsive navbar
 ---
 
 Bootstrap `navbar` gibi css bileşenleriyle; tarayıcı, tablet, mobil gibi cihazların ekran çözünürlüğüne duyarlı(ekran çözünürlüğüne göre yeniden şekillenen) görünüm sunmaktadır. Bunu sitenize sadece `bootstrap-css`, `bootstrap-js` dosyalarını ekleyerek ve `navbar` gibi bileşenleri kullanarak duyarlı hale getiremezsiniz. Bunun için ek olarak aşağıdaki `meta` etiketini `head` etiketleri arasına eklemeniz gerekiyor.
@@ -21,8 +21,7 @@ Bu `meta` etiketini açıklayacak olursak,
 
 Not: Bu sitedeki header ve footer'da birer `navbar`dır ve responsive çalışmaktadır :-)
 
-#### Kaynak
----
+### Kaynak
 
 - [http://getbootstrap.com/css/#overview-mobile](http://getbootstrap.com/css/#overview-mobile)
 

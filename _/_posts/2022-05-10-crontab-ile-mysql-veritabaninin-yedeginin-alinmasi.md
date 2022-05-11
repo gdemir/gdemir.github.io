@@ -22,7 +22,7 @@ alınacak yedek dosyası için aşağıdaki gibi yedekleme komutumuzu yazıyoruz
 
     0 0 1 * * mysqldump --user='USERNAME' --password='PASSWORD' DBNAME> /root/db_backup/backup_`date +\%Y-\%m-\%d_\%H:\%M`.sql
 
-### Kaynaklar
+### Kaynak
 
  - [https://exchangetuts.com/mysqldump-doesnt-work-in-crontab-1639698246383336](https://exchangetuts.com/mysqldump-doesnt-work-in-crontab-1639698246383336)
  

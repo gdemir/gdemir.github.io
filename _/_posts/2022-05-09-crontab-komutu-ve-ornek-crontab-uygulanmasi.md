@@ -52,7 +52,7 @@ artık **her dakika** da bir  "Merhaba" yazısı `hello.log` dosyası üzerine y
 
     crontab -r
 
-### Kaynaklar
+### Kaynak
 
  - [https://dev.to/boobo94/how-to-back-up-postgres-database-on-linux-using-cronjob-2d3a](https://dev.to/boobo94/how-to-back-up-postgres-database-on-linux-using-cronjob-2d3a)
  
