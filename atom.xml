@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-11T12:02:03+00:00</updated>
+  <updated>2022-05-11T12:05:49+00:00</updated>
   <id></id>
 
   <author>
@@ -5102,7 +5102,7 @@ vimi tekrar açınca özellikler aktif olacaktır.&lt;/p&gt;
     <id>/categories/linux/bash-renk</id>
     <content type="html">&lt;p&gt;Konsolumuzun rengi ilk olarak şöyle :&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.com/file/konsol-normal.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://gdemir.github.com/file/konsol-normal.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;olduğunu düşünelim, Vim ile .bashrc dosyasını açıyoruz. (Tabiki vim yerine siz başka bir editör seçebilirsiniz.)&lt;/p&gt;
 
@@ -5125,7 +5125,7 @@ vimi tekrar açınca özellikler aktif olacaktır.&lt;/p&gt;
 
 &lt;p&gt;yazıyoruz ve artık konsolumuzu renklendirmiş oluyoruz.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.com/file/konsol-renkli.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://gdemir.github.com/file/konsol-renkli.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Bu yukarıdaki renk stili benim favorimdir. Sizde kendinize göre renklendirebilirsiniz. Konsolu eski haline çevirmek için &lt;strong&gt;force_color_prompt=yes&lt;/strong&gt; satırında ki &lt;code&gt;#&lt;/code&gt; ifadesini tekrar koymanız yeterli.&lt;/p&gt;
 </content>
@@ -5253,13 +5253,15 @@ Bu işlem &lt;a href=&quot;http://gdemir.github.io/907/ssh-kimlik-tasi&quot;&gt;
     <id>/categories/linux/gimp-yansima</id>
     <content type="html">&lt;p&gt;Gimp, GNU dünyasının bize armağan ettiği bir resim düzenleme programıdır. Videoyu izleyerek sizde yazılara yansıma yapabilirsiniz.&lt;/p&gt;
 
-&lt;p&gt;İzlemek için &lt;a href=&quot;http://gdemir.github.com/file/gimp-yansima.gif&quot;&gt;tıklayınız.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;İzlemek için &lt;a href=&quot;https://gdemir.github.com/file/gimp-yansima.gif&quot;&gt;tıklayınız.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Çalışmanın bitmiş hali&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gdemir.github.com/file/gdemir.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://gdemir.github.com/file/gdemir.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Daha da ileri, bitmiş bir çalışma için &lt;a href=&quot;http://gdemir.github.com/file/flash.png&quot;&gt;tıklayınız.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Daha da ileri, bitmiş bir çalışma için &lt;a href=&quot;https://gdemir.github.com/file/flash.png&quot;&gt;tıklayınız.&lt;/a&gt;
+Daha da ileri, bitmiş bir çalışma için &lt;a href=&quot;/file/flash.png&quot;&gt;tıklayınız.&lt;/a&gt;
+Daha da ileri, bitmiş bir çalışma için &lt;a href=&quot;file/flash.png&quot;&gt;tıklayınız.&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4&gt;Kurulum&lt;/h4&gt;
 
