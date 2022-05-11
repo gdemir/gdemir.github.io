@@ -25,7 +25,7 @@ tags: editor vim
 | `:'<,'>%s/SEARCH/REPLACE/gc` | İlgili satırlarda **SEARCH** anahtarının değerini **REPLACE** ile değiştirirken adım adım sorar |
 | `d` | Düzenleme modunda seçilen satırları, görüntüleme modunda da imleçin üstündeki satırı siler. |
 | `/SEARCH` | Görüntüleme modunda ilgili **SEARCH** anahtarının değerinin ilk eşleşmesini bulur, üstündeki imleçte getirir. |
-| `\*` | Görüntüleme modunda da imleç kelime üzerindeyken her basıldığında imleçin sonraki aynı kelimeyi bulur ve imleçte üstüne gider. |
+| `*` | Görüntüleme modunda da imleç kelime üzerindeyken her basıldığında imleçin sonraki aynı kelimeyi bulur ve imleçte üstüne gider. |
 
 ### Kaynak
 

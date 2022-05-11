@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-11T12:55:23+00:00</updated>
+  <updated>2022-05-11T12:58:55+00:00</updated>
   <id></id>
 
   <author>
@@ -98,7 +98,7 @@
 &lt;td&gt; Görüntüleme modunda ilgili &lt;strong&gt;SEARCH&lt;/strong&gt; anahtarının değerinin ilk eşleşmesini bulur, üstündeki imleçte getirir. &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt; &lt;code&gt;\*&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; &lt;code&gt;*&lt;/code&gt; &lt;/td&gt;
 &lt;td&gt; Görüntüleme modunda da imleç kelime üzerindeyken her basıldığında imleçin sonraki aynı kelimeyi bulur ve imleçte üstüne gider. &lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
