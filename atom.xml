@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-12T07:25:47+00:00</updated>
+  <updated>2022-05-12T08:14:19+00:00</updated>
   <id></id>
 
   <author>
@@ -11,6 +11,82 @@
     <email>gdemir3327@gmail.com</email>
   </author>
 
+  
+  <entry>
+    <title>GitHub Remote Komutu-220512</title>
+    <link href="https://gdemir.github.io/categories/github/github-remote/"/>
+    <updated>2022-05-12T00:00:00+00:00</updated>
+    <id>/categories/github/github-remote</id>
+    <content type="html">&lt;p&gt;git remote komutu bir uzak dizine bağlanmasını(kanca atmasını) sağlar.&lt;/p&gt;
+
+&lt;h3&gt;Uzak Repoları Listeleme&lt;/h3&gt;
+
+&lt;p&gt;Tanımlı uzak repolarının isimlerini(&lt;strong&gt;NAME&lt;/strong&gt;) listeler:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tanımlı uzak repolarının isimlerini(&lt;strong&gt;NAME&lt;/strong&gt;) ve linklerini(&lt;strong&gt;URL&lt;/strong&gt;) listeler:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote -v
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Uzak Repo Ekleme&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote add &amp;lt;NAME&amp;gt; &amp;lt;URL&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;NAME için 2 seçenek mevcuttur:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;origin&lt;/code&gt; : Forklayıp oluşturduğunuz kendi reponuzdur.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;upstream&lt;/code&gt; : Forkladığınız asıl(uzak repoya) atıfta bulunur. (Uzak repodaki değişiklikleri almak için)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Örnek &lt;code&gt;origin&lt;/code&gt; için &lt;strong&gt;URL&lt;/strong&gt; &lt;code&gt;SSH&lt;/code&gt; olmalıdır:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote add origin git@github.com:gdemir/gdemir.github.io.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Örnek &lt;code&gt;upstream&lt;/code&gt; için &lt;strong&gt;URL&lt;/strong&gt; &lt;code&gt;HTTPS&lt;/code&gt; olmalıdır:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote add upstream https://github.com/koy-odasi/core.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Uzak Repo Sorgulama&lt;/h3&gt;
+
+&lt;p&gt;Uzak ve yakın repo tanımlıysa ilgili &lt;strong&gt;URL&lt;/strong&gt; linkini gösterir:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git config remote.&amp;lt;NAME&amp;gt;.url
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Örnek &lt;code&gt;origin&lt;/code&gt; için;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git config remote.origin.url
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Örnek &lt;code&gt;upstream&lt;/code&gt; için;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git config remote.upstream.url
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Uzak Repo Silme&lt;/h3&gt;
+
+&lt;p&gt;İlgili uzak repo ismi ile bağlantı silinir:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote rm &amp;lt;NAME&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Kaynak&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github&quot;&gt;https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://linuxize.com/post/how-to-remove-git-remotes/&quot;&gt;https://linuxize.com/post/how-to-remove-git-remotes/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
   
   <entry>
     <title>Vim Kısayolları-220511</title>
