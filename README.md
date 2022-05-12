@@ -39,8 +39,8 @@
 
 ### `Install`: Site Kurulum İşlemleri
 
-	git clone git://github.com/koy-odasi/kernel.git
-	cd kernel
+	git clone https://github.com/koy-odasi/core.git
+	cd core
 	rake install
 
 ### `Config`: Yapılandırma Dosyası(_/_config.yml) İşlemleri
@@ -111,6 +111,10 @@
 Örnek:
 
 	rake find[vim]
+
+### Contributing
+
+Köy Odasına katkıda bulunmanızı öneririz! Destek için https://github.com/koy-odasi
 
 ### License
 
