@@ -5,7 +5,7 @@ category: github
 tags: remote
 ---
 
-git remote komutu bir uzak dizine bağlanmasını(kanca atmasını) sağlar.
+git remote komutu bir uzak repoya bağlanmasını(kanca atmasını) sağlar.
 
 ### Uzak Repoları Listeleme
 
@@ -21,7 +21,7 @@ Tanımlı uzak repolarının isimlerini(**NAME**) ve linklerini(**URL**) listele
 
     git remote add <NAME> <URL>
 
-NAME için 2 seçenek mevcuttur:
+**NAME** için 2 seçenek mevcuttur:
 
 - `origin` : Forklayıp oluşturduğunuz kendi reponuzdur.
 
@@ -37,7 +37,7 @@ NAME için 2 seçenek mevcuttur:
 
 ### Uzak Repo Sorgulama
 
-Uzak ve yakın repo tanımlıysa ilgili **URL** linkini gösterir:
+Uzak ve yakın repo tanımlıysa ilgili **URL** linkini gösterir.
 
     git config remote.<NAME>.url
 
@@ -51,13 +51,17 @@ Uzak ve yakın repo tanımlıysa ilgili **URL** linkini gösterir:
 
 ### Uzak Repo Silme
 
-İlgili uzak repo ismi ile bağlantı silinir:
+İlgili uzak repo ismi ile bağlantı silinir.
 
     git remote rm <NAME>
 
-### Uzak Repo Güncellemelerini Al
+Örnek;
 
-İlgili uzak repoda güncelleme varsa alınlamasını sağlar:
+    git remote rm upstream
+
+### Uzak Repo Güncellemelerini Alma
+
+İlgili uzak repoda güncelleme varsa alınlamasını sağlar.
 
     git pull <NAME> master
 

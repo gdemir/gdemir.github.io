@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-12T08:24:45+00:00</updated>
+  <updated>2022-05-12T08:30:59+00:00</updated>
   <id></id>
 
   <author>
@@ -17,7 +17,7 @@
     <link href="https://gdemir.github.io/categories/github/github-remote/"/>
     <updated>2022-05-12T00:00:00+00:00</updated>
     <id>/categories/github/github-remote</id>
-    <content type="html">&lt;p&gt;git remote komutu bir uzak dizine bağlanmasını(kanca atmasını) sağlar.&lt;/p&gt;
+    <content type="html">&lt;p&gt;git remote komutu bir uzak repoya bağlanmasını(kanca atmasını) sağlar.&lt;/p&gt;
 
 &lt;h3&gt;Uzak Repoları Listeleme&lt;/h3&gt;
 
@@ -36,7 +36,7 @@
 &lt;pre&gt;&lt;code&gt;git remote add &amp;lt;NAME&amp;gt; &amp;lt;URL&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;NAME için 2 seçenek mevcuttur:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NAME&lt;/strong&gt; için 2 seçenek mevcuttur:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;code&gt;origin&lt;/code&gt; : Forklayıp oluşturduğunuz kendi reponuzdur.&lt;/p&gt;&lt;/li&gt;
@@ -56,7 +56,7 @@
 
 &lt;h3&gt;Uzak Repo Sorgulama&lt;/h3&gt;
 
-&lt;p&gt;Uzak ve yakın repo tanımlıysa ilgili &lt;strong&gt;URL&lt;/strong&gt; linkini gösterir:&lt;/p&gt;
+&lt;p&gt;Uzak ve yakın repo tanımlıysa ilgili &lt;strong&gt;URL&lt;/strong&gt; linkini gösterir.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;git config remote.&amp;lt;NAME&amp;gt;.url
 &lt;/code&gt;&lt;/pre&gt;
@@ -73,14 +73,19 @@
 
 &lt;h3&gt;Uzak Repo Silme&lt;/h3&gt;
 
-&lt;p&gt;İlgili uzak repo ismi ile bağlantı silinir:&lt;/p&gt;
+&lt;p&gt;İlgili uzak repo ismi ile bağlantı silinir.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;git remote rm &amp;lt;NAME&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3&gt;Uzak Repo Güncellemelerini Al&lt;/h3&gt;
+&lt;p&gt;Örnek;&lt;/p&gt;
 
-&lt;p&gt;İlgili uzak repoda güncelleme varsa alınlamasını sağlar:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git remote rm upstream
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Uzak Repo Güncellemelerini Alma&lt;/h3&gt;
+
+&lt;p&gt;İlgili uzak repoda güncelleme varsa alınlamasını sağlar.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;git pull &amp;lt;NAME&amp;gt; master
 &lt;/code&gt;&lt;/pre&gt;
@@ -563,23 +568,17 @@ sudo gem uninstall rubygems-update -x
 
 &lt;h3&gt;&lt;code&gt;Help&lt;/code&gt;: Rakefile Görev Komutları&lt;/h3&gt;
 
-&lt;hr /&gt;
-
 &lt;pre&gt;&lt;code&gt;rake
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;&lt;code&gt;Install&lt;/code&gt;: Site Kurulum İşlemleri&lt;/h3&gt;
 
-&lt;hr /&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone git://github.com/koy-odasi/kernel.git
+&lt;pre&gt;&lt;code&gt;git clone git://github.com/koy-odasi/core.git
 cd kernel
 rake install
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;&lt;code&gt;Config&lt;/code&gt;: Yapılandırma Dosyası(&lt;em&gt;/&lt;/em&gt;config.yml) İşlemleri&lt;/h3&gt;
-
-&lt;hr /&gt;
 
 &lt;pre&gt;&lt;code&gt;rake config
 &lt;/code&gt;&lt;/pre&gt;
@@ -601,8 +600,6 @@ rake install
 
 &lt;h3&gt;&lt;code&gt;Build&lt;/code&gt;: Site Harmanlama İşlemleri&lt;/h3&gt;
 
-&lt;hr /&gt;
-
 &lt;pre&gt;&lt;code&gt;rake build
 &lt;/code&gt;&lt;/pre&gt;
 
@@ -618,14 +615,10 @@ rake install
 
 &lt;h3&gt;&lt;code&gt;View&lt;/code&gt;: Demo Önizleme Oluştur&lt;/h3&gt;
 
-&lt;hr /&gt;
-
 &lt;pre&gt;&lt;code&gt;rake view
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;&lt;code&gt;Update&lt;/code&gt;: Uzak Repodan Güncelleme İşlemleri&lt;/h3&gt;
-
-&lt;hr /&gt;
 
 &lt;pre&gt;&lt;code&gt;rake update
 &lt;/code&gt;&lt;/pre&gt;
@@ -642,14 +635,10 @@ rake install
 
 &lt;h3&gt;&lt;code&gt;Deploy&lt;/code&gt;: Site Servis İşlemi&lt;/h3&gt;
 
-&lt;hr /&gt;
-
 &lt;pre&gt;&lt;code&gt;rake deploy
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;&lt;code&gt;Status&lt;/code&gt;: Site Güncel Kontrol İşlemi&lt;/h3&gt;
-
-&lt;hr /&gt;
 
 &lt;pre&gt;&lt;code&gt;rake status
 &lt;/code&gt;&lt;/pre&gt;
@@ -664,7 +653,17 @@ rake install
 &lt;pre&gt;&lt;code&gt;rake status:remote
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2&gt;License&lt;/h2&gt;
+&lt;h3&gt;&lt;code&gt;Find&lt;/code&gt;: Gönderilerde Kelime Arama&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;rake find[KEY]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Örnek:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rake find[vim]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;License&lt;/h3&gt;
 
 &lt;p&gt;Köy Odası is released under the &lt;a href=&quot;http://www.opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
 </content>

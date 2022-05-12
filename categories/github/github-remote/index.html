@@ -187,7 +187,7 @@
 </div>
 <hr>
 
-<p>git remote komutu bir uzak dizine bağlanmasını(kanca atmasını) sağlar.</p>
+<p>git remote komutu bir uzak repoya bağlanmasını(kanca atmasını) sağlar.</p>
 
 <h3>Uzak Repoları Listeleme</h3>
 
@@ -206,7 +206,7 @@
 <pre><code>git remote add &lt;NAME&gt; &lt;URL&gt;
 </code></pre>
 
-<p>NAME için 2 seçenek mevcuttur:</p>
+<p><strong>NAME</strong> için 2 seçenek mevcuttur:</p>
 
 <ul>
 <li><p><code>origin</code> : Forklayıp oluşturduğunuz kendi reponuzdur.</p></li>
@@ -226,7 +226,7 @@
 
 <h3>Uzak Repo Sorgulama</h3>
 
-<p>Uzak ve yakın repo tanımlıysa ilgili <strong>URL</strong> linkini gösterir:</p>
+<p>Uzak ve yakın repo tanımlıysa ilgili <strong>URL</strong> linkini gösterir.</p>
 
 <pre><code>git config remote.&lt;NAME&gt;.url
 </code></pre>
@@ -243,14 +243,19 @@
 
 <h3>Uzak Repo Silme</h3>
 
-<p>İlgili uzak repo ismi ile bağlantı silinir:</p>
+<p>İlgili uzak repo ismi ile bağlantı silinir.</p>
 
 <pre><code>git remote rm &lt;NAME&gt;
 </code></pre>
 
-<h3>Uzak Repo Güncellemelerini Al</h3>
+<p>Örnek;</p>
 
-<p>İlgili uzak repoda güncelleme varsa alınlamasını sağlar:</p>
+<pre><code>git remote rm upstream
+</code></pre>
+
+<h3>Uzak Repo Güncellemelerini Alma</h3>
+
+<p>İlgili uzak repoda güncelleme varsa alınlamasını sağlar.</p>
 
 <pre><code>git pull &lt;NAME&gt; master
 </code></pre>
