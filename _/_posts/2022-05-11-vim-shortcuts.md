@@ -7,10 +7,10 @@ tags: editor vim
 
 | KOMUTLAR | AÇIKLAMA |
 | --- | --- |
-| `G` + `G` | İmleçi dosyanın başına getirir. | 
-| `SHIFT` + `G` | İmleçi dosyanın  sonuna getirir. |
+| `g` + `g` | İmleçi dosyanın başına getirir. | 
+| `SHIFT` + `g` | İmleçi dosyanın  sonuna getirir. |
 | `i` | Dosyayı görüntüleme modundan çıkarıp düzenleme moduna geçmenize sağlar. |
-| `ESC` | `Düzenleme modundan çıkıp görüntüleme moduna geçmenizi sağlar. |
+| `ESC` | Düzenleme modundan çıkıp görüntüleme moduna geçmenizi sağlar. |
 | `0` | İmleçi bulunduğu satırın en başına getirir. (Görüntüleme modunda iken) |
 | `$` | İmleçi bulunduğu satırın sonuna götürür. (Görüntüleme modunda iken) |
 | `:w` | Dosya içerisindeki değişiklikleri kaydetmenizi sağlar. |

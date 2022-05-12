@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-11T13:04:52+00:00</updated>
+  <updated>2022-05-12T04:35:16+00:00</updated>
   <id></id>
 
   <author>
@@ -26,11 +26,11 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt; &lt;code&gt;G&lt;/code&gt; + &lt;code&gt;G&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; &lt;code&gt;g&lt;/code&gt; + &lt;code&gt;g&lt;/code&gt; &lt;/td&gt;
 &lt;td&gt; İmleçi dosyanın başına getirir. &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt; &lt;code&gt;SHIFT&lt;/code&gt; + &lt;code&gt;G&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; &lt;code&gt;SHIFT&lt;/code&gt; + &lt;code&gt;g&lt;/code&gt; &lt;/td&gt;
 &lt;td&gt; İmleçi dosyanın  sonuna getirir. &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -39,7 +39,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;ESC&lt;/code&gt; &lt;/td&gt;
-&lt;td&gt; `Düzenleme modundan çıkıp görüntüleme moduna geçmenizi sağlar. &lt;/td&gt;
+&lt;td&gt; Düzenleme modundan çıkıp görüntüleme moduna geçmenizi sağlar. &lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt; &lt;code&gt;0&lt;/code&gt; &lt;/td&gt;
