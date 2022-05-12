@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-12T08:30:59+00:00</updated>
+  <updated>2022-05-12T10:30:24+00:00</updated>
   <id></id>
 
   <author>
@@ -44,12 +44,14 @@
 &lt;/ul&gt;
 
 
-&lt;p&gt;Örnek &lt;code&gt;origin&lt;/code&gt; için &lt;strong&gt;URL&lt;/strong&gt; &lt;code&gt;SSH&lt;/code&gt; olmalıdır:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOT&lt;/strong&gt;: Buradaki &lt;code&gt;origin&lt;/code&gt; ve &lt;code&gt;upstream&lt;/code&gt; herkes tarafından kullanılan isimler olup kendinize göre ismi değiştirebilirsiniz. Buradaki önemli olan &lt;code&gt;origin&lt;/code&gt; ismi için &lt;code&gt;SSH&lt;/code&gt; URL&#39;si, &lt;code&gt;upstream&lt;/code&gt; için de &lt;code&gt;HTTPS&lt;/code&gt; URL&#39;si kullanıldığıdır.&lt;/p&gt;
+
+&lt;p&gt;Örnek &lt;code&gt;origin&lt;/code&gt; için;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;git remote add origin git@github.com:gdemir/gdemir.github.io.git
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Örnek &lt;code&gt;upstream&lt;/code&gt; için &lt;strong&gt;URL&lt;/strong&gt; &lt;code&gt;HTTPS&lt;/code&gt; olmalıdır:&lt;/p&gt;
+&lt;p&gt;Örnek &lt;code&gt;upstream&lt;/code&gt;;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;git remote add upstream https://github.com/koy-odasi/core.git
 &lt;/code&gt;&lt;/pre&gt;

@@ -27,11 +27,13 @@ Tanımlı uzak repolarının isimlerini(**NAME**) ve linklerini(**URL**) listele
 
 - `upstream` : Forkladığınız asıl(uzak repoya) atıfta bulunur. (Uzak repodaki değişiklikleri almak için)
 
-Örnek `origin` için **URL** `SSH` olmalıdır:
+**NOT**: Buradaki `origin` ve `upstream` herkes tarafından kullanılan isimler olup kendinize göre ismi değiştirebilirsiniz. Buradaki önemli olan `origin` ismi için `SSH` URL'si, `upstream` için de `HTTPS` URL'si kullanıldığıdır.
+
+Örnek `origin` için;
 
     git remote add origin git@github.com:gdemir/gdemir.github.io.git
 
-Örnek `upstream` için **URL** `HTTPS` olmalıdır:
+Örnek `upstream`;
 
     git remote add upstream https://github.com/koy-odasi/core.git
 
