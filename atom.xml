@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-12T08:14:19+00:00</updated>
+  <updated>2022-05-12T08:24:45+00:00</updated>
   <id></id>
 
   <author>
@@ -76,6 +76,40 @@
 &lt;p&gt;İlgili uzak repo ismi ile bağlantı silinir:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;git remote rm &amp;lt;NAME&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Uzak Repo Güncellemelerini Al&lt;/h3&gt;
+
+&lt;p&gt;İlgili uzak repoda güncelleme varsa alınlamasını sağlar:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git pull &amp;lt;NAME&amp;gt; master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Örnek &lt;code&gt;origin&lt;/code&gt; için;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git pull
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;veya&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git pull origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Örnek &lt;code&gt;upstream&lt;/code&gt; için;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git pull upstream master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;Uzak Repo Adını Değiştirme&lt;/h3&gt;
+
+&lt;p&gt;İlgili uzak repoda tanımlı olan repo ismini değiştirmenizi sağlar.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote rename &amp;lt;SEARCHNAME&amp;gt; &amp;lt;REPLACENAME&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Örnek;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git remote rename origin upstream
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3&gt;Kaynak&lt;/h3&gt;

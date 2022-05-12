@@ -55,6 +55,34 @@ Uzak ve yakın repo tanımlıysa ilgili **URL** linkini gösterir:
 
     git remote rm <NAME>
 
+### Uzak Repo Güncellemelerini Al
+
+İlgili uzak repoda güncelleme varsa alınlamasını sağlar:
+
+    git pull <NAME> master
+
+Örnek `origin` için;
+
+    git pull
+
+veya
+
+    git pull origin master
+
+Örnek `upstream` için;
+
+    git pull upstream master
+
+### Uzak Repo Adını Değiştirme
+
+İlgili uzak repoda tanımlı olan repo ismini değiştirmenizi sağlar.
+
+    git remote rename <SEARCHNAME> <REPLACENAME>
+
+Örnek;
+
+    git remote rename origin upstream
+
 ### Kaynak
 
 - [https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github)
