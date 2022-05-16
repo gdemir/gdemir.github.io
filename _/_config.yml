@@ -1,9 +1,9 @@
 ---
 title: Gökhan Demir
 keywords: Gökhan Demir, Bilgisayar Mühendisi
-description: Barak Türkmeni Gökhan Demir Bilişim Notları
-baseurl:
-url: https://gdemir.github.io
+description: Gökhan Demir
+baseurl: 
+url: "https://gdemir.github.io/"
 permalink: "/categories/:categories/:title/"
 highlighter: pygments
 markdown: rdiscount
@@ -11,17 +11,16 @@ rdiscount:
   extensions:
   - smart
 author: Gökhan Demir
-editor: sublime-text
+editor: "vim"
 email: gdemir3327@gmail.com
 cv: 
 disqus: 
 github: gdemir
 trello: 
-linkedin: 
-googleplus: 
-googleanalyticsid: UA-21168139-1
+linkedin: in/gdemir
+googleanalyticsid: 
 twitter: 
 facebook: 
-instagram: 
+instagram:
 foursquare: 
-stack: '19107636'
+stack: users/19107636 
