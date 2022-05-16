@@ -3,7 +3,7 @@ title: Gökhan Demir
 keywords: Gökhan Demir, Bilgisayar Mühendisi
 description: Gökhan Demir
 baseurl: 
-url: "https://gdemir.github.io/"
+url: https://gdemir.github.io/
 permalink: "/categories/:categories/:title/"
 highlighter: pygments
 markdown: rdiscount
@@ -11,7 +11,7 @@ rdiscount:
   extensions:
   - smart
 author: Gökhan Demir
-editor: "vim"
+editor: vim
 email: gdemir3327@gmail.com
 cv: 
 disqus: 
@@ -21,6 +21,6 @@ linkedin: in/gdemir
 googleanalyticsid: 
 twitter: 
 facebook: 
-instagram:
+instagram: 
 foursquare: 
-stack: users/19107636 
+stack: '19107636'
