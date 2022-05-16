@@ -3,7 +3,7 @@ title: Gökhan Demir
 keywords: Gökhan Demir, Bilgisayar Mühendisi
 description: Gökhan Demir
 baseurl: 
-url: https://gdemir.github.io/
+url: https://gdemir.github.io
 permalink: "/categories/:categories/:title/"
 highlighter: pygments
 markdown: rdiscount

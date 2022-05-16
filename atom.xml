@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Gökhan Demir</title>
-  <link href="https://gdemir.github.io//atom.xml" rel="self"/>
-  <link href="https://gdemir.github.io/"/>
-  <updated>2022-05-16T09:01:18+00:00</updated>
+  <link href="https://gdemir.github.io/atom.xml" rel="self"/>
+  <link href="https://gdemir.github.io"/>
+  <updated>2022-05-16T09:27:27+00:00</updated>
   <id></id>
 
   <author>
@@ -14,7 +14,7 @@
   
   <entry>
     <title>GitHub Remote Komutu-220512</title>
-    <link href="https://gdemir.github.io//categories/github/github-remote/"/>
+    <link href="https://gdemir.github.io/categories/github/github-remote/"/>
     <updated>2022-05-12T00:00:00+00:00</updated>
     <id>/categories/github/github-remote</id>
     <content type="html">&lt;p&gt;git remote komutu bir uzak repoya bağlanmasını(kanca atmasını) sağlar.&lt;/p&gt;
@@ -131,7 +131,7 @@
   
   <entry>
     <title>Vim Kısayolları-220511</title>
-    <link href="https://gdemir.github.io//categories/linux/vim-shortcuts/"/>
+    <link href="https://gdemir.github.io/categories/linux/vim-shortcuts/"/>
     <updated>2022-05-11T00:00:00+00:00</updated>
     <id>/categories/linux/vim-shortcuts</id>
     <content type="html">&lt;table&gt;
@@ -233,7 +233,7 @@
   
   <entry>
     <title>Dosya İçerisindeki Tekil(Tekrar Etmeyen) IP'lerin Sayılarını Öğrenme-220510</title>
-    <link href="https://gdemir.github.io//categories/linux/unique-ip-count-on-file/"/>
+    <link href="https://gdemir.github.io/categories/linux/unique-ip-count-on-file/"/>
     <updated>2022-05-10T00:00:00+00:00</updated>
     <id>/categories/linux/unique-ip-count-on-file</id>
     <content type="html">&lt;p&gt;&lt;code&gt;unique_ip_count_on_file.sh&lt;/code&gt; betiğinin içeriği aşağıdaki gibidir;&lt;/p&gt;
@@ -254,7 +254,7 @@ grep -o &quot;[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+&quot; $log_filename | sort -u |
   
   <entry>
     <title>GitHub SSH Clone-220510</title>
-    <link href="https://gdemir.github.io//categories/github/github-ssh-clone/"/>
+    <link href="https://gdemir.github.io/categories/github/github-ssh-clone/"/>
     <updated>2022-05-10T00:00:00+00:00</updated>
     <id>/categories/github/github-ssh-clone</id>
     <content type="html">&lt;h3&gt;Public ve Private Anahtarlarının Üretilmesi&lt;/h3&gt;
@@ -323,7 +323,7 @@ Artık sahip olduğumuz repolarımızı clone etme imkanımız olmuş oluyor. Cl
   
   <entry>
     <title>Crontab İle MySQL Veritabanı Yedeğinin Alınması-220510</title>
-    <link href="https://gdemir.github.io//categories/linux/crontab-ile-mysql-veritabaninin-yedeginin-alinmasi/"/>
+    <link href="https://gdemir.github.io/categories/linux/crontab-ile-mysql-veritabaninin-yedeginin-alinmasi/"/>
     <updated>2022-05-10T00:00:00+00:00</updated>
     <id>/categories/linux/crontab-ile-mysql-veritabaninin-yedeginin-alinmasi</id>
     <content type="html">&lt;h3&gt;Yedek Dosyalarımızı İçin Dizin Oluşturuyoruz&lt;/h3&gt;
@@ -361,7 +361,7 @@ Artık sahip olduğumuz repolarımızı clone etme imkanımız olmuş oluyor. Cl
   
   <entry>
     <title>Crontab Komutu ve Örnek Crontab Uygulanması-220509</title>
-    <link href="https://gdemir.github.io//categories/linux/crontab-komutu-ve-ornek-crontab-uygulanmasi/"/>
+    <link href="https://gdemir.github.io/categories/linux/crontab-komutu-ve-ornek-crontab-uygulanmasi/"/>
     <updated>2022-05-09T00:00:00+00:00</updated>
     <id>/categories/linux/crontab-komutu-ve-ornek-crontab-uygulanmasi</id>
     <content type="html">&lt;p&gt;Linux üzerinde hazır yüklü gelen ve &lt;code&gt;/etc/crontab&lt;/code&gt; dosya yolunda barınan bir betiktir.&lt;/p&gt;
@@ -426,7 +426,7 @@ echo &quot;Merhaba\n&quot; &amp;gt;&amp;gt; hello.log
   
   <entry>
     <title>Html &amp;#65279; Karakter Sorunu-200329</title>
-    <link href="https://gdemir.github.io//categories/linux/html-65279;-karakter-sorunu/"/>
+    <link href="https://gdemir.github.io/categories/linux/html-65279;-karakter-sorunu/"/>
     <updated>2020-03-29T00:00:00+00:00</updated>
     <id>/categories/linux/html-65279;-karakter-sorunu</id>
     <content type="html">&lt;p&gt;Bu sorun genelde UTF desteklemeyen bir editör(Notepad gibi) ile kod düzenlemerinde ortaya çıkmaktadır. Editör ile açıldığında da görünmemektedir.&lt;/p&gt;
@@ -453,7 +453,7 @@ echo &quot;Merhaba\n&quot; &amp;gt;&amp;gt; hello.log
   
   <entry>
     <title>MariaDB MySQL Root Parola Değiştirme-191206</title>
-    <link href="https://gdemir.github.io//categories/linux/mariadb-mysql-root-password-update/"/>
+    <link href="https://gdemir.github.io/categories/linux/mariadb-mysql-root-password-update/"/>
     <updated>2019-12-06T00:00:00+00:00</updated>
     <id>/categories/linux/mariadb-mysql-root-password-update</id>
     <content type="html">&lt;h4&gt;Root Kullanıcısı İçin Gerekli Parola Atamasının Yapılması&lt;/h4&gt;
@@ -484,7 +484,7 @@ FLUSH PRIVILEGES;
   
   <entry>
     <title>MariaDB ile MySQL Root Parolasını Sıfırlama-191206</title>
-    <link href="https://gdemir.github.io//categories/linux/mariadb-mysql-root-password-reset/"/>
+    <link href="https://gdemir.github.io/categories/linux/mariadb-mysql-root-password-reset/"/>
     <updated>2019-12-06T00:00:00+00:00</updated>
     <id>/categories/linux/mariadb-mysql-root-password-reset</id>
     <content type="html">&lt;h4&gt;MySQL Devre Dışı Bırakma&lt;/h4&gt;
@@ -523,7 +523,7 @@ FLUSH PRIVILEGES;
   
   <entry>
     <title>Grub Önyükleyicisini Onarmak-190115</title>
-    <link href="https://gdemir.github.io//categories/linux/grub-repair/"/>
+    <link href="https://gdemir.github.io/categories/linux/grub-repair/"/>
     <updated>2019-01-15T00:00:00+00:00</updated>
     <id>/categories/linux/grub-repair</id>
     <content type="html">&lt;p&gt;Çoğunlukla Windows yanına bir Linux işletim sistemi kullanılırken Windows’u bir sebepten dolayı yeniden kurulmasında çıkmaktadır. Windows tekrardan kurulduktan sonra Linux&#39;a erşim sağlayamamaktadır. Çünkü Windows kurulurken Linux&#39;un kurmuş olduğu önyükleyicisini silip kendi önyükleyicisini kurmakta ve bu önyükleyicide sadece Windows&#39;u görmektedir. Ancak Linux önyükleyicileri Windows ve Linux&#39;u görmektedir. Buradaki önyükleyicisini onarmak yani Linux önyükleyicisini tekrardan kurmak için aşağıdaki adımları izleyebilirsiniz.&lt;/p&gt;
@@ -559,7 +559,7 @@ FLUSH PRIVILEGES;
   
   <entry>
     <title>Barak Framework-180103</title>
-    <link href="https://gdemir.github.io//categories/framework/barak-framework/"/>
+    <link href="https://gdemir.github.io/categories/framework/barak-framework/"/>
     <updated>2018-01-03T00:00:00+00:00</updated>
     <id>/categories/framework/barak-framework</id>
     <content type="html">&lt;p&gt;PHP MVC tabanlı Barak Framework 3 yayımlandı.&lt;/p&gt;
@@ -2355,7 +2355,7 @@ ApplicationCache::write(&quot;users&quot;, $users);
   
   <entry>
     <title>GitHub Üzerinden Composer'e Paket Entegrasyonu-170206</title>
-    <link href="https://gdemir.github.io//categories/php/composer-github-integration/"/>
+    <link href="https://gdemir.github.io/categories/php/composer-github-integration/"/>
     <updated>2017-02-06T00:00:00+00:00</updated>
     <id>/categories/php/composer-github-integration</id>
     <content type="html">&lt;p&gt;Composer üzerine eklenen tüm paketler &lt;a href=&quot;https://packagist.org&quot;&gt;https://packagist.org&lt;/a&gt; üzerinden erişim sağlanabilmektedir. Buraya eklenecek paketler Bitbucket veya GitHub üzerindeki projenize ilgili API Token ile bağlantı sağlamakta ve erişilmektedir. Bitbucket or GitHub hesapları olamayanlar için manual kurulumu da anlatılmaktadır ilgili sitede anlatılmaktadır. (Bk.: &lt;a href=&quot;https://packagist.org/about&quot;&gt;https://packagist.org/about&lt;/a&gt;)
@@ -2442,7 +2442,7 @@ Aşağıda bir Github projenizi nasıl &lt;a href=&quot;https://packagist.org&qu
   
   <entry>
     <title>Composer-170126</title>
-    <link href="https://gdemir.github.io//categories/php/composer/"/>
+    <link href="https://gdemir.github.io/categories/php/composer/"/>
     <updated>2017-01-26T00:00:00+00:00</updated>
     <id>/categories/php/composer</id>
     <content type="html">&lt;p&gt;Composer PHP için geliştirilmiş bir Paket Yöneticisi‘dir. Bir framework’ün veya bir bileşenin bağımlı olduğu diğer bileşenleri ve gereksinimleri yönetir.&lt;/p&gt;
@@ -2535,7 +2535,7 @@ Aşağıda bir Github projenizi nasıl &lt;a href=&quot;https://packagist.org&qu
   
   <entry>
     <title>Oğuz Kağandan Günümüze Barak Türkmenleri-161221</title>
-    <link href="https://gdemir.github.io//categories/barak/barak/"/>
+    <link href="https://gdemir.github.io/categories/barak/barak/"/>
     <updated>2016-12-21T00:00:00+00:00</updated>
     <id>/categories/barak/barak</id>
     <content type="html">&lt;p&gt;Barak isimi, mitolojik devirlere ait Türk efsanelerine kadar dayanan tarihi geçmişe sahip bir isimdir. Etimolojik olarak varmak fiilinden dolayı çabuk yürüyen, koşan anlamına gelen bu kelime farklı sözlüklerde mitik ifadelerle de tanımlanmaktadır.
@@ -2781,7 +2781,7 @@ Yolları güvence altına almak. Özellikle de Birecik iskelesinden sevk edilen 
   
   <entry>
     <title>Wordpress Kurulumu-161006</title>
-    <link href="https://gdemir.github.io//categories/linux/wordpress-installation/"/>
+    <link href="https://gdemir.github.io/categories/linux/wordpress-installation/"/>
     <updated>2016-10-06T00:00:00+00:00</updated>
     <id>/categories/linux/wordpress-installation</id>
     <content type="html">&lt;h3&gt;Kurulum&lt;/h3&gt;
@@ -2926,7 +2926,7 @@ define(&#39;DB_PASSWORD&#39;, &#39;password&#39;);
   
   <entry>
     <title>Apache .htaccess Dosyasını Çalıştırma-160522</title>
-    <link href="https://gdemir.github.io//categories/apache/setting-up-htaccess/"/>
+    <link href="https://gdemir.github.io/categories/apache/setting-up-htaccess/"/>
     <updated>2016-05-22T00:00:00+00:00</updated>
     <id>/categories/apache/setting-up-htaccess</id>
     <content type="html">&lt;p&gt;&lt;code&gt;apache&lt;/code&gt; yapılandırma dosyasını açıyoruz:&lt;/p&gt;
@@ -2958,7 +2958,7 @@ sudo chmod 644 /var/www/html/.htaccess
   
   <entry>
     <title>Apache .htaccess Dosyasında mod_rewrite Modülünü Aktif Yapma-160522</title>
-    <link href="https://gdemir.github.io//categories/apache/activate-mod_rewrite-htaccess/"/>
+    <link href="https://gdemir.github.io/categories/apache/activate-mod_rewrite-htaccess/"/>
     <updated>2016-05-22T00:00:00+00:00</updated>
     <id>/categories/apache/activate-mod_rewrite-htaccess</id>
     <content type="html">&lt;p&gt;&lt;code&gt;mod_rewrite&lt;/code&gt; modülünü aktif yapıyoruz:&lt;/p&gt;
@@ -2983,7 +2983,7 @@ sudo chmod 644 /var/www/html/.htaccess
   
   <entry>
     <title>phpMyAdmin Kurulumu-160521</title>
-    <link href="https://gdemir.github.io//categories/php/phpmyadmin/"/>
+    <link href="https://gdemir.github.io/categories/php/phpmyadmin/"/>
     <updated>2016-05-21T00:00:00+00:00</updated>
     <id>/categories/php/phpmyadmin</id>
     <content type="html">&lt;h3&gt;phpMyAdmin Kurulumu&lt;/h3&gt;
@@ -3009,7 +3009,7 @@ sudo chmod 644 /var/www/html/.htaccess
   
   <entry>
     <title>Bootstrap Responsive Tasarım-160120</title>
-    <link href="https://gdemir.github.io//categories/bootstrap/bootstrap-responsive-design/"/>
+    <link href="https://gdemir.github.io/categories/bootstrap/bootstrap-responsive-design/"/>
     <updated>2016-01-20T00:00:00+00:00</updated>
     <id>/categories/bootstrap/bootstrap-responsive-design</id>
     <content type="html">&lt;p&gt;Bootstrap &lt;code&gt;navbar&lt;/code&gt; gibi css bileşenleriyle; tarayıcı, tablet, mobil gibi cihazların ekran çözünürlüğüne duyarlı(ekran çözünürlüğüne göre yeniden şekillenen) görünüm sunmaktadır. Bunu sitenize sadece &lt;code&gt;bootstrap-css&lt;/code&gt;, &lt;code&gt;bootstrap-js&lt;/code&gt; dosyalarını ekleyerek ve &lt;code&gt;navbar&lt;/code&gt; gibi bileşenleri kullanarak duyarlı hale getiremezsiniz. Bunun için ek olarak aşağıdaki &lt;code&gt;meta&lt;/code&gt; etiketini &lt;code&gt;head&lt;/code&gt; etiketleri arasına eklemeniz gerekiyor.&lt;/p&gt;
@@ -3042,7 +3042,7 @@ sudo chmod 644 /var/www/html/.htaccess
   
   <entry>
     <title>Php Call To Undefined Function Imagecreatefromjpeg Hatası-150512</title>
-    <link href="https://gdemir.github.io//categories/php/php-call-to-undefined-function-imagecreatefromjpeg-error/"/>
+    <link href="https://gdemir.github.io/categories/php/php-call-to-undefined-function-imagecreatefromjpeg-error/"/>
     <updated>2015-05-12T00:00:00+00:00</updated>
     <id>/categories/php/php-call-to-undefined-function-imagecreatefromjpeg-error</id>
     <content type="html">&lt;p&gt;Php projemde  &lt;code&gt;Imagecreatefromjpeg()&lt;/code&gt; fonksiyonunu kullanırken bu hatayı alıyordum çözümü için aşağıdaki paketi kurmak yeterlidir.&lt;/p&gt;
@@ -3058,7 +3058,7 @@ sudo chmod 644 /var/www/html/.htaccess
   
   <entry>
     <title>Nginx '413 Reuqest Entity Too Large' Hatası-150512</title>
-    <link href="https://gdemir.github.io//categories/nginx/nginx-413-request-entity-too-large-error/"/>
+    <link href="https://gdemir.github.io/categories/nginx/nginx-413-request-entity-too-large-error/"/>
     <updated>2015-05-12T00:00:00+00:00</updated>
     <id>/categories/nginx/nginx-413-request-entity-too-large-error</id>
     <content type="html">&lt;p&gt;Resim yüklerken çok yüksek &lt;code&gt;MB&lt;/code&gt;lı resimlerde bu hatayı alıyordum. Sorunun çözümü için &lt;code&gt;/etc/nginx/sites-available/default&lt;/code&gt; dosyasının içine aşağıdaki satırı yazmak yeterli olacaktır.&lt;/p&gt;
@@ -3077,7 +3077,7 @@ sudo chmod 644 /var/www/html/.htaccess
   
   <entry>
     <title>Fontawesome Nav Up Down-150512</title>
-    <link href="https://gdemir.github.io//categories/fontawesome/fontawesome-nav-up-down/"/>
+    <link href="https://gdemir.github.io/categories/fontawesome/fontawesome-nav-up-down/"/>
     <updated>2015-05-12T00:00:00+00:00</updated>
     <id>/categories/fontawesome/fontawesome-nav-up-down</id>
     <content type="html">&lt;h4&gt;Html &amp;amp; Script&lt;/h4&gt;
@@ -3122,7 +3122,7 @@ sudo chmod 644 /var/www/html/.htaccess
   
   <entry>
     <title>Bootstrap Hover Dropdown-150511</title>
-    <link href="https://gdemir.github.io//categories/bootstrap/bootstrap-hover-dropdown/"/>
+    <link href="https://gdemir.github.io/categories/bootstrap/bootstrap-hover-dropdown/"/>
     <updated>2015-05-11T00:00:00+00:00</updated>
     <id>/categories/bootstrap/bootstrap-hover-dropdown</id>
     <content type="html">&lt;h4&gt;Html&lt;/h4&gt;
@@ -3162,7 +3162,7 @@ sudo chmod 644 /var/www/html/.htaccess
   
   <entry>
     <title>Sublime Text-150428</title>
-    <link href="https://gdemir.github.io//categories/linux/sublime-text/"/>
+    <link href="https://gdemir.github.io/categories/linux/sublime-text/"/>
     <updated>2015-04-28T00:00:00+00:00</updated>
     <id>/categories/linux/sublime-text</id>
     <content type="html">&lt;p&gt;Sublime Text, içinde python uygulama programlama arayüzü barındıran, çapraz platform bir kaynak kod düzenleme ve metin editörüdür. Arayüzü Vimden ilham alınarak tasarlanmıştır.&lt;/p&gt;
@@ -3183,7 +3183,7 @@ sudo chmod 644 /var/www/html/.htaccess
   
   <entry>
     <title>GitHub Push Hatası-150423</title>
-    <link href="https://gdemir.github.io//categories/github/git-push-error/"/>
+    <link href="https://gdemir.github.io/categories/github/git-push-error/"/>
     <updated>2015-04-23T00:00:00+00:00</updated>
     <id>/categories/github/git-push-error</id>
     <content type="html">&lt;h4&gt;Git Push Hatası&lt;/h4&gt;
@@ -3317,7 +3317,7 @@ To git@github.com:gdemir/cv-creator.git
   
   <entry>
     <title>Sublime Text Üzerinde Python Kodu Çalıştırma-150411</title>
-    <link href="https://gdemir.github.io//categories/linux/sublime-text-run-python-code/"/>
+    <link href="https://gdemir.github.io/categories/linux/sublime-text-run-python-code/"/>
     <updated>2015-04-11T00:00:00+00:00</updated>
     <id>/categories/linux/sublime-text-run-python-code</id>
     <content type="html">&lt;h4&gt;&amp;ldquo;Control.sublime-package&amp;rdquo; Dosyasının Oluşturulması&lt;/h4&gt;
@@ -3340,7 +3340,7 @@ To git@github.com:gdemir/cv-creator.git
   
   <entry>
     <title>Sublime Text Kurulumu-150411</title>
-    <link href="https://gdemir.github.io//categories/linux/sublime-text-install/"/>
+    <link href="https://gdemir.github.io/categories/linux/sublime-text-install/"/>
     <updated>2015-04-11T00:00:00+00:00</updated>
     <id>/categories/linux/sublime-text-install</id>
     <content type="html">&lt;p&gt;Konsol üzerinden &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; editörünü kurmak için aşağıdaki komutlar yeterlidir.&lt;/p&gt;
@@ -3358,7 +3358,7 @@ sudo apt-get install sublime-text
   
   <entry>
     <title>Windowstan Linux Sanal Makineye Dosya Paylaşımı-150328</title>
-    <link href="https://gdemir.github.io//categories/network/share-file-host-windows-to-virtualbox-linux/"/>
+    <link href="https://gdemir.github.io/categories/network/share-file-host-windows-to-virtualbox-linux/"/>
     <updated>2015-03-28T00:00:00+00:00</updated>
     <id>/categories/network/share-file-host-windows-to-virtualbox-linux</id>
     <content type="html">&lt;h4&gt;VirtualBox&#39;a Paylaşılacak Dosyayı Ekleme&lt;/h4&gt;
@@ -3430,7 +3430,7 @@ sudo mount -t vboxsf SHARE_FILE /media/SHARE_FILE
   
   <entry>
     <title>Manuel VboxGuestAdditions Kurulumu-150328</title>
-    <link href="https://gdemir.github.io//categories/network/setup-manual-vboxguestadditions/"/>
+    <link href="https://gdemir.github.io/categories/network/setup-manual-vboxguestadditions/"/>
     <updated>2015-03-28T00:00:00+00:00</updated>
     <id>/categories/network/setup-manual-vboxguestadditions</id>
     <content type="html">&lt;p&gt;Windows host makinenizdaki &lt;code&gt;VirtualBox&lt;/code&gt; dizinin yerini saptayın. (&lt;code&gt;C:\Program Files\Oracle\VirtualBox&lt;/code&gt; gibi)&lt;/p&gt;
@@ -3461,7 +3461,7 @@ sudo ./VBoxLinuxAdditions.run
   
   <entry>
     <title>Rss Graffiti ile Blog Yazılarını Facebook'a Yönlendirme-140820</title>
-    <link href="https://gdemir.github.io//categories/rss/facebook-rss-graffiti/"/>
+    <link href="https://gdemir.github.io/categories/rss/facebook-rss-graffiti/"/>
     <updated>2014-08-20T00:00:00+00:00</updated>
     <id>/categories/rss/facebook-rss-graffiti</id>
     <content type="html">&lt;p&gt;Blog yazılarınızı otomatik olarak facebook sayfanıza göndermek için, bir facebook uygulaması olan RSS Graffiti kullanabilirsiniz. Bu uygulama ile sadece blog yazılarını aktarmak değil, herhangi bir RSS beslemesi içinde kullanabilirsiniz, hatta birden çok blog yazısını bile aktarmak mümkün. RSS Graffiti gelişmiş ayarları var. Otomatik mesajlar yayınlayabilir, rss akış zamanlamasını yapılandırabilirsiniz. Tabi bunlar için bir facebook sayfanızın olması lazım. Rss Graffitiyi facebook sayfanıza eklemek için kişisel facebook hesabınıza giriş yapın ve şu adımları izleyin:&lt;/p&gt;
@@ -3527,7 +3527,7 @@ sudo ./VBoxLinuxAdditions.run
   
   <entry>
     <title>Bilgisayar Mühendisliği Kadrolarının Arttırılması-140815</title>
-    <link href="https://gdemir.github.io//categories/genel/bilgisayar-muhendisligi-kadrolarinin-arttirilmasi/"/>
+    <link href="https://gdemir.github.io/categories/genel/bilgisayar-muhendisligi-kadrolarinin-arttirilmasi/"/>
     <updated>2014-08-15T00:00:00+00:00</updated>
     <id>/categories/genel/bilgisayar-muhendisligi-kadrolarinin-arttirilmasi</id>
     <content type="html">&lt;p&gt;Çağımızda bilim ve teknolojinin gelişim hızla devam ederken bilişim teknolojilerinin bu kapsamda payı gittikçe artmaktadır. Bilişim teknolojilerinin öneminin her geçen yıl değil, her geçen gün daha da artması zamanımızın popüler tabirle bilişim çağı olarak adlandırılmasına sebep olmuştur. Bu çağda ülkelerin gelişmişlikleri de bilişim teknolojilerindeki başarılarına giderek daha paralel hale gelmiştir.&lt;/p&gt;
@@ -3559,7 +3559,7 @@ sudo ./VBoxLinuxAdditions.run
   
   <entry>
     <title>Bilgisayar Mühendisliği Hakkındaki 5 Büyük Yalan-131207</title>
-    <link href="https://gdemir.github.io//categories/genel/bilgisayar-muhendisligi-hakkindaki-5-buyuk-yalan/"/>
+    <link href="https://gdemir.github.io/categories/genel/bilgisayar-muhendisligi-hakkindaki-5-buyuk-yalan/"/>
     <updated>2013-12-07T00:00:00+00:00</updated>
     <id>/categories/genel/bilgisayar-muhendisligi-hakkindaki-5-buyuk-yalan</id>
     <content type="html">&lt;h4&gt;1. Bilgisayar Mühendisleri İşsiz Kalmaz&lt;/h4&gt;
@@ -3623,7 +3623,7 @@ sudo ./VBoxLinuxAdditions.run
   
   <entry>
     <title>Freebsd'de 'Was Not Properly Dismounted' Hatası-131022</title>
-    <link href="https://gdemir.github.io//categories/linux/was-not-properly-dismounted-on-freebsd/"/>
+    <link href="https://gdemir.github.io/categories/linux/was-not-properly-dismounted-on-freebsd/"/>
     <updated>2013-10-22T00:00:00+00:00</updated>
     <id>/categories/linux/was-not-properly-dismounted-on-freebsd</id>
     <content type="html">&lt;p&gt;Freebsd üzerinde geçenlerde şöyle bir hata ile karşılaştım. Hata öncesi&lt;/p&gt;
@@ -3656,7 +3656,7 @@ sudo ./VBoxLinuxAdditions.run
   
   <entry>
     <title>Türkiye'de Bilgisayar Mühendisliği-130912</title>
-    <link href="https://gdemir.github.io//categories/genel/turkey-computer-engineering/"/>
+    <link href="https://gdemir.github.io/categories/genel/turkey-computer-engineering/"/>
     <updated>2013-09-12T00:00:00+00:00</updated>
     <id>/categories/genel/turkey-computer-engineering</id>
     <content type="html">&lt;p&gt;Türkiye&#39;de her yıl mühendislik fakültelerinden binlerce insan mezun oluyor. Bu dallardan biri de Bilgisayar Mühendisliği. Bilişim sektöründe her özel kurumda çok küçük rakamlarda (1000 tl gibi) Bilgisayar Mühendisleri çalıştırılmakta olup modern kölelik durumunda olmamız üzücü bir durumdur.&lt;/p&gt;
@@ -3680,7 +3680,7 @@ yüzlerce kişi/kişiler bu işlerden para kazanmaktadır. Bizim Bilgisayar Müh
   
   <entry>
     <title>Cisco 4900M Yapılandırma-130730</title>
-    <link href="https://gdemir.github.io//categories/network/cisco-4900M-conf/"/>
+    <link href="https://gdemir.github.io/categories/network/cisco-4900M-conf/"/>
     <updated>2013-07-30T00:00:00+00:00</updated>
     <id>/categories/network/cisco-4900M-conf</id>
     <content type="html">&lt;p&gt;Gaziantep Emniyet Genel Müdürlüğündeki &lt;strong&gt;cisco 4900M switch&lt;/strong&gt;inin yapılandırılması için genç mühendis arkadaşlarımızdan &lt;a href=&quot;http://www.linkedin.com/profile/view?id=94845056&quot;&gt;Sedat Göksel&lt;/a&gt; ve &lt;a href=&quot;http://www.linkedin.com/profile/view?id=81321761&quot;&gt;Nazır Kura&lt;/a&gt; ile gittik.&lt;/p&gt;
@@ -3730,7 +3730,7 @@ Module Port-group Active                         Inactive
   
   <entry>
     <title>Yerel Ağda Ipleri Görmek-130706</title>
-    <link href="https://gdemir.github.io//categories/linux/lan-alive-ip-show/"/>
+    <link href="https://gdemir.github.io/categories/linux/lan-alive-ip-show/"/>
     <updated>2013-07-06T00:00:00+00:00</updated>
     <id>/categories/linux/lan-alive-ip-show</id>
     <content type="html">&lt;p&gt;&lt;code&gt;fping&lt;/code&gt; çok windows ile birlikte gelen &lt;code&gt;ping&lt;/code&gt; programı gibi, bir konsol programıdır.&lt;/p&gt;
@@ -3779,7 +3779,7 @@ wlan0     Link encap:Ethernet  HWaddr 00:1e:65:05:50:68
   
   <entry>
     <title>GitHub Sayfalarını Sadece gh-pages Branch'ında Oluşturma-130610</title>
-    <link href="https://gdemir.github.io//categories/github/gh-pages/"/>
+    <link href="https://gdemir.github.io/categories/github/gh-pages/"/>
     <updated>2013-06-10T00:00:00+00:00</updated>
     <id>/categories/github/gh-pages</id>
     <content type="html">&lt;p&gt;Github sayfasından &lt;a href=&quot;https://github.com/new&quot;&gt;yeni depo&lt;/a&gt; oluşturuyoruz. Sonrasında depo için gerekli ilk işlemlerimizi uyguluyoruz.&lt;/p&gt;
@@ -3814,7 +3814,7 @@ git commit -m &quot;first commit&quot;
   
   <entry>
     <title>Grub 'error&#58; no such partition grub rescue&#58;' Hatası-121022</title>
-    <link href="https://gdemir.github.io//categories/linux/grub-hatasi/"/>
+    <link href="https://gdemir.github.io/categories/linux/grub-hatasi/"/>
     <updated>2012-10-22T00:00:00+00:00</updated>
     <id>/categories/linux/grub-hatasi</id>
     <content type="html">&lt;p&gt;Bu hata genellikle linux işletim sistemlerini tekrar yüklerken ortaya çıkmaktadır. Çözümü kolaydır bunun için bootable CD veya USB ile bilgisayarı başlatın ve aşağıdaki adımları izleyin.&lt;/p&gt;
@@ -3849,7 +3849,7 @@ mount /dev/sda6 /media/sda6
   
   <entry>
     <title>Rails fastercsv ile CSV Çıktı-120126</title>
-    <link href="https://gdemir.github.io//categories/rails/rails-fastercsv/"/>
+    <link href="https://gdemir.github.io/categories/rails/rails-fastercsv/"/>
     <updated>2012-01-26T00:00:00+00:00</updated>
     <id>/categories/rails/rails-fastercsv</id>
     <content type="html">&lt;p&gt;Rails&#39;de Csv çıktıları için fastercsv gemi&lt;/p&gt;
@@ -3878,7 +3878,7 @@ mount /dev/sda6 /media/sda6
   
   <entry>
     <title>Rails prawn ile PDF-120117</title>
-    <link href="https://gdemir.github.io//categories/rails/rails-prawn/"/>
+    <link href="https://gdemir.github.io/categories/rails/rails-prawn/"/>
     <updated>2012-01-17T00:00:00+00:00</updated>
     <id>/categories/rails/rails-prawn</id>
     <content type="html">&lt;p&gt;Rails&#39;de Pdf çıktıları için prawn gemi&lt;/p&gt;
@@ -3910,7 +3910,7 @@ mount /dev/sda6 /media/sda6
   
   <entry>
     <title>Yüklemede Kaldığı Yerden Devam - rsync-111004</title>
-    <link href="https://gdemir.github.io//categories/linux/resume-scp-transfer/"/>
+    <link href="https://gdemir.github.io/categories/linux/resume-scp-transfer/"/>
     <updated>2011-10-04T00:00:00+00:00</updated>
     <id>/categories/linux/resume-scp-transfer</id>
     <content type="html">&lt;p&gt;Bazen scp ile büyük boyutlu bir dosyayı upload etmek gerekiyor. Bu işlemin takılı kalması (&amp;ldquo;stalled&amp;rdquo;) ihtimali var. Takıldığında al baştan yapmanız gerekiyor. Bu nedenle büyük boyutlu dosyaları rsync ile aşağıdaki gibi upload etmekte yarar var, işlem takılırsa komutu tekrar çalıştırmanız yeterli:&lt;/p&gt;
@@ -3922,7 +3922,7 @@ mount /dev/sda6 /media/sda6
   
   <entry>
     <title>Gmate Kurulumu-110705</title>
-    <link href="https://gdemir.github.io//categories/linux/gmate-install/"/>
+    <link href="https://gdemir.github.io/categories/linux/gmate-install/"/>
     <updated>2011-07-05T00:00:00+00:00</updated>
     <id>/categories/linux/gmate-install</id>
     <content type="html">&lt;p&gt;Bu paket &lt;code&gt;gedit&lt;/code&gt;i, &lt;code&gt;textmate&lt;/code&gt; benzeri hale getirmek için ufak eklentileri içerir.&lt;/p&gt;
@@ -3940,7 +3940,7 @@ sudo apt-get install gedit-gmate
   
   <entry>
     <title>Ruby on Rails ile MySQL-110611</title>
-    <link href="https://gdemir.github.io//categories/rails/mysql-with-rails/"/>
+    <link href="https://gdemir.github.io/categories/rails/mysql-with-rails/"/>
     <updated>2011-06-11T00:00:00+00:00</updated>
     <id>/categories/rails/mysql-with-rails</id>
     <content type="html">&lt;p&gt;Normal RoR kurulumundan farklı olarak kurarken&lt;/p&gt;
@@ -3980,7 +3980,7 @@ sudo apt-get install gedit-gmate
   
   <entry>
     <title>Ruby on Rails-110610</title>
-    <link href="https://gdemir.github.io//categories/rails/rails/"/>
+    <link href="https://gdemir.github.io/categories/rails/rails/"/>
     <updated>2011-06-10T00:00:00+00:00</updated>
     <id>/categories/rails/rails</id>
     <content type="html">&lt;h4&gt;rails yükleme:&lt;/h4&gt;
@@ -4114,7 +4114,7 @@ kullanılıyor, ve ek olarak nginx ayarları gerekiyor bunun için
   
   <entry>
     <title>MySQL'i Türkçeleştir - utf8-110527</title>
-    <link href="https://gdemir.github.io//categories/linux/mysql-utf8/"/>
+    <link href="https://gdemir.github.io/categories/linux/mysql-utf8/"/>
     <updated>2011-05-27T00:00:00+00:00</updated>
     <id>/categories/linux/mysql-utf8</id>
     <content type="html">&lt;p&gt;Eğer linux kullanıyorsanız, mysql türkçe yapmak için aşağıdaki kodu
@@ -4146,7 +4146,7 @@ kullanılıyor, ve ek olarak nginx ayarları gerekiyor bunun için
   
   <entry>
     <title>Tekrardan Üretilen ~/.ssh Çalışmama Sorunları-110524</title>
-    <link href="https://gdemir.github.io//categories/github/ssh-error/"/>
+    <link href="https://gdemir.github.io/categories/github/ssh-error/"/>
     <updated>2011-05-24T00:00:00+00:00</updated>
     <id>/categories/github/ssh-error</id>
     <content type="html">&lt;h4&gt;&amp;ldquo;Read from socket failed: Connection reset by peer&amp;rdquo; Hatası&lt;/h4&gt;
@@ -4203,7 +4203,7 @@ $SSH_AUTH_SOCK&quot;; ssh-add /path/to/mykeys/id_[rd]sa&#39;\&#39;
   
   <entry>
     <title>C# Kodunu Geany'de Çalıştırmak-110508</title>
-    <link href="https://gdemir.github.io//categories/linux/csharp-geany/"/>
+    <link href="https://gdemir.github.io/categories/linux/csharp-geany/"/>
     <updated>2011-05-08T00:00:00+00:00</updated>
     <id>/categories/linux/csharp-geany</id>
     <content type="html">&lt;p&gt;Geanyde .cs uzantılı bir dosya açıyoruz ve geany&#39;nin üstteki seçeneklerden  &lt;code&gt;İnşa Et &amp;gt; Dahili Seçenekleri ve Argümanları Ayarla&lt;/code&gt; kısmına giriyoruz. Resimdeki gibi&lt;/p&gt;
@@ -4239,7 +4239,7 @@ $SSH_AUTH_SOCK&quot;; ssh-add /path/to/mykeys/id_[rd]sa&#39;\&#39;
   
   <entry>
     <title>DNS Değiştirmek - resolv.conf-110423</title>
-    <link href="https://gdemir.github.io//categories/linux/dns-degistir/"/>
+    <link href="https://gdemir.github.io/categories/linux/dns-degistir/"/>
     <updated>2011-04-23T00:00:00+00:00</updated>
     <id>/categories/linux/dns-degistir</id>
     <content type="html">&lt;p&gt;Bilgisayarınızdaki dns ayarını değiştirmek istiyorsanız şu adımları izleyin &lt;code&gt;/etc/resolv.conf&lt;/code&gt; dosyasını açın ve içindeki &lt;strong&gt;nameserver&lt;/strong&gt;&amp;lsquo;ın karşısındaki yazan kısımları istediğiniz dns ip&#39;leri değiştirin.&lt;/p&gt;
@@ -4285,7 +4285,7 @@ sudo chattr +ia /etc/resolv.conf
   
   <entry>
     <title>Virtualbox'a Ip Atama-110121</title>
-    <link href="https://gdemir.github.io//categories/network/vb-ip-atama/"/>
+    <link href="https://gdemir.github.io/categories/network/vb-ip-atama/"/>
     <updated>2011-01-21T00:00:00+00:00</updated>
     <id>/categories/network/vb-ip-atama</id>
     <content type="html">&lt;p&gt;Bilgisayarınızdaki bir sanal makinayı, ana makina ile ağ kurmasını sağlamak istiyorsanız şu adımları izleyin :&lt;/p&gt;
@@ -4336,7 +4336,7 @@ sudo chattr +ia /etc/resolv.conf
   
   <entry>
     <title>Vim Split-101225</title>
-    <link href="https://gdemir.github.io//categories/linux/vim-split/"/>
+    <link href="https://gdemir.github.io/categories/linux/vim-split/"/>
     <updated>2010-12-25T00:00:00+00:00</updated>
     <id>/categories/linux/vim-split</id>
     <content type="html">&lt;p&gt;Vim editöründe çalışırken, aynı anda 2 sayfaya ihtiyacımız varsa &lt;code&gt;sp&lt;/code&gt; komutu çok işe yarıyor. Yeni bir dosya açmak ya da var olan bir dosyayı açmak için :&lt;/p&gt;
@@ -4354,7 +4354,7 @@ sudo chattr +ia /etc/resolv.conf
   
   <entry>
     <title>GitHub Badge-101209</title>
-    <link href="https://gdemir.github.io//categories/github/github-badge/"/>
+    <link href="https://gdemir.github.io/categories/github/github-badge/"/>
     <updated>2010-12-09T00:00:00+00:00</updated>
     <id>/categories/github/github-badge</id>
     <content type="html">&lt;p&gt;GitHubdaki projelerinizin, gistlerinizin, grup üyelerinizin, grup görevlerinizin   ufak görüntüsünü sayfanıza eklemek için öncelikle gerekli github-badge türlerinden&lt;br/&gt;
@@ -4416,7 +4416,7 @@ birini &lt;a href=&quot;https://github.com/gdemir/github-badge&quot;&gt;http://g
   
   <entry>
     <title>diff ve patch-101112</title>
-    <link href="https://gdemir.github.io//categories/linux/diff-patch/"/>
+    <link href="https://gdemir.github.io/categories/linux/diff-patch/"/>
     <updated>2010-11-12T00:00:00+00:00</updated>
     <id>/categories/linux/diff-patch</id>
     <content type="html">&lt;p&gt;Diff iki dosya arasındaki farkı, verdiğiniz seçeneğer göre gösteren bir programdır.&lt;/p&gt;
@@ -4509,7 +4509,7 @@ patch -p0 &amp;lt; surum1.patch
   
   <entry>
     <title>Shell Komutlarını Kısaltma-101103</title>
-    <link href="https://gdemir.github.io//categories/linux/shell-alias/"/>
+    <link href="https://gdemir.github.io/categories/linux/shell-alias/"/>
     <updated>2010-11-03T00:00:00+00:00</updated>
     <id>/categories/linux/shell-alias</id>
     <content type="html">&lt;p&gt;alias komutu ile linux konsolunda sık kullandığınız komutların kısayolunu oluşturmamıza yarayan &lt;strong&gt;takma ad&lt;/strong&gt;&amp;lsquo;dır. Örneğin &lt;code&gt;ls -al&lt;/code&gt; ifadesini konsolda durmadan yazmak yerine,&lt;/p&gt;
@@ -4530,7 +4530,7 @@ patch -p0 &amp;lt; surum1.patch
   
   <entry>
     <title>LAMP →  Linux, apache, MySQL, PHP-101029</title>
-    <link href="https://gdemir.github.io//categories/linux/lamp/"/>
+    <link href="https://gdemir.github.io/categories/linux/lamp/"/>
     <updated>2010-10-29T00:00:00+00:00</updated>
     <id>/categories/linux/lamp</id>
     <content type="html">&lt;h4&gt;MySQL Kurulumu&lt;/h4&gt;
@@ -4593,7 +4593,7 @@ patch -p0 &amp;lt; surum1.patch
   
   <entry>
     <title>tmux ile Konsol-101024</title>
-    <link href="https://gdemir.github.io//categories/linux/tmux/"/>
+    <link href="https://gdemir.github.io/categories/linux/tmux/"/>
     <updated>2010-10-24T00:00:00+00:00</updated>
     <id>/categories/linux/tmux</id>
     <content type="html">&lt;p&gt;&lt;code&gt;screen&lt;/code&gt;in biraz daha gelişmiş bir programdır. Tmux&#39;ın kullanımı Screen ile aynıdır. Tmux öncesi shell görüntümüzün şöyle olduğunu düşünelim :&lt;/p&gt;
@@ -4645,7 +4645,7 @@ unzip tmux.zip
   
   <entry>
     <title>Düzenli, Hızlı Gist Yönetimi - gistpaste-101022</title>
-    <link href="https://gdemir.github.io//categories/github/gistpaste/"/>
+    <link href="https://gdemir.github.io/categories/github/gistpaste/"/>
     <updated>2010-10-22T00:00:00+00:00</updated>
     <id>/categories/github/gistpaste</id>
     <content type="html">&lt;p&gt;Paketleri yüklüyelim :&lt;/p&gt;
@@ -4689,7 +4689,7 @@ cd new
   
   <entry>
     <title>LEMP →  Linux, Nginx, MySQL, PHP-101021</title>
-    <link href="https://gdemir.github.io//categories/linux/lemp/"/>
+    <link href="https://gdemir.github.io/categories/linux/lemp/"/>
     <updated>2010-10-21T00:00:00+00:00</updated>
     <id>/categories/linux/lemp</id>
     <content type="html">&lt;p&gt;Kullanacağımız ortamı sırayla kuralım:&lt;/p&gt;
@@ -4802,7 +4802,7 @@ nginx&#39;i tekrar başlatalım:&lt;/p&gt;
   
   <entry>
     <title>Vim'de Sözdizimi Denetimi-101020</title>
-    <link href="https://gdemir.github.io//categories/linux/vim-renk/"/>
+    <link href="https://gdemir.github.io/categories/linux/vim-renk/"/>
     <updated>2010-10-20T00:00:00+00:00</updated>
     <id>/categories/linux/vim-renk</id>
     <content type="html">&lt;p&gt;Ayrıntılı &lt;code&gt;c&lt;/code&gt; sentaks denetimi için (aşağıdaki eklentinin gerektirdiği) splint paketini kur:&lt;/p&gt;
@@ -4834,7 +4834,7 @@ nginx&#39;i tekrar başlatalım:&lt;/p&gt;
   
   <entry>
     <title>Vim'de Kod Derleme ve Çalıştırma-101020</title>
-    <link href="https://gdemir.github.io//categories/linux/vim-derle/"/>
+    <link href="https://gdemir.github.io/categories/linux/vim-derle/"/>
     <updated>2010-10-20T00:00:00+00:00</updated>
     <id>/categories/linux/vim-derle</id>
     <content type="html">&lt;h3&gt;&lt;code&gt;SingleCompile&lt;/code&gt; Eklentisini İndir&lt;/h3&gt;
@@ -4862,7 +4862,7 @@ nginx&#39;i tekrar başlatalım:&lt;/p&gt;
   
   <entry>
     <title>Path'e Yol Ekleme-101018</title>
-    <link href="https://gdemir.github.io//categories/linux/path-ekle/"/>
+    <link href="https://gdemir.github.io/categories/linux/path-ekle/"/>
     <updated>2010-10-18T00:00:00+00:00</updated>
     <id>/categories/linux/path-ekle</id>
     <content type="html">&lt;p&gt;Yazdığımız programları konsoldan çalıştırmak istediğimizde programın içine shebang ekler daha sonra çalıştırıyorduk.  Ancak yazdıgınız bir kodu komut satırından heryerde çalıştırmıyorduk, çalıştırmak için PATH &amp;lsquo;e ekleme yapmalıyız. Kendi &lt;code&gt;$PATH&lt;/code&gt;&#39;inizi görmek için :&lt;/p&gt;
@@ -4902,7 +4902,7 @@ nginx&#39;i tekrar başlatalım:&lt;/p&gt;
   
   <entry>
     <title>GitHub Komutlarını Kısaltma-101016</title>
-    <link href="https://gdemir.github.io//categories/github/git-kisayol/"/>
+    <link href="https://gdemir.github.io/categories/github/git-kisayol/"/>
     <updated>2010-10-16T00:00:00+00:00</updated>
     <id>/categories/github/git-kisayol</id>
     <content type="html">&lt;p&gt;Herzaman github ile uğraşıyorsak bazı kısayollara ihtiyacımız var;&lt;br/&gt;
@@ -4933,7 +4933,7 @@ yerine kullanabiliriz. Bunu için &lt;a href=&quot;/file/github-ayar&quot;&gt;gi
   
   <entry>
     <title>mc(midnight commander) Kullanımı ve Ayarlar-101015</title>
-    <link href="https://gdemir.github.io//categories/linux/midnight-commander/"/>
+    <link href="https://gdemir.github.io/categories/linux/midnight-commander/"/>
     <updated>2010-10-15T00:00:00+00:00</updated>
     <id>/categories/linux/midnight-commander</id>
     <content type="html">&lt;p&gt;Konsol ile arayüz arası bir editördür, verdiği imkan ve hız ile en iyi konsoldur denilebilir.&lt;/p&gt;
@@ -4981,7 +4981,7 @@ yerine kullanabiliriz. Bunu için &lt;a href=&quot;/file/github-ayar&quot;&gt;gi
   
   <entry>
     <title>Vim-101014</title>
-    <link href="https://gdemir.github.io//categories/linux/vim/"/>
+    <link href="https://gdemir.github.io/categories/linux/vim/"/>
     <updated>2010-10-14T00:00:00+00:00</updated>
     <id>/categories/linux/vim</id>
     <content type="html">&lt;p&gt;Vim geliştirilmiş bir editördür. Geniş kullanıcı kitlesi olan bir yazılımdır. Vim 3 hana hattan oluşur. Escape, insert, virtual.&lt;/p&gt;
@@ -5018,7 +5018,7 @@ tekrar ana bölüme dönmeye yarar, &quot;esc&quot; tuşuna basarak kullanılır
   
   <entry>
     <title>Vim'i .vimrc Dosyası ile Özelleştirme-101014</title>
-    <link href="https://gdemir.github.io//categories/linux/vim-vimrc/"/>
+    <link href="https://gdemir.github.io/categories/linux/vim-vimrc/"/>
     <updated>2010-10-14T00:00:00+00:00</updated>
     <id>/categories/linux/vim-vimrc</id>
     <content type="html">&lt;p&gt;&lt;code&gt;.vimrc&lt;/code&gt; dosyası vim&#39;de herzaman kullanmak istediğimiz özellikleri kullandığımız bir dosyadır. vim editöründe kullandığınız özelliklerin her zaman aktif olması için konsolu açıyoruz.&lt;/p&gt;
@@ -5047,7 +5047,7 @@ vimi tekrar açınca özellikler aktif olacaktır.&lt;/p&gt;
   
   <entry>
     <title>Konsolu .bashrc Dosyası ile Renklendirmek-101010</title>
-    <link href="https://gdemir.github.io//categories/linux/bash-renk/"/>
+    <link href="https://gdemir.github.io/categories/linux/bash-renk/"/>
     <updated>2010-10-10T00:00:00+00:00</updated>
     <id>/categories/linux/bash-renk</id>
     <content type="html">&lt;p&gt;Konsolumuzun rengi ilk olarak şöyle :&lt;/p&gt;
@@ -5083,7 +5083,7 @@ vimi tekrar açınca özellikler aktif olacaktır.&lt;/p&gt;
   
   <entry>
     <title>Shebang Ekleme ve Konsolda Program Çalıştırma-101007</title>
-    <link href="https://gdemir.github.io//categories/linux/shebang/"/>
+    <link href="https://gdemir.github.io/categories/linux/shebang/"/>
     <updated>2010-10-07T00:00:00+00:00</updated>
     <id>/categories/linux/shebang</id>
     <content type="html">&lt;h4&gt;Shebang Ekleme&lt;/h4&gt;
@@ -5121,7 +5121,7 @@ vimi tekrar açınca özellikler aktif olacaktır.&lt;/p&gt;
   
   <entry>
     <title>Standart i/o İşlemlerinin Yönlendirilmesi-101007</title>
-    <link href="https://gdemir.github.io//categories/linux/io-yonlendirme/"/>
+    <link href="https://gdemir.github.io/categories/linux/io-yonlendirme/"/>
     <updated>2010-10-07T00:00:00+00:00</updated>
     <id>/categories/linux/io-yonlendirme</id>
     <content type="html">&lt;h4&gt;Standart i/o İşlemleri&lt;/h4&gt;
@@ -5171,7 +5171,7 @@ başka yerlere yönlendirerek,  işleyişini incelemek isteriz.&lt;br/&gt;
   
   <entry>
     <title>Güvenli Kopyalama Kullanımı - scp(security copy)-101005</title>
-    <link href="https://gdemir.github.io//categories/linux/scp/"/>
+    <link href="https://gdemir.github.io/categories/linux/scp/"/>
     <updated>2010-10-05T00:00:00+00:00</updated>
     <id>/categories/linux/scp</id>
     <content type="html">&lt;p&gt;Scp bir ağdaki 2  bilgisayar arasında dosya, dizin transfer etmemize yarar. Bu işlem SSH ile yapıldıgından, şifreli ve güvenlidir. Scp&#39;in kullanımı basit ve kısadır, ama yine de unutulabiliyor ben genelde unutuyorum :-)&lt;/p&gt;
@@ -5197,7 +5197,7 @@ başka yerlere yönlendirerek,  işleyişini incelemek isteriz.&lt;br/&gt;
   
   <entry>
     <title>Gimp ile Yansıma-100805</title>
-    <link href="https://gdemir.github.io//categories/linux/gimp-yansima/"/>
+    <link href="https://gdemir.github.io/categories/linux/gimp-yansima/"/>
     <updated>2010-08-05T00:00:00+00:00</updated>
     <id>/categories/linux/gimp-yansima</id>
     <content type="html">&lt;p&gt;Gimp, GNU dünyasının bize armağan ettiği bir resim düzenleme programıdır. Videoyu izleyerek sizde yazılara yansıma yapabilirsiniz.&lt;/p&gt;
@@ -5219,7 +5219,7 @@ başka yerlere yönlendirerek,  işleyişini incelemek isteriz.&lt;br/&gt;
   
   <entry>
     <title>SSH Kimlik Taşıma ve Kullanımı-100707</title>
-    <link href="https://gdemir.github.io//categories/linux/ssh-kimlik-tasi/"/>
+    <link href="https://gdemir.github.io/categories/linux/ssh-kimlik-tasi/"/>
     <updated>2010-07-07T00:00:00+00:00</updated>
     <id>/categories/linux/ssh-kimlik-tasi</id>
     <content type="html">&lt;h4&gt;Kurulum&lt;/h4&gt;
@@ -5256,7 +5256,7 @@ başka yerlere yönlendirerek,  işleyişini incelemek isteriz.&lt;br/&gt;
   
   <entry>
     <title>screen Kurulumu ve Kullanımı-100707</title>
-    <link href="https://gdemir.github.io//categories/linux/screen/"/>
+    <link href="https://gdemir.github.io/categories/linux/screen/"/>
     <updated>2010-07-07T00:00:00+00:00</updated>
     <id>/categories/linux/screen</id>
     <content type="html">&lt;p&gt;Screen basit bir program olmasına rağmen, birden fazla termial açmadan&lt;br/&gt;
@@ -5281,7 +5281,7 @@ işlerimizi halletmemize yarayan ufak bir programdır.&lt;/p&gt;
   
   <entry>
     <title>MySQL'e Giriş ve Bazı İşlemler-100707</title>
-    <link href="https://gdemir.github.io//categories/linux/mysql-giris/"/>
+    <link href="https://gdemir.github.io/categories/linux/mysql-giris/"/>
     <updated>2010-07-07T00:00:00+00:00</updated>
     <id>/categories/linux/mysql-giris</id>
     <content type="html">&lt;h4&gt;MySQL Kurulumu&lt;/h4&gt;
