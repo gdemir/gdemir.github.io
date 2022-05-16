@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-16T05:54:49+00:00</updated>
+  <updated>2022-05-16T08:56:01+00:00</updated>
   <id></id>
 
   <author>
@@ -522,11 +522,13 @@ FLUSH PRIVILEGES;
   </entry>
   
   <entry>
-    <title>Köy Odası-191206</title>
-    <link href="https://gdemir.github.io/categories/documentation/koy-odasi/"/>
+    <title>Merhaba Dünya-191206</title>
+    <link href="https://gdemir.github.io/categories/hello/koy-odasi/"/>
     <updated>2019-12-06T00:00:00+00:00</updated>
-    <id>/categories/documentation/koy-odasi</id>
-    <content type="html">&lt;h1&gt;Welcome to Köy Odası&lt;/h1&gt;
+    <id>/categories/hello/koy-odasi</id>
+    <content type="html">&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD:&lt;em&gt;/&lt;/em&gt;posts/2019-12-06-koy-odasi.md&lt;/p&gt;
+
+&lt;h1&gt;Welcome to Köy Odası&lt;/h1&gt;
 
 &lt;h2&gt;Powered By&lt;/h2&gt;
 
@@ -667,7 +669,11 @@ rake install
 
 &lt;h3&gt;License&lt;/h3&gt;
 
-&lt;p&gt;Köy Odası is released under the &lt;a href=&quot;http://www.opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Köy Odası is released under the &lt;a href=&quot;http://www.opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;.&lt;/h1&gt;
+
+&lt;p&gt;Bu sayfa &lt;a href=&quot;https://github.com/koy-odasi/core&quot;&gt;Köy-Odası&lt;/a&gt; ile oluşturulmuştur.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;blockquote&gt;&lt;blockquote&gt;&lt;blockquote&gt;&lt;blockquote&gt;&lt;blockquote&gt;&lt;blockquote&gt;&lt;p&gt;73ed4b91d1044f63de7a76de2d975db18643ba54:&lt;em&gt;/&lt;/em&gt;posts/2019-12-06-merhaba-dunya.md&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;
 </content>
   </entry>
   
