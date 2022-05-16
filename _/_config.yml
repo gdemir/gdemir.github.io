@@ -2,6 +2,7 @@
 title: Gökhan Demir
 keywords: Gökhan Demir, Bilgisayar Mühendisi
 description: Barak Türkmeni Gökhan Demir Bilişim Notları
+baseurl:
 url: https://gdemir.github.io
 permalink: "/categories/:categories/:title/"
 highlighter: pygments
