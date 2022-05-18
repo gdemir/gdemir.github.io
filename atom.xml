@@ -3,7 +3,7 @@
   <title>Gökhan Demir</title>
   <link href="https://gdemir.github.io/atom.xml" rel="self"/>
   <link href="https://gdemir.github.io"/>
-  <updated>2022-05-18T07:06:55+00:00</updated>
+  <updated>2022-05-18T07:13:35+00:00</updated>
   <id></id>
 
   <author>
@@ -19,11 +19,21 @@
     <id>/categories/linux/server-commands</id>
     <content type="html">&lt;p&gt;Sunucunun hangi &lt;strong&gt;işletim sistemi&lt;/strong&gt; ve &lt;strong&gt;işletim sistemi versiyonunu&lt;/strong&gt; kullandığını öğrenmek &lt;code&gt;/etc/issue&lt;/code&gt; dosyasının içerisine bakabilirsiniz.&lt;/p&gt;
 
+&lt;pre&gt;&lt;code&gt;cat /etc/issue
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Örnek;&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;root@hummer:~# cat /etc/issue
 Ubuntu 16.04.6 LTS \n \l
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Sunucunun ne kadar süre çalıştığını(ayakta kaldığını) örğrenmek için &lt;code&gt;uptime&lt;/code&gt; komutunu kullanabilirsiniz.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;uptime
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Örnek;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;root@hummer:~# uptime
 07:01:57 up 519 days, 10:39,  1 user,  load average: 0.02, 0.05, 0.03
